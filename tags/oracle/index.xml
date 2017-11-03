@@ -6,21 +6,10 @@
     <description>Recent content in Oracle on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 03 Nov 2017 08:54:32 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 29 Oct 2017 08:54:32 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/tags/oracle/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Oracle Digital이 운영하는 네이버 포스트..</title>
-      <link>http://www.oracloud.kr/post/oracle_digitals/</link>
-      <pubDate>Fri, 03 Nov 2017 08:54:32 +0900</pubDate>
-      
-      <guid>http://www.oracloud.kr/post/oracle_digitals/</guid>
-      <description>클라우드 101 백서와 같이 클라우드를 쉽고 재밌게 이해할 수 있게 작성된 오라클의 네이버 포스트가 있습니다. 오라클의 PaaS, IaaS 관련된 글뿐만 아니라 클라우드로 인한 직업의 변화, 인터넷과 클라우드, 클라우드 서비스와 종류 등 다양한 주제와 관련된 글이 있는데요. 다음 링크는 네이버 메인에도 올랐던 컨텐츠(‘클라우드로 인한 직업 변화’) 입니다.
-  그림 1: 네이버 메일 포스트: 클라우드로 인한 직업 변화    - http://post.naver.com/viewer/postView.nhn?volumeNo=8869357&amp;amp;memberNo=38254758
-IT 전문가나 오라클 지원이 아니라도 누구든지 쉽게 이해할 수 있도록 오라클 디지털 (Oracle Digital) 조직에서 운영하고 있습니다.</description>
-    </item>
     
     <item>
       <title>Oracle Cloud Trial 신청: Universal Credit</title>
