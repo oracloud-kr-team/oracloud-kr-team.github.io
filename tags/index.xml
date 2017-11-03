@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 오라클 클라우드 기술 블로그</title>
+    <link>http://www.oracloud.kr/tags/</link>
+    <description>Recent content in Tags on 오라클 클라우드 기술 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 23 Aug 2017 21:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://www.oracloud.kr/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>API</title>
+      <link>http://www.oracloud.kr/tags/api/</link>
+      <pubDate>Wed, 23 Aug 2017 21:00:00 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>API Catalog</title>
+      <link>http://www.oracloud.kr/tags/api-catalog/</link>
+      <pubDate>Wed, 23 Aug 2017 21:00:00 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/api-catalog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Acc</title>
+      <link>http://www.oracloud.kr/tags/acc/</link>
+      <pubDate>Wed, 19 Apr 2017 19:01:16 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/acc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analytics</title>
+      <link>http://www.oracloud.kr/tags/analytics/</link>
+      <pubDate>Mon, 15 May 2017 15:00:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ansible</title>
+      <link>http://www.oracloud.kr/tags/ansible/</link>
+      <pubDate>Tue, 29 Aug 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/ansible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automation</title>
+      <link>http://www.oracloud.kr/tags/automation/</link>
+      <pubDate>Sat, 01 Apr 2017 17:15:48 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BDPCS</title>
+      <link>http://www.oracloud.kr/tags/bdpcs/</link>
+      <pubDate>Tue, 25 Apr 2017 15:00:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/bdpcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BMCS</title>
+      <link>http://www.oracloud.kr/tags/bmcs/</link>
+      <pubDate>Fri, 15 Sep 2017 21:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/bmcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Backup</title>
+      <link>http://www.oracloud.kr/tags/backup/</link>
+      <pubDate>Wed, 10 May 2017 16:20:58 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/backup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bdcs ce</title>
+      <link>http://www.oracloud.kr/tags/bdcs-ce/</link>
+      <pubDate>Fri, 27 Oct 2017 11:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/bdcs-ce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bdcsce</title>
+      <link>http://www.oracloud.kr/tags/bdcsce/</link>
+      <pubDate>Fri, 27 Oct 2017 11:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/bdcsce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Big Data</title>
+      <link>http://www.oracloud.kr/tags/big-data/</link>
+      <pubDate>Mon, 14 Aug 2017 23:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/big-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Big data</title>
+      <link>http://www.oracloud.kr/tags/big-data/</link>
+      <pubDate>Fri, 27 Oct 2017 11:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/big-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CLOUD</title>
+      <link>http://www.oracloud.kr/tags/cloud/</link>
+      <pubDate>Fri, 21 Apr 2017 10:31:26 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chef</title>
+      <link>http://www.oracloud.kr/tags/chef/</link>
+      <pubDate>Fri, 15 Sep 2017 21:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/chef/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>http://www.oracloud.kr/tags/cloud/</link>
+      <pubDate>Sun, 29 Oct 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>http://www.oracloud.kr/tags/cloud/</link>
+      <pubDate>Tue, 02 May 2017 11:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cncf</title>
+      <link>http://www.oracloud.kr/tags/cncf/</link>
+      <pubDate>Mon, 25 Sep 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/cncf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compute</title>
+      <link>http://www.oracloud.kr/tags/compute/</link>
+      <pubDate>Thu, 04 May 2017 13:23:35 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/compute/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compute CS</title>
+      <link>http://www.oracloud.kr/tags/compute-cs/</link>
+      <pubDate>Tue, 02 May 2017 11:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/compute-cs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Container</title>
+      <link>http://www.oracloud.kr/tags/container/</link>
+      <pubDate>Mon, 24 Apr 2017 19:34:26 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/container/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DBCS</title>
+      <link>http://www.oracloud.kr/tags/dbcs/</link>
+      <pubDate>Sun, 24 Sep 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/dbcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Center</title>
+      <link>http://www.oracloud.kr/tags/data-center/</link>
+      <pubDate>Fri, 29 Sep 2017 22:15:48 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/data-center/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Visualization</title>
+      <link>http://www.oracloud.kr/tags/data-visualization/</link>
+      <pubDate>Mon, 15 May 2017 15:00:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/data-visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data management</title>
+      <link>http://www.oracloud.kr/tags/data-management/</link>
+      <pubDate>Fri, 29 Sep 2017 17:17:35 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/data-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>http://www.oracloud.kr/tags/database/</link>
+      <pubDate>Fri, 29 Sep 2017 17:17:35 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database backup</title>
+      <link>http://www.oracloud.kr/tags/database-backup/</link>
+      <pubDate>Fri, 31 Mar 2017 17:51:51 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/database-backup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dbcs</title>
+      <link>http://www.oracloud.kr/tags/dbcs/</link>
+      <pubDate>Fri, 31 Mar 2017 17:51:51 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/dbcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Desktop</title>
+      <link>http://www.oracloud.kr/tags/desktop/</link>
+      <pubDate>Mon, 15 May 2017 15:00:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/desktop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>http://www.oracloud.kr/tags/devops/</link>
+      <pubDate>Wed, 04 Oct 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devops</title>
+      <link>http://www.oracloud.kr/tags/devops/</link>
+      <pubDate>Fri, 21 Apr 2017 17:15:48 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://www.oracloud.kr/tags/docker/</link>
+      <pubDate>Wed, 04 Oct 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://www.oracloud.kr/tags/docker/</link>
+      <pubDate>Tue, 01 Aug 2017 01:20:12 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event Hub</title>
+      <link>http://www.oracloud.kr/tags/event-hub/</link>
+      <pubDate>Mon, 14 Aug 2017 23:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/event-hub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hadoop</title>
+      <link>http://www.oracloud.kr/tags/hadoop/</link>
+      <pubDate>Fri, 27 Oct 2017 11:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/hadoop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IAC</title>
+      <link>http://www.oracloud.kr/tags/iac/</link>
+      <pubDate>Sat, 01 Apr 2017 17:15:48 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/iac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IaaS</title>
+      <link>http://www.oracloud.kr/tags/iaas/</link>
+      <pubDate>Fri, 15 Sep 2017 21:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/iaas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iaas</title>
+      <link>http://www.oracloud.kr/tags/iaas/</link>
+      <pubDate>Fri, 15 Sep 2017 21:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/iaas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identity Domain</title>
+      <link>http://www.oracloud.kr/tags/identity-domain/</link>
+      <pubDate>Fri, 11 Aug 2017 22:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/identity-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integration</title>
+      <link>http://www.oracloud.kr/tags/integration/</link>
+      <pubDate>Wed, 23 Aug 2017 21:00:00 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>http://www.oracloud.kr/tags/java/</link>
+      <pubDate>Wed, 04 Oct 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jupyter</title>
+      <link>http://www.oracloud.kr/tags/jupyter/</link>
+      <pubDate>Tue, 03 Oct 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/jupyter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kafka</title>
+      <link>http://www.oracloud.kr/tags/kafka/</link>
+      <pubDate>Mon, 14 Aug 2017 23:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/kafka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>http://www.oracloud.kr/tags/kubernetes/</link>
+      <pubDate>Mon, 25 Sep 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine learning</title>
+      <link>http://www.oracloud.kr/tags/machine-learning/</link>
+      <pubDate>Tue, 03 Oct 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Management</title>
+      <link>http://www.oracloud.kr/tags/management/</link>
+      <pubDate>Fri, 21 Apr 2017 10:31:26 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monitoring</title>
+      <link>http://www.oracloud.kr/tags/monitoring/</link>
+      <pubDate>Fri, 21 Apr 2017 15:00:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MySQL</title>
+      <link>http://www.oracloud.kr/tags/mysql/</link>
+      <pubDate>Fri, 29 Sep 2017 17:17:35 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MySQL CS</title>
+      <link>http://www.oracloud.kr/tags/mysql-cs/</link>
+      <pubDate>Sun, 24 Sep 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/mysql-cs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>http://www.oracloud.kr/tags/mysql/</link>
+      <pubDate>Fri, 29 Sep 2017 17:17:35 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nested Virtualization</title>
+      <link>http://www.oracloud.kr/tags/nested-virtualization/</link>
+      <pubDate>Sat, 15 Apr 2017 16:05:59 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/nested-virtualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OMC</title>
+      <link>http://www.oracloud.kr/tags/omc/</link>
+      <pubDate>Fri, 21 Apr 2017 15:00:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/omc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Object Storage</title>
+      <link>http://www.oracloud.kr/tags/object-storage/</link>
+      <pubDate>Mon, 06 Mar 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/object-storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Occs</title>
+      <link>http://www.oracloud.kr/tags/occs/</link>
+      <pubDate>Wed, 19 Apr 2017 19:01:16 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/occs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oracl BDCSCE</title>
+      <link>http://www.oracloud.kr/tags/oracl-bdcsce/</link>
+      <pubDate>Sun, 24 Sep 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/oracl-bdcsce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oracle</title>
+      <link>http://www.oracloud.kr/tags/oracle/</link>
+      <pubDate>Sun, 29 Oct 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/oracle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oracle BDCSCE</title>
+      <link>http://www.oracloud.kr/tags/oracle-bdcsce/</link>
+      <pubDate>Sun, 20 Aug 2017 23:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/oracle-bdcsce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oracle Cloud</title>
+      <link>http://www.oracloud.kr/tags/oracle-cloud/</link>
+      <pubDate>Fri, 29 Sep 2017 22:15:48 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/oracle-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oracle cloud</title>
+      <link>http://www.oracloud.kr/tags/oracle-cloud/</link>
+      <pubDate>Sun, 29 Oct 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/oracle-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oracle code</title>
+      <link>http://www.oracloud.kr/tags/oracle-code/</link>
+      <pubDate>Sun, 27 Aug 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/oracle-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Orchestration</title>
+      <link>http://www.oracloud.kr/tags/orchestration/</link>
+      <pubDate>Mon, 25 Sep 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/orchestration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PSM</title>
+      <link>http://www.oracloud.kr/tags/psm/</link>
+      <pubDate>Sun, 06 Aug 2017 22:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/psm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paas</title>
+      <link>http://www.oracloud.kr/tags/paas/</link>
+      <pubDate>Wed, 10 May 2017 15:48:24 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/paas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patch</title>
+      <link>http://www.oracloud.kr/tags/patch/</link>
+      <pubDate>Sun, 20 Aug 2017 23:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/patch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ravello</title>
+      <link>http://www.oracloud.kr/tags/ravello/</link>
+      <pubDate>Sat, 25 Mar 2017 11:23:39 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/ravello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ravello</title>
+      <link>http://www.oracloud.kr/tags/ravello/</link>
+      <pubDate>Sat, 15 Apr 2017 16:05:59 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/ravello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>http://www.oracloud.kr/tags/security/</link>
+      <pubDate>Thu, 04 May 2017 13:23:35 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serverless</title>
+      <link>http://www.oracloud.kr/tags/serverless/</link>
+      <pubDate>Wed, 04 Oct 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/serverless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spark</title>
+      <link>http://www.oracloud.kr/tags/spark/</link>
+      <pubDate>Fri, 27 Oct 2017 11:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/spark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssh</title>
+      <link>http://www.oracloud.kr/tags/ssh/</link>
+      <pubDate>Sun, 05 Mar 2017 12:07:16 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Storage</title>
+      <link>http://www.oracloud.kr/tags/storage/</link>
+      <pubDate>Mon, 06 Mar 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Storage</title>
+      <link>http://www.oracloud.kr/tags/storage/</link>
+      <pubDate>Mon, 06 Mar 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Storage CS</title>
+      <link>http://www.oracloud.kr/tags/storage-cs/</link>
+      <pubDate>Sun, 24 Sep 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/storage-cs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talkit</title>
+      <link>http://www.oracloud.kr/tags/talkit/</link>
+      <pubDate>Wed, 29 Mar 2017 20:44:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/talkit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terraform</title>
+      <link>http://www.oracloud.kr/tags/terraform/</link>
+      <pubDate>Tue, 29 Aug 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/terraform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terraform</title>
+      <link>http://www.oracloud.kr/tags/terraform/</link>
+      <pubDate>Tue, 29 Aug 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/terraform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trial account</title>
+      <link>http://www.oracloud.kr/tags/trial-account/</link>
+      <pubDate>Tue, 01 Aug 2017 04:20:12 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/trial-account/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>http://www.oracloud.kr/tags/tutorial/</link>
+      <pubDate>Fri, 31 Mar 2017 22:42:46 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>http://www.oracloud.kr/tags/tutorial/</link>
+      <pubDate>Fri, 31 Mar 2017 22:42:46 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VM</title>
+      <link>http://www.oracloud.kr/tags/vm/</link>
+      <pubDate>Sun, 05 Mar 2017 22:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/vm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vagrant</title>
+      <link>http://www.oracloud.kr/tags/vagrant/</link>
+      <pubDate>Tue, 29 Aug 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/vagrant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtualization</title>
+      <link>http://www.oracloud.kr/tags/virtualization/</link>
+      <pubDate>Fri, 31 Mar 2017 22:42:46 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/virtualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webinar</title>
+      <link>http://www.oracloud.kr/tags/webinar/</link>
+      <pubDate>Thu, 09 Mar 2017 12:35:37 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/webinar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webinar</title>
+      <link>http://www.oracloud.kr/tags/webinar/</link>
+      <pubDate>Thu, 09 Mar 2017 12:35:37 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/webinar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Window</title>
+      <link>http://www.oracloud.kr/tags/window/</link>
+      <pubDate>Fri, 31 Mar 2017 22:42:46 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/window/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>더커</title>
+      <link>http://www.oracloud.kr/tags/%EB%8D%94%EC%BB%A4/</link>
+      <pubDate>Mon, 25 Sep 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/%EB%8D%94%EC%BB%A4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>데이터센터</title>
+      <link>http://www.oracloud.kr/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%84%BC%ED%84%B0/</link>
+      <pubDate>Fri, 29 Sep 2017 22:15:48 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%84%BC%ED%84%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>빅데이터</title>
+      <link>http://www.oracloud.kr/tags/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0/</link>
+      <pubDate>Fri, 27 Oct 2017 11:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>스토리지 컨테이너</title>
+      <link>http://www.oracloud.kr/tags/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88/</link>
+      <pubDate>Sun, 24 Sep 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>오라클 클라우드</title>
+      <link>http://www.oracloud.kr/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C/</link>
+      <pubDate>Tue, 03 Oct 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>테라폼</title>
+      <link>http://www.oracloud.kr/tags/%ED%85%8C%EB%9D%BC%ED%8F%BC/</link>
+      <pubDate>Tue, 03 Oct 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/%ED%85%8C%EB%9D%BC%ED%8F%BC/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

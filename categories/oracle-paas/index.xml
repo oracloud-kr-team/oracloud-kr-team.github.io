@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oracle PaaS on 오라클 클라우드 기술 블로그</title>
+    <link>http://www.oracloud.kr/categories/oracle-paas/</link>
+    <description>Recent content in Oracle PaaS on 오라클 클라우드 기술 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Mon, 14 Aug 2017 23:20:25 +0900</lastBuildDate>
+    
+	<atom:link href="http://www.oracloud.kr/categories/oracle-paas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apache Kafka PaaS: Oracle Event Hub CS 소개..</title>
+      <link>http://www.oracloud.kr/post/kafka_paas_eventhub_cs/</link>
+      <pubDate>Mon, 14 Aug 2017 23:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/kafka_paas_eventhub_cs/</guid>
+      <description>Oracle Cloud는 Apache Kafka(이하 Kafka)를 클라우드 관리 서비스(PaaS) 형태로 제공하고 있습니다. Oracle Cloud가 2017년 1월에 출시한 &amp;ldquo;Oracle Event Hub Cloud Service&amp;rdquo;(이하 Oracle Event Hub CS)가 바로 Kafka 관리 서비스입니다. Oracle Event Hub CS는 오라클이 기술지원하고 관리하는 클라우드 서비스로 Kafka 클러스터의 효율적인 관리 방법과 지속적인 확장성을 제공합니다. 본 문서는 다음과 같은 내용으로 구성됩니다.
+ Oracle Event Hub CS 소개 Oracle Event Hub CS 클러스터 생성 Kafak 클러스터에 Topic 생성 Topic에 데이터 저장(Producing) &amp;amp; 가져오기(Consuming) 테스트  Oracle Event Hub CS Oracle Event Hub CS는 Kafaka 클라우드 관리형 서비스(managed service)입니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Container Cloud Service의 Infographics입니다.</title>
+      <link>http://www.oracloud.kr/post/container_infographics/</link>
+      <pubDate>Tue, 01 Aug 2017 01:20:12 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/container_infographics/</guid>
+      <description>Oracle Container Cloud Service에 대한 개요와 특징이 잘 정리된 Infographics입니다.</description>
+    </item>
+    
+    <item>
+      <title>쉽게 따라해보는 데이터 시각화 제2회 &#39;데이터 연결&#39;</title>
+      <link>http://www.oracloud.kr/post/dvcs002/</link>
+      <pubDate>Mon, 15 May 2017 15:00:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/dvcs002/</guid>
+      <description>데이터 시각화를 위해서 가장 먼저 해야 할 작업은 &amp;lsquo;분석에 사용할 데이터의 연결&amp;rsquo;입니다.
+ODV(Oracle Data Visualization)는 데이터 시각화를 위해서 다양한 File, RDB, Hadoop 등 데이터소스를 지원하고 있으며, 분석가능한 데이터소스를 계속적으로 추가하고 있습니다. 현재까지 지원되고있는 데이터소스는 다음과 같습니다.
+ Amazon Redshift Apache Hadoop Hive Cloudera Hadoop Hive Cloudera Impala Dropbox Greenplum Google Analytics Hortonworks Hadoop Hive IBM DB2 Impala Informix Microsoft Excel Microsoft SQL Server MongoDB MySQL Netezza Oracle SaaS Application Oracle Database Oracle Essbase Salesforce SAP SybaseIQ Spark Teradata  데이터소스 선택 데이터소스의 접속을 위해서, 먼저 DVD(Data Visualization Desktop) 상단의 &amp;lsquo;데이터소스&amp;rsquo;메뉴을 클릭합니다.</description>
+    </item>
+    
+    <item>
+      <title>데이타베이스 클라우드 서비스 인스턴스에서 백업 구성</title>
+      <link>http://www.oracloud.kr/post/dbcsbackup/</link>
+      <pubDate>Wed, 10 May 2017 16:20:58 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/dbcsbackup/</guid>
+      <description>본 문서에서는 데이타베이스 클라우드 서비스 환경에서 기본으로 구성되는 백업 구성에 대해서 소개하고 해당 구성을 변경하는 방법에 대해서 소개합니다. 데이타베이스 클라우드 서비스는 기본으로 데이타베이스, 데이타베이스 및 그리드 인프라스트럭처(RAC 구성시) 관련 구성 파일, 시스템 및 클라우드 Tooling 관련 파일에 대한 백업을 수행할 수 있는 기능을 지원합니다. 이러한 백업 기능을 지원하기 위해서 시스템 유틸리티, 오라클 데이타베이스 유틸리티, 오라클 데이타베이스 백업 서비스를 활용하며 이 모든 서비스는 인스턴스 생성시 자동으로 설치됩니다.
+오라클 데이타베이스 백업 서비스에 대한 상세 정보는 이곳를 참고하십시오.</description>
+    </item>
+    
+    <item>
+      <title>쉽게 따라해보는 데이터 시각화 제1회 &#39;실습환경 구성.&#39;</title>
+      <link>http://www.oracloud.kr/post/dvcs001/</link>
+      <pubDate>Wed, 26 Apr 2017 15:00:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/dvcs001/</guid>
+      <description>데이터 분석은 대시보드와 레포팅으로 분류되는 Business Intelligence(BI)영역과 데이터탐색으로 분류되는 Data Discovery 영역으로 나뉘어 집니다.
+최근에 각광받고 있는 분석 영역이 Data Discovery 분야인데, 가트너(2016)도 Data Discovery, Self-Service, Cloud를 New BA(Business Analytics)로 정의한 바 있습니다. 실제로 Tableau, 클릭뷰 등과 같은 New BA쪽에 강점을 갖고 있는 분석툴이 고객으로 부터 많은 관심을 받으며 분석 소프트웨어 시장을 리딩하고 있습니다.
+그리고 이와 같은 New BA를 지향하는 분석툴은 &amp;lsquo;손쉽데 데이터를 시각화할 수 있다&amp;rsquo;는 특징을 가지고 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Database CS: 인스턴스 생성 및 접속 Demo</title>
+      <link>http://www.oracloud.kr/post/dbcs_demo/</link>
+      <pubDate>Sun, 12 Mar 2017 13:20:12 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/dbcs_demo/</guid>
+      <description>Oracle DBMS 소개 Oracle Database Cloud Service(이하 Oracle DBCS)는 오라클 클라우드에서 PaaS 형태로 제공하는 오라클 데이터베이스 서비스입니다.
+Oracle Database Cloud Service에는 다음과 같이 4 가지 유형의 패키지로 라이센스가 구분됩니다.
+ Standard Edition Enterprise Edition  TDE (transparent Data Encryption) Data Guard  Enterprise Edition High Performance  Multitenant Partitioning Advanced Compression Advanced Security Database Vault  Enterprise Edition Extreme Performance  Oracle RAC 지원 In-memory Active Data Guard   2017년 04월 현재 Oracle Database CS의 지원 버전은 다음과 같습니다.</description>
+    </item>
+    
+  </channel>
+</rss>
