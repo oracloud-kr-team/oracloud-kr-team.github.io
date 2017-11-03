@@ -149,7 +149,7 @@
     <item>
       <title>Cloud</title>
       <link>http://www.oracloud.kr/tags/cloud/</link>
-      <pubDate>Tue, 02 May 2017 11:59:47 +0900</pubDate>
+      <pubDate>Fri, 03 Nov 2017 08:54:32 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/cloud/</guid>
       <description></description>
@@ -158,7 +158,7 @@
     <item>
       <title>Cloud</title>
       <link>http://www.oracloud.kr/tags/cloud/</link>
-      <pubDate>Sun, 29 Oct 2017 08:54:32 +0900</pubDate>
+      <pubDate>Tue, 02 May 2017 11:59:47 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/cloud/</guid>
       <description></description>
@@ -293,7 +293,7 @@
     <item>
       <title>Docker</title>
       <link>http://www.oracloud.kr/tags/docker/</link>
-      <pubDate>Tue, 01 Aug 2017 01:20:12 +0900</pubDate>
+      <pubDate>Wed, 04 Oct 2017 21:28:14 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/docker/</guid>
       <description></description>
@@ -302,7 +302,7 @@
     <item>
       <title>Docker</title>
       <link>http://www.oracloud.kr/tags/docker/</link>
-      <pubDate>Wed, 04 Oct 2017 21:28:14 +0900</pubDate>
+      <pubDate>Tue, 01 Aug 2017 01:20:12 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/docker/</guid>
       <description></description>
@@ -509,7 +509,7 @@
     <item>
       <title>Oracle</title>
       <link>http://www.oracloud.kr/tags/oracle/</link>
-      <pubDate>Sun, 29 Oct 2017 08:54:32 +0900</pubDate>
+      <pubDate>Fri, 03 Nov 2017 08:54:32 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/oracle/</guid>
       <description></description>
@@ -534,9 +534,18 @@
     </item>
     
     <item>
+      <title>Oracle Digital</title>
+      <link>http://www.oracloud.kr/tags/oracle-digital/</link>
+      <pubDate>Fri, 03 Nov 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/oracle-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Oracle cloud</title>
       <link>http://www.oracloud.kr/tags/oracle-cloud/</link>
-      <pubDate>Sun, 29 Oct 2017 08:54:32 +0900</pubDate>
+      <pubDate>Fri, 03 Nov 2017 08:54:32 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/oracle-cloud/</guid>
       <description></description>
