@@ -12,10 +12,7 @@
 <meta name="description" content="오라클 클라우드 기술 블로그">
 <meta name="generator" content="Hugo 0.32-DEV" />
 <meta property="og:title" content="Oracle Compute CS 용어사전" />
-<meta property="og:description" content="Oracle Compute CS의 주요 용어를 정리합니다. Oracle Compute Cloud Service는 Compute CS로 표기합니다.
-Image list  정의: Image List는 Compute CS의 머신 이미지 목록이다. Image List의 각 머신 이미지는 고유 항목 번호로 식별된다.
- Instance  정의: Instance는 Compute CS에 머신 이미지와 Shape를 지정하여 생성한 가상머신이다. Instance에 지정한 Shape는 CPU와 메모리 자원에 대한 정의이며, Shape에 정의된 자원이 Instance에 할당된다.
- Instance Snapshot  정의: Instance Snapshot은 인스턴스의 비 지속성 부트 디스크의 상태 정보를 챕처한 후, 이 정보를 이용하여 만든 머신 이미지이다." />
+<meta property="og:description" content="한국 오라클에서는 진행한 기술 세미나의 현장 모습과 자료를 정리합니다." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://www.oracloud.kr/tech-seminar/iaas/" />
 
@@ -82,97 +79,7 @@ Image list  정의: Image List는 Compute CS의 머신 이미지 목록이다. I
 			</p>
 		</header>
 		<div class="post__content clearfix">
-			
-
-<p>Oracle Compute CS의 주요 용어를 정리합니다. Oracle Compute Cloud Service는 Compute CS로 표기합니다.</p>
-
-<h3 id="image-list">Image list</h3>
-
-<blockquote>
-<p>정의:
-Image List는 Compute CS의 머신 이미지 목록이다.
-Image List의 각 머신 이미지는 고유 항목 번호로 식별된다.</p>
-</blockquote>
-
-<h3 id="instance">Instance</h3>
-
-<blockquote>
-<p>정의:
-Instance는 Compute CS에 머신 이미지와 Shape를 지정하여 생성한 가상머신이다.
-Instance에 지정한 Shape는 CPU와 메모리 자원에 대한 정의이며, Shape에 정의된 자원이 Instance에 할당된다.</p>
-</blockquote>
-
-<h3 id="instance-snapshot">Instance Snapshot</h3>
-
-<blockquote>
-<p>정의:
-Instance Snapshot은 인스턴스의 비 지속성 부트 디스크의 상태 정보를 챕처한 후, 이 정보를 이용하여 만든 머신 이미지이다.
-이 머신 이미지는 Oracle Compute CS 계정에 등록할 수 있으며, 이 머신 이미지를 이용하여 새로운 인스턴스를 생성할 수 있다.</p>
-</blockquote>
-
-<ul>
-<li>지존 이미지를 템플릿으로 머신 이미지를 커스터마이징하기 가장 쉬운 방법</li>
-<li>Instance Snapshot으로부터 같은한 구성을 하는 여러 인스턴스 생성 가능</li>
-<li>사용자 추가, 애플리케이션 설치 및 설정 등의 이미지 변경 사항을 템플릿으로 저장하고 재사용하는 방법을 제공</li>
-<li>Instance Snapshot은 Instance 동작 중에 생성할 수 있음</li>
-<li>Instance Snapshot을 생성할 Instance는 Non-persistent boot disk로 생성해야 함</li>
-<li>스토리지 유형
-
-<ul>
-<li>Persistent Boot Disk는 블록 스토리지에서 영역을 할당받는 스토리지</li>
-<li>Non-persistent Boot Disk는 Instance가 생성되는 호스트의 스토리지를 사용</li>
-</ul></li>
-</ul>
-
-<h3 id="ip-networks">IP Networks</h3>
-
-<blockquote>
-<p>정의:
-IP Network를 사용하여 Oracle Compute CS 계정에 IP 서브넷을 정의할 수 있다.
-IP Network의 주소 범위는 IP Network 생성 시점에 설정하는 <code>address prefix</code>에 따라서 결정된다.
-IP Network에 할당되는 주소는 공유 네트워크(Shared Network)에 포함되지 않는다. 가상 머신을 IP Network에 추가하면
-인스턴스에 해당 IP Network(subnet)의 IP 주소가 할당된다.
-인스턴스에 할당되는 IP 주소를 완전하게 제어할 수 있다.</p>
-</blockquote>
-
-<h3 id="ip-network-exchange">IP Network Exchange</h3>
-
-<blockquote>
-<p>정의: IP Network Exchange는 복수의 IP Network(subnet) 사이의 통신을 가능하게 한다.
-Network Exchage에 연결된 IP Network에 위치하는 Instance들은 상호간의 NAT없이도 패킷을 교환할 수 있다.</p>
-</blockquote>
-
-<h3 id="ip-reservation">IP Reservation</h3>
-
-<h3 id="launch-plan">Launch Plan</h3>
-
-<h3 id="machine-image">Machine Image</h3>
-
-<h3 id="orchestration">Orchestration</h3>
-
-<h3 id="route">Route</h3>
-
-<h3 id="security-application">Security Application</h3>
-
-<h3 id="security-ip-list">Security IP list</h3>
-
-<h3 id="security-list">Security list</h3>
-
-<h3 id="security-rule">Security Rule</h3>
-
-<h3 id="shape">Shape</h3>
-
-<h3 id="site">Site</h3>
-
-<h3 id="storage-volume">Storage Volume</h3>
-
-<h3 id="storage-volume-snapshot">Storage Volume Snapshot</h3>
-
-<h3 id="virtual-nic">Virtual NIC</h3>
-
-<h3 id="virtual-nic-set">VIrtual NIC Set</h3>
-
-<h3 id="vpn-endpoint">VPN Endpoint</h3>
+			<p>한국 오라클에서는 진행한 기술 세미나의 현장 모습과 자료를 정리합니다.</p>
 
 		</div>
 		
@@ -216,42 +123,6 @@ s.setAttribute('data-timestamp', +new Date());
 	</form>
 </div>
 	
-<div class="widget-categories widget">
-	<h4 class="widget__title">ToC (목차)</h4>
-	<div class="widget__content">
-	<nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#image-list">Image list</a></li>
-<li><a href="#instance">Instance</a></li>
-<li><a href="#instance-snapshot">Instance Snapshot</a></li>
-<li><a href="#ip-networks">IP Networks</a></li>
-<li><a href="#ip-network-exchange">IP Network Exchange</a></li>
-<li><a href="#ip-reservation">IP Reservation</a></li>
-<li><a href="#launch-plan">Launch Plan</a></li>
-<li><a href="#machine-image">Machine Image</a></li>
-<li><a href="#orchestration">Orchestration</a></li>
-<li><a href="#route">Route</a></li>
-<li><a href="#security-application">Security Application</a></li>
-<li><a href="#security-ip-list">Security IP list</a></li>
-<li><a href="#security-list">Security list</a></li>
-<li><a href="#security-rule">Security Rule</a></li>
-<li><a href="#shape">Shape</a></li>
-<li><a href="#site">Site</a></li>
-<li><a href="#storage-volume">Storage Volume</a></li>
-<li><a href="#storage-volume-snapshot">Storage Volume Snapshot</a></li>
-<li><a href="#virtual-nic">Virtual NIC</a></li>
-<li><a href="#virtual-nic-set">VIrtual NIC Set</a></li>
-<li><a href="#vpn-endpoint">VPN Endpoint</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</nav>
-  </div>
-</div>
 
 	
 <div class="widget-recent widget">
@@ -384,7 +255,7 @@ s.setAttribute('data-timestamp', +new Date());
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/bdcs-ce" title="bdcs ce">bdcs ce (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/bdcsce" title="bdcsce">bdcsce (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/big-data" title="big data">big data (2)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloud" title="cloud">cloud (15)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloud" title="cloud">cloud (16)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cncf" title="cncf">cncf (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/compute" title="compute">compute (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/container" title="container">container (2)</a>
@@ -392,7 +263,7 @@ s.setAttribute('data-timestamp', +new Date());
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/database" title="database">database (4)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/database-backup" title="database backup">database backup (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/dbcs" title="dbcs">dbcs (3)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/deverlper-meetup" title="deverlper meetup">deverlper meetup (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/deverlper-meetup" title="deverlper meetup">deverlper meetup (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/devops" title="devops">devops (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/docker" title="docker">docker (6)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/hadoop" title="hadoop">hadoop (2)</a>
@@ -405,7 +276,7 @@ s.setAttribute('data-timestamp', +new Date());
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/monitoring" title="monitoring">monitoring (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/mysql" title="mysql">mysql (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/occs" title="occs">occs (1)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle" title="oracle">oracle (11)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle" title="oracle">oracle (12)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-cloud" title="oracle cloud">oracle cloud (7)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-code" title="oracle code">oracle code (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/orchestration" title="orchestration">orchestration (1)</a>

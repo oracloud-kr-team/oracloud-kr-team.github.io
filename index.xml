@@ -6,10 +6,21 @@
     <description>Recent content on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 23 Nov 2017 10:31:26 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 16 Dec 2017 22:54:32 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2017년 12월 제 2회 오라클 클라우드 Developer Meetup 후기</title>
+      <link>http://www.oracloud.kr/writing/oracle_cloud_developer_meetup_201712/</link>
+      <pubDate>Sat, 16 Dec 2017 22:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/writing/oracle_cloud_developer_meetup_201712/</guid>
+      <description>한국 오라클에서는 매월 개발자를 대상으로 &amp;ldquo;Oracle Developer Meetup&amp;ldquo;은 운영하고 있습니다. 2017년 12월 16일 토요일 아셈타워 15층에서 두 번째 &amp;ldquo;Oracle Developer Meetup&amp;ldquo;이 진행되었습니다. 58명의 개발자가 참석한 가운데 13:00 ~ 17:30 까지 3개의 세션과 네트워키이 진행되었습니다.
+2017년 12월 두 번째 &amp;ldquo;Oracle Developer Meetup&amp;ldquo;에서 진행된 세션은 다음과 같습니다.
+   시간 발표자 세션명     13:00 ~ 13:50 강인호 부장(Oracle) Macroservice 트래픽 관리를 위한 Istio 알아보기   14:00 ~ 15:20 양수열 Java Champion(OnFace) 개발자를 위한 JavaOne 2017 업데이트 - New Feature 중심으로   15:00 ~ 14:50 황주필 부장(Oracle) [Hands-On]Kubernetes 실습 및 모니터링    세마나의 스케치를 후기를 사진 중심으로 정리합니다.</description>
+    </item>
     
     <item>
       <title>Monthly Oracle Code</title>
@@ -456,10 +467,7 @@ Oracle Storage Cloud에 Upload하기 위한 Tool인 uploadcli에 대한 설치 �
       <pubDate>Mon, 17 Apr 2017 15:36:33 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tech-seminar/iaas/</guid>
-      <description>Oracle Compute CS의 주요 용어를 정리합니다. Oracle Compute Cloud Service는 Compute CS로 표기합니다.
-Image list  정의: Image List는 Compute CS의 머신 이미지 목록이다. Image List의 각 머신 이미지는 고유 항목 번호로 식별된다.
- Instance  정의: Instance는 Compute CS에 머신 이미지와 Shape를 지정하여 생성한 가상머신이다. Instance에 지정한 Shape는 CPU와 메모리 자원에 대한 정의이며, Shape에 정의된 자원이 Instance에 할당된다.
- Instance Snapshot  정의: Instance Snapshot은 인스턴스의 비 지속성 부트 디스크의 상태 정보를 챕처한 후, 이 정보를 이용하여 만든 머신 이미지이다.</description>
+      <description>한국 오라클에서는 진행한 기술 세미나의 현장 모습과 자료를 정리합니다.</description>
     </item>
     
     <item>

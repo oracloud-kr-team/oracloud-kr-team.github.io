@@ -17,10 +17,7 @@
       <pubDate>Mon, 17 Apr 2017 15:36:33 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tech-seminar/iaas/</guid>
-      <description>Oracle Compute CS의 주요 용어를 정리합니다. Oracle Compute Cloud Service는 Compute CS로 표기합니다.
-Image list  정의: Image List는 Compute CS의 머신 이미지 목록이다. Image List의 각 머신 이미지는 고유 항목 번호로 식별된다.
- Instance  정의: Instance는 Compute CS에 머신 이미지와 Shape를 지정하여 생성한 가상머신이다. Instance에 지정한 Shape는 CPU와 메모리 자원에 대한 정의이며, Shape에 정의된 자원이 Instance에 할당된다.
- Instance Snapshot  정의: Instance Snapshot은 인스턴스의 비 지속성 부트 디스크의 상태 정보를 챕처한 후, 이 정보를 이용하여 만든 머신 이미지이다.</description>
+      <description>한국 오라클에서는 진행한 기술 세미나의 현장 모습과 자료를 정리합니다.</description>
     </item>
     
   </channel>
