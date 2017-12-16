@@ -116,5 +116,16 @@ Oracle Database Cloud Service에는 다음과 같이 4 가지 유형의 패키�
 Oracle Cloud 계정 등록 절차 오라클 클라우드의 계정 등록 절차는 다음과 같습니다.</description>
     </item>
     
+    <item>
+      <title>2017년 12월 제 2회 오라클 클라우드 Developer Meetup 후기</title>
+      <link>http://www.oracloud.kr/post/oracle_cloud_developer_meetup_201712/</link>
+      <pubDate>Thu, 16 Dec 2010 22:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oracle_cloud_developer_meetup_201712/</guid>
+      <description>한국 오라클에서는 매월 개발자를 대상으로 &amp;ldquo;Oracle Developer Meetup&amp;ldquo;은 운영하고 있습니다. 2017년 12월 16일 토요일 아셈타워 15층에서 두 번째 &amp;ldquo;Oracle Developer Meetup&amp;ldquo;이 진행되었습니다. 58명의 개발자가 참석한 가운데 13:00 ~ 17:30 까지 3개의 세션과 네트워키이 진행되었습니다.
+2017년 12월 두 번째 &amp;ldquo;Oracle Developer Meetup&amp;ldquo;에서 진행된 세션은 다음과 같습니다.
+   시간 발표자 세션명     13:00 ~ 13:50 강인호 부장(Oracle) Macroservice 트래픽 관리를 위한 Istio 알아보기   14:00 ~ 15:20 양수열 Java Champion(OnFace) 개발자를 위한 JavaOne 2017 업데이트 - New Feature 중심으로   15:00 ~ 14:50 황주필 부장(Oracle) [Hands-On]Kubernetes 실습 및 모니터링    세마나의 스케치를 후기를 사진 중심으로 정리합니다.</description>
+    </item>
+    
   </channel>
 </rss>
