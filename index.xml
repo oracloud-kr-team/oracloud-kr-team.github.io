@@ -6,10 +6,19 @@
     <description>Recent content on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 03 Nov 2017 08:54:32 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 23 Nov 2017 10:31:26 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Monthly Oracle Code</title>
+      <link>http://www.oracloud.kr/monthly-oracle-code/</link>
+      <pubDate>Thu, 23 Nov 2017 10:31:26 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/monthly-oracle-code/</guid>
+      <description>한국 오라클에서는 진행한 기술 세미나의 현장 모습과 자료를 정리합니다.</description>
+    </item>
     
     <item>
       <title>Oracle Digital이 운영하는 네이버 포스트..</title>
@@ -439,6 +448,18 @@ Oracle Cloud에서 Docker를 사용하는 방식을 요약하면 다음과 같�
 데이터베이스의 대용량 export dump file을 효율적으로 DBCS에 Upload하는 방법은 다음과 같습니다.
 Oracle Storage Cloud에 Upload하기 위한 Tool인 uploadcli에 대한 설치 방법은 다음과 같습니다.
  사전 요구사항 : JRE 7 or later OTN을 통해 uploadcli를 download합니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Compute CS 용어사전</title>
+      <link>http://www.oracloud.kr/tech-seminar/iaas/</link>
+      <pubDate>Mon, 17 Apr 2017 15:36:33 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tech-seminar/iaas/</guid>
+      <description>Oracle Compute CS의 주요 용어를 정리합니다. Oracle Compute Cloud Service는 Compute CS로 표기합니다.
+Image list  정의: Image List는 Compute CS의 머신 이미지 목록이다. Image List의 각 머신 이미지는 고유 항목 번호로 식별된다.
+ Instance  정의: Instance는 Compute CS에 머신 이미지와 Shape를 지정하여 생성한 가상머신이다. Instance에 지정한 Shape는 CPU와 메모리 자원에 대한 정의이며, Shape에 정의된 자원이 Instance에 할당된다.
+ Instance Snapshot  정의: Instance Snapshot은 인스턴스의 비 지속성 부트 디스크의 상태 정보를 챕처한 후, 이 정보를 이용하여 만든 머신 이미지이다.</description>
     </item>
     
     <item>
