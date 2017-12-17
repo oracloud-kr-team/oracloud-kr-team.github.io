@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://www.oracloud.kr/post/oracle_cloud_developer_meetup_201712/</loc>
+    <lastmod>2017-12-16T22:54:32+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.oracloud.kr/monthly-oracle-code/</loc>
     <lastmod>2017-11-23T10:31:26+09:00</lastmod>
   </url>
@@ -330,11 +335,6 @@
   <url>
     <loc>http://www.oracloud.kr/post/oracloud/</loc>
     <lastmod>2017-03-01T10:43:37+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.oracloud.kr/post/oracle_cloud_developer_meetup_201712/</loc>
-    <lastmod>2010-12-16T22:54:32+09:00</lastmod>
   </url>
   
   <url>
@@ -861,7 +861,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/post/</loc>
-    <lastmod>2017-11-03T08:54:32+09:00</lastmod>
+    <lastmod>2017-12-16T22:54:32+09:00</lastmod>
     <priority>0</priority>
   </url>
   
