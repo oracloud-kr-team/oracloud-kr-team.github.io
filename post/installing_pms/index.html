@@ -10,7 +10,7 @@
 
 <title>Oracle PaaS Service Manager 소개 및 설치</title>
 <meta name="description" content="오라클 클라우드 기술 블로그">
-<meta name="generator" content="Hugo 0.33-DEV" />
+<meta name="generator" content="Hugo 0.47-DEV" />
 <meta property="og:title" content="Oracle PaaS Service Manager 소개 및 설치" />
 <meta property="og:description" content="Oracle PaaS Service Manager(이하 PSM)는 오라클 클라우드의 PaaS 서비스 관리에 사용되는 CLI(Command Line Interface)입니다. Oracle PSM을 설치하는 절차를 소개합니다." />
 <meta property="og:type" content="article" />
@@ -251,7 +251,7 @@ REST API로 직접 내려받을 수 있습니다.</p>
 </ul></li>
 </ul>
 
-<p>curl<sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup>로 PSM 다운로드 REST API를 호출할 경우, 다음과 같은 형태로 호출합니다.</p>
+<p>curl<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>로 PSM 다운로드 REST API를 호출할 경우, 다음과 같은 형태로 호출합니다.</p>
 
 <pre><code>curl -X GET -u &lt;ACCOUNT_ID&gt;:&lt;PASSWORD&gt; \
 -H X-ID-TENANT-NAME:&lt;IDENTITY_DOMAIN&gt; \
@@ -842,13 +842,16 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 
 <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-96765743-1', 'auto');
-ga('send', 'pageview');
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-96765743-1', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
 
 
