@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CI on 오라클 클라우드 기술 블로그</title>
+    <link>http://www.oracloud.kr/tags/ci/</link>
+    <description>Recent content in CI on 오라클 클라우드 기술 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Fri, 03 Aug 2018 13:58:54 +0900</lastBuildDate>
+    
+	<atom:link href="http://www.oracloud.kr/tags/ci/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Oracle Developer Cloud - 신기능 자세히 알아보기</title>
+      <link>http://www.oracloud.kr/post/devcs000/</link>
+      <pubDate>Fri, 03 Aug 2018 13:58:54 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/devcs000/</guid>
+      <description>Oracle Developer Cloud Service는 자동화된 CI/CD를 위한 빌드 파이프라인 관리를 제공하는 클라우드 서비스입니다.  이 문서에서는 Oracle Developer Cloud의 2018년 4월과 5월 릴리즈에서 추가된 새로운 기능들에 대해서 설명하려고 합니다.
+빌드 파이프라인 정의 및 가시화 이 버전의 Developer Cloud Service에서는 구성된 빌드들을 조합하여 일련의 파이프라인을 구성하는 기능이 추가되었습니다. 각 빌드 작업들은 작업의 연관성과 흐름을 가지며 연속적으로 수행되도록 구성될 수 있습니다. 일련의 빌드 작업의 수행에서 선행 빌드 작업의 성공 여부에 따라 후행 작업의 시작 유무를 조건에 다라 결정 지을 수도 있습니다.</description>
+    </item>
+    
+  </channel>
+</rss>

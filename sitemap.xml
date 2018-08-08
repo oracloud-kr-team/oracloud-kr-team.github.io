@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.oracloud.kr/post/devcs000/</loc>
+    <lastmod>2018-08-03T13:58:54+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.oracloud.kr/post/trans_data_hub/</loc>
     <lastmod>2017-12-26T21:28:14+09:00</lastmod>
   </url>
@@ -450,6 +455,18 @@
   </url>
   
   <url>
+    <loc>http://www.oracloud.kr/tags/cd/</loc>
+    <lastmod>2018-08-03T13:58:54+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.oracloud.kr/tags/ci/</loc>
+    <lastmod>2018-08-03T13:58:54+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.oracloud.kr/tags/cloud/</loc>
     <lastmod>2017-04-21T10:31:26+09:00</lastmod>
     <priority>0</priority>
@@ -582,6 +599,12 @@
   </url>
   
   <url>
+    <loc>http://www.oracloud.kr/tags/developer-cloud/</loc>
+    <lastmod>2018-08-03T13:58:54+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.oracloud.kr/tags/deverlper-meetup/</loc>
     <lastmod>2017-12-16T22:54:32+09:00</lastmod>
     <priority>0</priority>
@@ -589,7 +612,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/devops/</loc>
-    <lastmod>2017-04-21T17:15:48+09:00</lastmod>
+    <lastmod>2018-08-03T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -613,13 +636,13 @@
   
   <url>
     <loc>http://www.oracloud.kr/categories/event/</loc>
-    <lastmod>2017-08-29T08:54:32+09:00</lastmod>
+    <lastmod>2017-08-27T08:54:32+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.oracloud.kr/categories/event/</loc>
-    <lastmod>2017-08-27T08:54:32+09:00</lastmod>
+    <lastmod>2017-08-29T08:54:32+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -769,7 +792,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/oracle/</loc>
-    <lastmod>2017-12-26T21:28:14+09:00</lastmod>
+    <lastmod>2018-08-03T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -811,7 +834,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/oracle-cloud/</loc>
-    <lastmod>2017-12-26T21:28:14+09:00</lastmod>
+    <lastmod>2018-08-03T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -871,7 +894,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/categories/oracle-cloud/</loc>
-    <lastmod>2017-12-26T21:28:14+09:00</lastmod>
+    <lastmod>2018-08-03T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -907,7 +930,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/post/</loc>
-    <lastmod>2017-12-26T21:28:14+09:00</lastmod>
+    <lastmod>2018-08-03T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1105,13 +1128,13 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C/</loc>
-    <lastmod>2017-12-26T21:28:14+09:00</lastmod>
+    <lastmod>2018-08-03T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.oracloud.kr/</loc>
-    <lastmod>2017-12-26T21:28:14+09:00</lastmod>
+    <lastmod>2018-08-03T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
