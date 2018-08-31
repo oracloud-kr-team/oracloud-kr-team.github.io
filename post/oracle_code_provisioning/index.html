@@ -10,28 +10,12 @@
 
 <title>2017 Oracle Code In Seoul: How to control cloud resources 데모</title>
 <meta name="description" content="오라클 클라우드 기술 블로그">
-<meta name="generator" content="Hugo 0.47-DEV" />
+<meta name="generator" content="Hugo 0.49-DEV" />
 <meta property="og:title" content="2017 Oracle Code In Seoul: How to control cloud resources 데모" />
 <meta property="og:description" content="2017 Oracle Code에서 발표한 &#39;Vagrant, Terraform, Ansible을 활용한 클라우드 인프라 관리법&#39;의 장표와 데모를 소개하는 문서입니다." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.oracloud.kr/post/oracle_code_provisioning/" />
-
-
-
-<meta property="article:published_time" content="2017-08-29T08:54:32&#43;09:00"/>
-
+<meta property="og:url" content="http://www.oracloud.kr/post/oracle_code_provisioning/" /><meta property="article:published_time" content="2017-08-29T08:54:32&#43;09:00"/>
 <meta property="article:modified_time" content="2017-08-29T08:54:32&#43;09:00"/>
-
-
-
-
-
-
-
-
-
-
-
 <link rel="dns-prefetch" href="//fonts.googleapis.com" />
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" type="text/css" media="all" />
@@ -61,7 +45,7 @@
 		<li class="menu__item "><a class="menu__link" href="/oraclooud/" title="oracloud.kr을 소개합니다. " >oracloud.kr 소개</a></li>
 		<li class="menu__item "><a class="menu__link" href="/monthly-oracle-code/" title="월간 오라클 기술 세미나를 기록합니다." >오라클 기술 세미나</a></li>
 		<li class="menu__item "><a class="menu__link" href="/opc-terminology/" title="오라클 클라우드에서 각 서비스에서 사용하는 용어의 정의를 정리합니다." >OPC 용어사전</a></li>
-		<li class="menu__item "><a class="menu__link" href="https://gitter.im/oracloud-korea-user-group/Lobby" title="블로그 사용자간의 원할한 소통을 위해 준비한 Gitter 채팅 서비스로 이동합니다."target='_blank' >오라클 클라우드 채팅룸</a></li>
+		<li class="menu__item "><a class="menu__link" href="https://gitter.im/oracloud-korea-user-group/Lobby" title="채팅룸으로 이동합니다."target='_blank' >오라클 클라우드 채팅룸</a></li>
 	</ul>
 </nav>
 
@@ -191,21 +175,19 @@
 <hr />
 
 <ul>
-<li>소스 설치
+<li><p>소스 설치</p>
 
 <ul>
-<li>2017년 8월 30일 현재 ansible의 최신 버전은 &ldquo;<strong>v2.3.2.0-1</strong>&ldquo;입니다. 소스 설치 절차는 다음과 같습니다.</li>
-</ul></li>
-</ul>
+<li><p>2017년 8월 30일 현재 ansible의 최신 버전은 &ldquo;<strong>v2.3.2.0-1</strong>&ldquo;입니다. 소스 설치 절차는 다음과 같습니다.</p>
 
 <pre><code>$ pip install paramiko PyYAML jinja2 httplib2
 $ git clone git://github.com/ansible/ansible.git
 $ cd ./ansible
 $ git checkout tags/v2.3.2.0-1  
 $ source ${HOME}/ansible/hacking/env-setup
-</code></pre>
+</code></pre></li>
+</ul></li>
 
-<ul>
 <li><p>pip 설치</p>
 
 <pre><code>$ pip install ansible

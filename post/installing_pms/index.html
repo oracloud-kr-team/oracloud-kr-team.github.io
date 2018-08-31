@@ -10,28 +10,12 @@
 
 <title>Oracle PaaS Service Manager 소개 및 설치</title>
 <meta name="description" content="오라클 클라우드 기술 블로그">
-<meta name="generator" content="Hugo 0.47-DEV" />
+<meta name="generator" content="Hugo 0.49-DEV" />
 <meta property="og:title" content="Oracle PaaS Service Manager 소개 및 설치" />
 <meta property="og:description" content="Oracle PaaS Service Manager(이하 PSM)는 오라클 클라우드의 PaaS 서비스 관리에 사용되는 CLI(Command Line Interface)입니다. Oracle PSM을 설치하는 절차를 소개합니다." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.oracloud.kr/post/installing_pms/" />
-
-
-
-<meta property="article:published_time" content="2017-08-06T22:20:25&#43;09:00"/>
-
+<meta property="og:url" content="http://www.oracloud.kr/post/installing_pms/" /><meta property="article:published_time" content="2017-08-06T22:20:25&#43;09:00"/>
 <meta property="article:modified_time" content="2017-08-06T22:20:25&#43;09:00"/>
-
-
-
-
-
-
-
-
-
-
-
 <link rel="dns-prefetch" href="//fonts.googleapis.com" />
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" type="text/css" media="all" />
@@ -62,7 +46,7 @@
 		<li class="menu__item "><a class="menu__link" href="/oraclooud/" title="oracloud.kr을 소개합니다. " >oracloud.kr 소개</a></li>
 		<li class="menu__item "><a class="menu__link" href="/monthly-oracle-code/" title="월간 오라클 기술 세미나를 기록합니다." >오라클 기술 세미나</a></li>
 		<li class="menu__item "><a class="menu__link" href="/opc-terminology/" title="오라클 클라우드에서 각 서비스에서 사용하는 용어의 정의를 정리합니다." >OPC 용어사전</a></li>
-		<li class="menu__item "><a class="menu__link" href="https://gitter.im/oracloud-korea-user-group/Lobby" title="블로그 사용자간의 원할한 소통을 위해 준비한 Gitter 채팅 서비스로 이동합니다."target='_blank' >오라클 클라우드 채팅룸</a></li>
+		<li class="menu__item "><a class="menu__link" href="https://gitter.im/oracloud-korea-user-group/Lobby" title="채팅룸으로 이동합니다."target='_blank' >오라클 클라우드 채팅룸</a></li>
 	</ul>
 </nav>
 
@@ -313,20 +297,18 @@ https://&lt;URL&gt;/paas/core/api/v1.1/cli/&lt;IDENTITY_DOMAIN&gt;/client \
 <p>프록시 서버 주소는 <a href="http://myproxy.server.com:80">http://myproxy.server.com:80</a> / <a href="https://myproxy.server.com:80">https://myproxy.server.com:80</a> 로 가정합니다.</p>
 
 <ul>
-<li>Window 환경 변수 설정</li>
-</ul>
+<li><p>Window 환경 변수 설정</p>
 
 <pre><code>set http_proxy=http://myproxy.server.com:80      
 set https_proxy=https://myproxy.server.com:80     
-</code></pre>
+</code></pre></li>
 
-<ul>
-<li>Linux / Mac OS 환경 변수 설정</li>
-</ul>
+<li><p>Linux / Mac OS 환경 변수 설정</p>
 
 <pre><code>export http_proxy=http://myproxy.server.com:80
 export https_proxy=https://myproxy.server.com:80
-</code></pre>
+</code></pre></li>
+</ul>
 
 <h3 id="oracle-psm-설치-1">Oracle PSM 설치</h3>
 
@@ -434,32 +416,33 @@ INFO: You already have the most up-to-date version of psm client installed on th
 <li>BDCSCE 서비스 목록 조회: <code>psm bdcsce services</code></li>
 <li>BDCSCE sparkdemo 인스턴스 상세 정보 조회: <code>psm bdcsce service -s sparkdemo</code></li>
 <li>BDCSCE 서비스 제거: <code>psm bdcsce delete-service -s sparkdemo</code></li>
-<li>BDCSCE 서비스 목록 조회: <code>psm bdcsce services</code></li>
-</ul>
+
+<li><p>BDCSCE 서비스 목록 조회: <code>psm bdcsce services</code></p>
 
 <pre><code>[opc@e25327 ~]$ psm bdcsce services
- Service    Status
- ---------- --------
- sparkdemo  Ready
+Service    Status
+---------- --------
+sparkdemo  Ready
 [opc@e25327 ~]$ psm bdcsce service -s sparkdemo
- Service:                    sparkdemo
- Status:                     Ready
- Version:                    17.3.1-20
- Edition:                    Compute Edition
- Compute Site:               US006_Z49
- Cloud Storage Container:    Storage-krplustvio/bdcscontainer
- Created On:                 2017-08-06T02:59:04.153+0000
+Service:                    sparkdemo
+Status:                     Ready
+Version:                    17.3.1-20
+Edition:                    Compute Edition
+Compute Site:               US006_Z49
+Cloud Storage Container:    Storage-krplustvio/bdcscontainer
+Created On:                 2017-08-06T02:59:04.153+0000
 [opc@e25327 ~]$ psm bdcsce delete-service -s sparkdemo
- Message:    Submitted job to delete service [sparkdemo] in domain [krplustvio].
- Job ID:     14151120
+Message:    Submitted job to delete service [sparkdemo] in domain [krplustvio].
+Job ID:     14151120
 [opc@e25327 ~]$ psm bdcsce services
- Service    Status
- ---------- -------------------------
- sparkdemo  Terminating Service ...
- [opc@e25327 ~]$ psm bdcsce services
- No data found
- [opc@e25327 ~]$
-</code></pre>
+Service    Status
+---------- -------------------------
+sparkdemo  Terminating Service ...
+[opc@e25327 ~]$ psm bdcsce services
+No data found
+[opc@e25327 ~]$
+</code></pre></li>
+</ul>
 
 <h2 id="요약">요약</h2>
 

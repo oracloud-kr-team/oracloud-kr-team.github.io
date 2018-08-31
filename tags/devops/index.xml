@@ -1,47 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Devops on 오라클 클라우드 기술 블로그</title>
+    <title>DevOps on 오라클 클라우드 기술 블로그</title>
     <link>http://www.oracloud.kr/tags/devops/</link>
-    <description>Recent content in Devops on 오라클 클라우드 기술 블로그</description>
+    <description>Recent content in DevOps on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 03 Aug 2018 13:58:54 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 04 Oct 2017 21:28:14 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Oracle Developer Cloud - 신기능 자세히 알아보기</title>
-      <link>http://www.oracloud.kr/post/devcs000/</link>
-      <pubDate>Fri, 03 Aug 2018 13:58:54 +0900</pubDate>
+      <title>[번역]Fn–An Open Source Serverless Functions Platform</title>
+      <link>http://www.oracloud.kr/post/oracle_blog_fn/</link>
+      <pubDate>Wed, 04 Oct 2017 21:28:14 +0900</pubDate>
       
-      <guid>http://www.oracloud.kr/post/devcs000/</guid>
-      <description>Oracle Developer Cloud Service는 자동화된 CI/CD를 위한 빌드 파이프라인 관리를 제공하는 클라우드 서비스입니다.  이 문서에서는 Oracle Developer Cloud의 2018년 4월과 5월 릴리즈에서 추가된 새로운 기능들에 대해서 설명하려고 합니다.
-빌드 파이프라인 정의 및 가시화 이 버전의 Developer Cloud Service에서는 구성된 빌드들을 조합하여 일련의 파이프라인을 구성하는 기능이 추가되었습니다. 각 빌드 작업들은 작업의 연관성과 흐름을 가지며 연속적으로 수행되도록 구성될 수 있습니다. 일련의 빌드 작업의 수행에서 선행 빌드 작업의 성공 여부에 따라 후행 작업의 시작 유무를 조건에 다라 결정 지을 수도 있습니다.</description>
-    </item>
-    
-    <item>
-      <title>Oracle BMCS에서 Terraform을 이용한 관리 자동화 구축</title>
-      <link>http://www.oracloud.kr/post/bmcs_terraform/</link>
-      <pubDate>Fri, 21 Apr 2017 17:15:48 +0900</pubDate>
-      
-      <guid>http://www.oracloud.kr/post/bmcs_terraform/</guid>
-      <description>다음은 Oracle IaaS BMCS 환경에서 Terraform을 사용하여 자동화(Infrastructure as Code)하는 방법에 대해서 가이드 하는 문서입니다.
-Terraform에 대한 문서는 이곳를 참고하십시오.
-1. BMCS에서 Terraform을 사용하기 위한 환경 구성 BMCS에서 Terraform 을 사용하기 위해서는 먼저 VM을 생성한 후 해당 VM에 Terraform provider를 설치해야 합니다.
-Terraform Provider 설치 BareMetal 용 Terraform Provider 는 이곳에서 해당 OS버전에 맞추어서 다운로드가 가능합니다. Linux용은 https://github.com/oracle/terraform-provider-baremetal/releases/download/v1.0.3/linux.tar.gz 에서 다운로드 받으실 수 있습니다.
-원하는 위치에 linux.tar.gz을 풀고, Home directory에 다음과 같은 ~/.</description>
-    </item>
-    
-    <item>
-      <title>IaaS Provisioning 툴: Terraform</title>
-      <link>http://www.oracloud.kr/post/terraform/</link>
-      <pubDate>Sat, 01 Apr 2017 17:15:48 +0900</pubDate>
-      
-      <guid>http://www.oracloud.kr/post/terraform/</guid>
-      <description>Terraform이란? Terraform은 인프라를 만들고 바꾸고 버전 관리하는 도구입니다. Terraform은 Infrastructure as Code, Execution Plans, Resource Graph, Change Automation 와 같은 기능을 제공합니다.
-이 기능을 이용해서 Infrastructure를 관리할 수 있는데 사용할 수 있는 Infrastructure를 Terraform에서는 Provider라고 부릅니다. Terraform이 지원하는 Provider는 Oracle Baremetal, Oracle Public Cloud, AWS, BitBucket, Chef, CloudFlare, Consul, DigitalOcean, Docker, GitHub, Google Cloud, Grafana, InfluxDB, Heroku, Microsoft Azure, MySQL, PostgreSQL 등 개발에서 보통 사용하는 솔루션은 거의 모두 포함되어 있습니다.</description>
+      <guid>http://www.oracloud.kr/post/oracle_blog_fn/</guid>
+      <description>Oracle OpenWorld 2017에서 오라클 클라우드를 강화하는 많은 새로운 키워드가 발표되었습니다. 오라클 클라우드는 최근에 Container 기술을 중점적으로 개발하고 있습니다. 이번 Oracle OpenWorld 2017에서 Serverless Platform으로 Fn을 공개했습니다. Fn은 오라클 클라우드 Serverless 플랫폼의 핵심에 위치할 것으로 예상됩니다. 2017.10.02 오라클 공식 블로그에 올라온 Fn관련 짧은 포스트를 소개합니다.
+ 출처: blogs.oracle.com 원문: https://blogs.oracle.com/developers/announcing-fn 제목: Oracle cloud acquisitions bear fruit, with a new serverless platform and container services 문서작성 일시: 2017. 10. 02 작성자: Shaun Smith, Director of Product Management  새로운 오픈 소스 서버리스 플랫폼 Fn을 발표하게 된 것을 대단히 기쁘게 생각합니다.</description>
     </item>
     
   </channel>
