@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>챗봇 on 오라클 클라우드 기술 블로그</title>
+    <link>http://www.oracloud.kr/tags/%EC%B1%97%EB%B4%87/</link>
+    <description>Recent content in 챗봇 on 오라클 클라우드 기술 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sat, 01 Sep 2018 21:59:47 +0900</lastBuildDate>
+    
+	<atom:link href="http://www.oracloud.kr/tags/%EC%B1%97%EB%B4%87/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>챗봇이란 무엇인가. 챗봇 용어 및 개념 완벽 정리</title>
+      <link>http://www.oracloud.kr/post/chatbot_intro/</link>
+      <pubDate>Sat, 01 Sep 2018 21:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/chatbot_intro/</guid>
+      <description>오라클 챗봇 (Oracle Intelligent Bots) 기능 둘러보기 이전 포스트에서는 챗봇이 무엇인지 살펴 보셨습니다. 이 포스트에서는 이 후의 포스트에서는 오라클 챗봇을 직접 만들고 여러 서비스에 연결해서 실생활에 사용 가능한 챗봇을 만들어 보겠습니다.
+ 챗봇이란? 전 포스트 참고
+ 오라클 챗봇에 대해 배워보기? 개발자 이신가요? 직접 코드를 채워가면서 챗봇에 기능 추가하는 workshop입니다. 현업에 계신가요? 만들어져 있는 코드를 넣어보며 직접 테스트 해보실 수 있는 workshop입니다.
+ 오라클 챗봇 테스트 계정? 오라클 챗봇을 만들 수 있는 Intelligent Bots를 체험 계정은 아래에서 신청 하실 수 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>챗봇이란 무엇인가. 챗봇 용어 및 개념 완벽 정리</title>
+      <link>http://www.oracloud.kr/post/chatbot_terms/</link>
+      <pubDate>Sat, 01 Sep 2018 21:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/chatbot_terms/</guid>
+      <description>챗봇이란 무엇인가. 챗봇 용어 및 개념 완벽 정리 - 챗봇이란? 챗봇이란 간단히말해, 카톡이나 라인과 같은 메신저로 상대방과 대화할때 상대편에 사람이 아닌 software program이 대화를 하고 있다고 생각하시면 됩니다. 챗봇을 많은 기업들이 도입해, 고객 상담 창구를 확장한 형태로 사용 하는 예를 흔히 보실 수 있습니다. 젊은 밀레니얼 세대는 새로운 앱을 다운 받기를 싫어하며 전화보다는 카톡 혹은 페이스북 메신저를 선호합니다. 때문에, 어떤 기업에서 물건을 사고 레스토랑에 예약을 하거나 행사에 대한 여러가지 질문들 또한 Instant Messenger에서 이뤄지기를 기대하는 것은 자연스러운 현상입니다.</description>
+    </item>
+    
+  </channel>
+</rss>

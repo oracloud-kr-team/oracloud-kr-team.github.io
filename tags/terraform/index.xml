@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Terraform on 오라클 클라우드 기술 블로그</title>
+    <title>terraform on 오라클 클라우드 기술 블로그</title>
     <link>http://www.oracloud.kr/tags/terraform/</link>
-    <description>Recent content in Terraform on 오라클 클라우드 기술 블로그</description>
+    <description>Recent content in terraform on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Tue, 29 Aug 2017 08:54:32 +0900</lastBuildDate>
