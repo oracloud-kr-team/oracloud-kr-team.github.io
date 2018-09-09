@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<META http-equiv="Expires" content="-1">
+<META http-equiv="Pragma" content="no-cache">
+<META http-equiv="Cache-Control" content="No-Cache">
+
+<title>OCI Classic: Compute 서비스, VM 생성</title>
+<meta name="description" content="오라클 클라우드 기술 블로그">
+<meta name="generator" content="Hugo 0.49-DEV" />
+<meta property="og:title" content="OCI Classic: Compute 서비스, VM 생성" />
+<meta property="og:description" content="오라클 클라우드의 OCI Classic을 이용하여 VM을 생성하는 과정을 소개합니다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.oracloud.kr/post/oci_classic_computing/" /><meta property="article:published_time" content="2018-04-27T15:59:47&#43;09:00"/>
+<meta property="article:modified_time" content="2018-04-27T15:59:47&#43;09:00"/>
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" type="text/css" media="all" />
+<link rel="stylesheet" href="http://www.oracloud.kr/css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://www.oracloud.kr/css/minsu.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://www.oracloud.kr/css/hybrid.css" type="text/css" media="all" />
+<script type="text/javascript" src="http://www.oracloud.kr/js/scripts.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="/img/icon/oracle.png" />
+
+
+
+</head>
+<body class="body body-right-sidebar mobile" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+	<div class="container container-outer">
+		<header class="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+			<div class="container container-inner clearfix">
+				<div class="logo" role="banner" itemscope="itemscope" itemtype="http://schema.org/Brand">
+					<a class="logo__link" href="http://www.oracloud.kr/" title="오라클 클라우드 기술 블로그" rel="home">
+						<h1 class="logo__title">오라클 클라우드 기술 블로그</h1>
+						<h2 class="logo__tagline">한국 오라클 - oracloud.kr</h2>
+					</a>
+				</div>
+			</div>
+			<nav class="menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<ul class="menu__list">
+		<li class="menu__item "><a class="menu__link" href="/" title="블로그 메인 페이지 " >Home</a></li>
+		<li class="menu__item "><a class="menu__link" href="/oraclooud/" title="oracloud.kr을 소개합니다. " >oracloud.kr 소개</a></li>
+		<li class="menu__item "><a class="menu__link" href="/monthly-oracle-code/" title="월간 오라클 기술 세미나를 기록합니다." >오라클 기술 세미나</a></li>
+		<li class="menu__item "><a class="menu__link" href="/opc-terminology/" title="오라클 클라우드에서 각 서비스에서 사용하는 용어의 정의를 정리합니다." >OPC 용어사전</a></li>
+		<li class="menu__item "><a class="menu__link" href="https://gitter.im/oracloud-korea-user-group/Lobby" title="블로그 사용자간의 원할한 소통을 위해 준비한 Gitter 채팅 서비스로 이동합니다."target='_blank' >오라클 클라우드 채팅룸</a></li>
+	</ul>
+</nav>
+
+		</header>
+		<div class="wrapper clearfix">
+
+
+<div class="main-content content" role="main" itemprop="mainContentOfPage">
+	<article class="post">
+		<header class="post__header clearfix">
+			<h1 class="post__title">OCI Classic: Compute 서비스, VM 생성</h1>
+			<p class="post__meta meta">
+				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+				<time class="post__meta-date" datetime="2018-04-27 15:59:47 &#43;0900 &#43;0900">April 27, 2018</time>
+				<span class="post__meta-categories meta-categories">
+					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+					<a class="meta-categories__link" href="/categories/cloud" rel="category">cloud</a></span>
+			</p>
+		</header>
+		<div class="post__content clearfix">
+			<figure class="post__thumbnail">
+				<img src="https://taewanmerepo.github.io/2018/04/ociclass/200.jpg" alt="OCI Classic: Compute 서비스, VM 생성">
+			</figure>
+			
+
+<p>오라클은 클라우드 IaaS로 Oracle Cloud Infrastructure(OCI)와 Oracle Cloud Infrastructure Classic(OCI Classic) 두 가지를 제공하고 있습니다. 오라클은 Public Cloud IaaS로 OPC(Oracle Public Cloud)를 2014년 OOW(Oracle Open World)에서 공개하였고, OOW 2017에서 OCI Classic으로 서비스 브랜드 명을 변경하였습니다.</p>
+
+<p>OCI Classic은 Nimbula Director(Xen 기반 하이퍼바이저)을 기반으로 만들어졌으며, IaaS 서비스로 가상머신 컴퓨팅과 네트워크(Shared &amp; IP Networks)를 제공합니다.</p>
+
+<p>본 문서에서는 Oracle Cloud에서 OCI Classic에서 VM을 생성하는 과정을 소개합니다.</p>
+
+<h2 id="vm-생성-시나리오">VM 생성 시나리오</h2>
+
+<p>다음과 같은 시나리오를 바탕으로 VM을 구성해 보겠습니다.</p>
+
+<ul>
+<li>OCI Classic에서 VM 생성</li>
+<li>Oracle Linix 7.3 지정</li>
+<li>Hostname 지정</li>
+<li>SSH 키 지정</li>
+<li>네트워크 타입 지정</li>
+<li>VM 이미지 생성 후 ssh 접속 보안 설정</li>
+<li>SSH 접속</li>
+</ul>
+
+<h2 id="vm-이미지-생성-절차">VM 이미지 생성 절차</h2>
+
+<p>OCI Classic의 컴퓨팅 서비스는 다음과 같은 방법으로 생성할 수 있습니다.</p>
+
+<ul>
+<li>웹 기반 OCI Classic Computing 서비스 콘솔의 웹UI에서 생성</li>
+<li>Terraform을 이용한 생성</li>
+<li>REST API를 이용한 생성</li>
+<li>OPC CLI 툴을 이용한 생성</li>
+</ul>
+
+<p>본문에서는 &ldquo;<strong>웹 기반 OCI Classic Computing 서비스 콘솔의 웹 UI</strong>&ldquo;를 이용하여 VM을 생성하는 절차를 소개합니다. 나머지 방법은 별도 문서로 다루겠습니다.</p>
+
+<h3 id="설치-전-클라우드-콘설-접근">설치 전 클라우드 콘설 접근</h3>
+
+<p>OCI Classic의 컴퓨팅 서비스로 VM을 만들기 위해서는 &ldquo;<strong>OCI Classic Computing 서비스 콘솔</strong>&ldquo;에 접근해야 합니다. 이 서비스 콘솔은 오라클 클라우드 대쉬보드로 부터 접근 가능합니다. 오라클 클라우드에 로그인하면 &lt;그림 1&gt;과 같은 대쉬로드로 이동합니다. 대쉬보드에 &ldquo;Compute Classic&rdquo; 위젯이 보이지 않는다면 &ldquo;<strong>Customizing Dashboard</strong>&ldquo;를 선택하여 &ldquo;<strong>OCI Classic Computing 서비스 콘솔</strong>&ldquo;을 오픈할 수 있습니다.</p>
+
+
+<blockquote id="img">
+<figure >
+    
+        <img src="https://taewanmerepo.github.io/2018/04/ociclass/img010.jpg" alt="대쉬보드 커스터마이징" style="border:2px solid black"/>
+    
+    
+    <figcaption>
+        <strong>그림 1</strong>:
+        
+        대쉬보드 커스터마이징
+        
+            
+        
+        
+    </figcaption>
+    
+</figure>
+</blockquote>
+
+
+
+<p>&ldquo;<strong>Customizing Dashboard</strong>&ldquo;를 선택하면 &lt;그림 2&gt;와 같은 화면이 출력됩니다. 이 화면에서 대쉬 보드에 공개될 위젯을 선택할 수 있습니다. &lt;그림 2&gt;에서 &ldquo;Compute Classic&rdquo;의 상태를 &ldquo;show&rdquo;로 변경하고, 오른쪽 위의 &ldquo;X&rdquo; 마크를 클릭합니다.</p>
+
+
+<blockquote id="img">
+<figure >
+    
+        <img src="https://taewanmerepo.github.io/2018/04/ociclass/img020.jpg" alt="OCI-Classic Computing 서비스 콘솔 시작" style="border:2px solid black"/>
+    
+    
+    <figcaption>
+        <strong>그림 2</strong>:
+        
+        OCI-Classic Computing 서비스 콘솔 시작
+        
+            
+        
+        
+    </figcaption>
+    
+</figure>
+</blockquote>
+
+
+
+<p>&lt;그림 2&gt;를 완료하면 &lt;그림 3&gt;과 같이 &ldquo;Compute Classic&rdquo; 위젯이 나타납니다. 이 위젯의 오른쪽 아래 메뉴 아이콘으로부터 <strong>Open Service Console</strong>을 클릭하면, &lt;그림 4&gt;와 Compute Classic 서비스 콘솔로 이동합니다.</p>
+
+
+<blockquote id="img">
+<figure >
+    
+        <img src="https://taewanmerepo.github.io/2018/04/ociclass/img030.jpg" alt="OCI-Classic Computing 서비스 콘솔:VM 생성" style="border:2px solid black"/>
+    
+    
+    <figcaption>
+        <strong>그림 3</strong>:
+        
+        OCI-Classic Computing 서비스 콘솔:VM 생성
+        
+            
+        
+        
+    </figcaption>
+    
+</figure>
+</blockquote>
+
+
+
+<h3 id="compute-classic에-vm-생성">Compute Classic에 VM 생성</h3>
+
+<p>Compute Classic 서비스 콘솔에서 <strong>Create Instance</strong> 버튼을 클릭하여 VM 생성 절차가 시작됩니다.</p>
+
+
+<blockquote id="img">
+<figure >
+    
+        <img src="https://taewanmerepo.github.io/2018/04/ociclass/img040.jpg" alt="VM 생성 시작" style="border:2px solid black"/>
+    
+    
+    <figcaption>
+        <strong>그림 4</strong>:
+        
+        VM 생성 시작
+        
+            
+        
+        
+    </figcaption>
+    
+</figure>
+</blockquote>
+
+
+
+<p>&lt;그림 5&gt;에서는 VM 생성 방식을 선택할 수 있습니다. 사전에 정의된 설정값으로 Oracle Linux, Unbuntu, Window 서버 윈클릭으로 생성할 수 있습니다. 사전 정의된 이미지를 생성할 경우 3가지 정보를 입력하고 &ldquo;Create&rdquo; 버튼을 클릭하면 완료됩니다. 절차를 요약하면 다음과 같습니다.</p>
+
+<ul>
+<li>(1): VM 이름 설절</li>
+<li>OS 이미지 선택
+
+<ul>
+<li>Oracle Linux 7.2 UEKR4</li>
+<li>Ubuntu 16.04</li>
+<li>Window Service 2012</li>
+</ul></li>
+<li>(2): SSH 키 등록
+
+<ul>
+<li>계정에 등록된 SSH 키 선택</li>
+</ul></li>
+<li>(3): SSH의 공개키 Download</li>
+</ul>
+
+<p>위와 같은 절차로 선택 및 기본 정보를 입력하고 &ldquo;Create&rdquo; 버튼을 클릭하면 VM이 생성됩니다.</p>
+
+<p>OS 종류, 네트워크 설정, 스토리지 등을 변경해야 한다면 오른쪽 위에 위치하는 &ldquo;Customize&rdquo; 버튼을 클릭하여 사용자 정의로 VM이미지를 생성할 수 있습니다. 본 문서에서는 사용자 정의 생성 방식을 소개하겠습니다. &ldquo;Customize&rdquo; 버튼을 클릭하고 다음 단계로 넘어갑니다.</p>
+
+
+<blockquote id="img">
+<figure >
+    
+        <img src="https://taewanmerepo.github.io/2018/04/ociclass/img050.jpg" alt="VM 생성 방식 선택" style="border:2px solid black"/>
+    
+    
+    <figcaption>
+        <strong>그림 5</strong>:
+        
+        VM 생성 방식 선택
+        
+            
+        
+        
+    </figcaption>
+    
+</figure>
+</blockquote>
+
+
+
+<p>&lt;그림 6&gt;에서 사용할 OS 이미지를 선택하고 <strong>&gt;</strong> 버튼을 클릭하여 다음 단계로 넘어갑니다. OS 이미지는 오라클 리눅스가 기본 제공되고, Marketplace에서는 425개의 이미지를 추가로 선택할 수 있습니다. 425개 이미지에는 Ubuntu, Suse, Window가 포함되어 있습니다. Marketplace에서 제공하는 이미지는 오라클과 Bitnami에서 관리합니다.</p>
+
+<p>&lt;그림 6&gt;에서는 OL 7.2 UEKR4_x86_64를 선택하고 <strong>&gt;</strong> 버튼을 클릭하여 다음 단계로 넘어갑니다.</p>
+
+
+<blockquote id="img">
+<figure >
+    
+        <img src="https://taewanmerepo.github.io/2018/04/ociclass/img060.jpg" alt="OS 선택" style="border:2px solid black"/>
+    
+    
+    <figcaption>
+        <strong>그림 6</strong>:
+        
+        OS 선택
+        
+            
+        
+        
+    </figcaption>
+    
+</figure>
+</blockquote>
+
+
+
+<p>다음 단계는 VM의 자원을 결정하는 단계입니다. 사전 정의된 Shape을 선택합니다. 기본 Trial에서는 ocpu와 메모리 사이즈를 기준으로 &ldquo;General Purpose&rdquo;와 &ldquo;High Memory&rdquo; 두 가지 유형을 제공합니다. 사용할 shape을 클릭한 후, <strong>&gt;</strong> 버튼을 클릭하여 다음 단계로 넘어갑니다.</p>
+
+
+<blockquote id="img">
+<figure >
+    
+        <img src="https://taewanmerepo.github.io/2018/04/ociclass/img070.jpg" alt="자원(Shape) 선택" style="border:2px solid black"/>
+    
+    
+    <figcaption>
+        <strong>그림 7</strong>:
+        
+        자원(Shape) 선택
+        
+            
+        
+        
+    </figcaption>
+    
+</figure>
+</blockquote>
+
+
+
+<p>&lt;그림 8&gt;에서는 VM의 기본 정보를 설정합니다. VM의 이름과 라벨, SSH 키를 등록하는 단계입니다. 사용할 이름과 라벨을 입력하고, 사전에 만든 인증 공개키를 &ldquo;Add SSH Public key&rdquo; 버튼을 클릭하여 등록합니다.</p>
+
+<p>SSH 키를 생성하는 방법에 대해서는 아래에 링크된 문서를 참조하시기 바랍니다.</p>
+
+<ul>
+<li><a href="/post/ssh_key/" target="_blank"> 윈도우, 리눅스, 맥에서 ssh 보안키 생성</a></li>
+</ul>
+
+<p>VM 이름, 라벨 및 인증서 공개키를 등록한 후, <strong>&gt;</strong> 버튼을 클릭하여 다음 네트워크 설정 단계로 넘어갑니다.</p>
+
+
+<blockquote id="img">
+<figure >
+    
+        <img src="https://taewanmerepo.github.io/2018/04/ociclass/img080.jpg" alt="인스턴스 정보 설정" style="border:2px solid black"/>
+    
+    
+    <figcaption>
+        <strong>그림 8</strong>:
+        
+        인스턴스 정보 설정
+        
+            
+        
+        
+    </figcaption>
+    
+</figure>
+</blockquote>
+
+
+
+<p>다음 단계는 네트워크 설정 단계입니다. OCI Classic의 Compute 서비스는 IPNetwork과 Shared Network 두 가지 유형의 네트워크 방식을 제공합니다. Shared Network은 Private IP를 서비스 단위로 발급하고 관리하며, 방화벽과 같은 개념을 적용하여 VM를 묶고 보안 관리합니다. IPNetwork은 서브넷을 구성하여 Private IP를 도메인 단위에서 관리하는 방식입니다.</p>
+
+<p>네트워크 설정에서는 세 가지를 설정해야 합니다.</p>
+
+<ul>
+<li>DNS Hostname prefix: 사용할 hostname 지정</li>
+<li>Shared Network: 선택</li>
+<li>IP Network: 선택 해제</li>
+</ul>
+
+<p>&lt;그림 9&gt;와 같이 설정하고, <strong>&gt;</strong> 버튼을 클릭하여 다음 스토리지 설정 단계로 넘어갑니다.</p>
+
+
+<blockquote id="img">
+<figure >
+    
+        <img src="https://taewanmerepo.github.io/2018/04/ociclass/img090.jpg" alt="네트워크 설정" style="border:2px solid black"/>
+    
+    
+    <figcaption>
+        <strong>그림 9</strong>:
+        
+        네트워크 설정
+        
+            
+        
+        
+    </figcaption>
+    
+</figure>
+</blockquote>
+
+
+
+<p>&lt;그림 10&gt;에서는 블록 스토리지를 추가하는 단계입니다. 기본 스토리지로 120GB 블록 스토리지가 추가되어 있습니다. 현재는 추가적인 스토리지 추가 없이, <strong>&gt;</strong> 버튼을 클릭하여 다음 스토리지 설정 단계로 넘어갑니다. 블록 스토리지 추가 및 마운트 방법은 별도 문서로 작성하겠습니다.</p>
+
+
+<blockquote id="img">
+<figure >
+    
+        <img src="https://taewanmerepo.github.io/2018/04/ociclass/img100.jpg" alt="스토리지 설정" style="border:2px solid black"/>
+    
+    
+    <figcaption>
+        <strong>그림 10</strong>:
+        
+        스토리지 설정
+        
+            
+        
+        
+    </figcaption>
+    
+</figure>
+</blockquote>
+
+
+
+<p>이제 모든 설정 단계를 마친 상태입니다. &lt;그림 11&gt;에서 마지막 단계에 &ldquo;이미지 생성 정보 요약&rdquo;을 확인한 후 &ldquo;Create&rdquo; 버튼을 클릭하여 VM 생성을 시작합니다.</p>
+
+
+<blockquote id="img">
+<figure >
+    
+        <img src="https://taewanmerepo.github.io/2018/04/ociclass/img110.jpg" alt="이미지 생성 정보 요약" style="border:2px solid black"/>
+    
+    
+    <figcaption>
+        <strong>그림 11</strong>:
+        
+        이미지 생성 정보 요약
+        
+            
+        
+        
+    </figcaption>
+    
+</figure>
+</blockquote>
+
+
+
+<p>&lt;그림 11&gt;에서 &ldquo;Create&rdquo; 버튼을 클릭하면 &lt;그림 12&gt;와 같이 Compute Classic 서비스 콘솔의 메인 페이지로 이동합니다. VM 이미지 생성에 약 3-5분 정도 걸립니다. 오른쪽의 페이지 갱신 버튼을 클릭을 클릭하면 &lt;그림 12&gt;와 같이 VM 정보가 출력됩니다. &lt;그림 12&gt;에서 VM 이름, 상태, Public IP와 Private IP를 확인할 수 있습니다.</p>
+
+
+<blockquote id="img">
+<figure >
+    
+        <img src="https://taewanmerepo.github.io/2018/04/ociclass/img120.jpg" alt="VM 이미지 생성 확인(oci-c_vm01)" style="border:2px solid black"/>
+    
+    
+    <figcaption>
+        <strong>그림 12</strong>:
+        
+        VM 이미지 생성 확인(oci-c_vm01)
+        
+            
+        
+        
+    </figcaption>
+    
+</figure>
+</blockquote>
+
+
+
+<p>현재 VM이 생성된 상태입니다. 앞에서 생성된 VM은 오라클 클라우드 외부망에서 접근할 수 없는 상태입니다. 외부 인터넷에서 앞에서 생성한 VM에 접속하기 위해서 Security Rule을 등록해야 합니다. OCI Classic의 Shared Network에는 다음과 같은 보안 관련 용어를 사용합니다.</p>
+
+<ul>
+<li>Security List: 오라클 클라우드의 도메인에서 생성한 VM에 Security rule을 적용하는 논리적인 그룹. 방화벽의 그룹과 유사한 개념</li>
+<li>Security Application: Security에 적용할 네트워크 프로토콜과 포트 정보</li>
+<li>Security Rule: Security List에 적용할 보안 규칙</li>
+</ul>
+
+<p>외부에서 앞에서 생성한 VM에 SSH 접근을 위해서는 Security Rule을 새로 등록해야 합니다. Security Rule 등록 페이지는 &lt;그림 13&gt;과 같이 이동 가능합니다.</p>
+
+
+<blockquote id="img">
+<figure >
+    
+        <img src="https://taewanmerepo.github.io/2018/04/ociclass/img130.jpg" alt="Security Rule 등록" style="border:2px solid black"/>
+    
+    
+    <figcaption>
+        <strong>그림 13</strong>:
+        
+        Security Rule 등록
+        
+            
+        
+        
+    </figcaption>
+    
+</figure>
+</blockquote>
+
+
+
+<p>&lt;그림 14&gt;는 Security Rule 등록 화면입니다. 외부망에서 ssh 접근을 허용하는 보안 규칙은 다음가 같이 생성됩니다.</p>
+
+<table>
+<thead>
+<tr>
+<th>번호</th>
+<th>이름</th>
+<th>설정</th>
+<th>설명</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>(1)</td>
+<td>Name</td>
+<td>ssh-rule</td>
+<td>Security rule 이름</td>
+</tr>
+
+<tr>
+<td>(2)</td>
+<td>Security Application</td>
+<td>ssh</td>
+<td>Security rule에 적용할 네트워크 프로토콜과 포트 정보(Security Application)</td>
+</tr>
+
+<tr>
+<td>(3)</td>
+<td>Source</td>
+<td>Security IP List<br/> public-internet</td>
+<td>네트워크의 시작점을 IP List로 지정. <br/> 외부 인터넷을 표현하는 기본 IP List가 public-internet</td>
+</tr>
+
+<tr>
+<td>(4)</td>
+<td>Destination</td>
+<td>Security List<br/>default</td>
+<td>Security rule의 목적이 그룹<br/>Security List: 내부 관리 VM의 논리적인 단위</td>
+</tr>
+</tbody>
+</table>
+
+<p>설정이 완료되면 &ldquo;create&rdquo; 버튼을 클릭하여 Security Rule이 바로 생성됩니다.</p>
+
+
+<blockquote id="img">
+<figure >
+    
+        <img src="https://taewanmerepo.github.io/2018/04/ociclass/img140.jpg" alt="Security Rule 생성: SSH Rule" style="border:2px solid black"/>
+    
+    
+    <figcaption>
+        <strong>그림 14</strong>:
+        
+        Security Rule 생성: SSH Rule
+        
+            
+        
+        
+    </figcaption>
+    
+</figure>
+</blockquote>
+
+
+
+<p>이제 ssh 접근이 가능한 상태가 되었습니다. &lt;그림 15&gt;와 같이 ssh 접근이 가능합니다. 오라클 리눅스의 기본 계정명은 opc이고 ubuntu의 경우 기본 계정은 ubuntu입니다. ssh 접근 후 호스트명이 &lt;그림 9&gt;의 DNS Hostname Prefix의 설정값으로 hostname이 설정된 것을 확인할 수 있습니다.</p>
+
+
+<blockquote id="img">
+<figure >
+    
+        <img src="https://taewanmerepo.github.io/2018/04/ociclass/img150.jpg" alt="ssh 접속 및 host명 확인" style="border:2px solid black"/>
+    
+    
+    <figcaption>
+        <strong>그림 15</strong>:
+        
+        ssh 접속 및 host명 확인
+        
+            
+        
+        
+    </figcaption>
+    
+</figure>
+</blockquote>
+
+
+
+<h2 id="요약">요약</h2>
+
+<p>Oracle Cloud Infrastructure Classic의 Compute 서비스 VM을 생성해 보았습니다. OCI와 OCI Classic를 간단히 구분해 보았습니다. 또한 OCI Classic의 IPNetwork와 Share Network의 차이를 살펴보고 VM 생성 전체 절차를 확인해 보았습니다.</p>
+
+<p>추가적인 OCI Classic의 관련 문서를 별도 문서로 추가하겠습니다.</p>
+
+<h2 id="oracle-cloud-관련-문서">Oracle Cloud 관련 문서</h2>
+
+<blockquote>
+<ul>
+<li>Oracle Cloud 공통
+
+<ul>
+<li><a href="/post/oci_and_oci_classic/">Oracle Cloud IaaS: OCI vs OCI Classic</a></li>
+<li><a href="/post/oracle_cloud_trial/">Oracle Cloud 트라이얼 신청 절차 (2018.04)</a></li>
+<li><a href="/post/oci_classic_computing/">윈도우, 리눅스, 맥에서 ssh 보안키 생성</a></li>
+</ul></li>
+<li>Oracle Cloud Infrastructure Classic
+
+<ul>
+<li><a href="/post/oci_classic_computing/">OCI Classic: Compute 서비스, VM 생성</a></li>
+<li><a href="/post/oci_classic_computing_with_permanent_public_ip/">OCI Classic: Compute 서비스, VM의 고정 Public IP 지정</a></li>
+</ul></li>
+</ul>
+</blockquote>
+
+		</div>
+		
+<div class="post__tags tags clearfix">
+	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.73135 3.3795002q0-.5597-.39604-.9557-.39604-.3961-.95577-.3961-.55974 0-.95578.3961-.39604.396-.39604.9557 0 .5598.39604.9558.39604.3961.95578.3961.55973 0 .95577-.3961.39604-.396.39604-.9558zm11.26865 6.0832q0 .5596998-.39076.9504998l-5.18548 5.196q-.41188.3908-.9610504.3908-.55974 0-.9505-.3908l-7.5511496-7.5616998q-.40132-.3907-.68119-1.0666-.27987-.6759-.27987-1.2357v-4.3934q0-.54920004.40132-.95050004.40132-.4013.9505-.4013h4.39339q.55974 0 1.23565.2799.67591.2798 1.07723.6812l7.55115 7.54060004q.39076.4118.39076.961z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link" href="/tags/oracle/" rel="tag">oracle</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/oci-c/" rel="tag">oci-c</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/vm/" rel="tag">vm</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/hostname/" rel="tag">hostname</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/%EA%B9%80%ED%83%9C%EC%99%84/" rel="tag">김태완</a></li>
+	</ul>
+</div>
+
+	</article>
+	
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="김태완 avatar" src="http://www.oracloud.kr/img/author/taewan.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">작성자: 김태완</span>
+	</div>
+	<div class="authorbox__description">
+		한국오라클 빅데이터 팀 소속입니다. 빅데이터와 Machine Learning에 중점을 두고 있습니다.
+	</div>
+	<div class="authorbox__description">
+		E-mail: taewanme@gmail.com
+	</div>
+</div>
+
+	
+<nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<div class="post-nav__item post-nav__item--prev col-1-2">
+		<a class="post-nav__link" href="http://www.oracloud.kr/post/integrating_adw_bdc_os/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">Oracle Autonomous Data Warehouse와 Big Data의 오브젝트 스토리지 연계</p></a>
+	</div>
+	<div class="post-nav__item post-nav__item--next col-1-2">
+		<a class="post-nav__link" href="http://www.oracloud.kr/post/oci_classic_computing_with_permanent_public_ip/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">OCI Classic: Compute 서비스, VM의 고정 Public IP 지정</p></a>
+	</div>
+</nav>
+
+	
+<div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://oracloud-kr.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+</div>
+
+<aside class="sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+	
+<div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="//google.com/search">
+		<label>
+			<span class="screen-reader-text">Search for:</span>
+			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="http://www.oracloud.kr/" />
+	</form>
+</div>
+	
+<div class="widget-categories widget">
+	<h4 class="widget__title">ToC (목차)</h4>
+	<div class="widget__content">
+	<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#vm-생성-시나리오">VM 생성 시나리오</a></li>
+<li><a href="#vm-이미지-생성-절차">VM 이미지 생성 절차</a>
+<ul>
+<li><a href="#설치-전-클라우드-콘설-접근">설치 전 클라우드 콘설 접근</a></li>
+<li><a href="#compute-classic에-vm-생성">Compute Classic에 VM 생성</a></li>
+</ul></li>
+<li><a href="#요약">요약</a></li>
+<li><a href="#oracle-cloud-관련-문서">Oracle Cloud 관련 문서</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+	
+<div class="widget-recent widget">
+	<h4 class="widget__title">최신글</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/post/oracle_impact/" title="&#39;Oracle Cloud AI 서비스&#39; @ Oracle Impact">
+							&#39;Oracle Cloud AI 서비스&#39; @ Oracle Impact</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/chatbot_intro/" title="오라클 챗봇 (Oracle Intelligent Bots) 기능 둘러보기">
+							오라클 챗봇 (Oracle Intelligent Bots) 기능 둘러보기</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/chatbot_terms/" title="챗봇이란 무엇인가. 챗봇 용어 및 개념 완벽 정리">
+							챗봇이란 무엇인가. 챗봇 용어 및 개념 완벽 정리</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/devcs000/" title="Oracle Developer Cloud - 신기능 자세히 알아보기">
+							Oracle Developer Cloud - 신기능 자세히 알아보기</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/bdc_object_storage_integration/" title="Oracle Big Data Cloud와 Object Storage 연동">
+							Oracle Big Data Cloud와 Object Storage 연동</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/bdc_ambari/" title="Oracle BDC의 Ambari 보안 설정 변경">
+							Oracle BDC의 Ambari 보안 설정 변경</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/oehcs_patch/" title="Oracle Cloud의 PaaS 서비스 패치: Event Hub Service">
+							Oracle Cloud의 PaaS 서비스 패치: Event Hu ......</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/oracle_paas_on_oci/" title="OCI 배포 가능한 Oracle Platform Services(2018.05.15 기준)">
+							OCI 배포 가능한 Oracle Platform Services ......</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/oci_and_oci_classic/" title="Oracle Cloud IaaS: OCI vs OCI Classic">
+							Oracle Cloud IaaS: OCI vs OCI Classic</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/oracle_cloud_trial/" title="Oracle Cloud 트라이얼 신청 절차 (2018.05.01 기준)">
+							Oracle Cloud 트라이얼 신청 절차 (2018.05.01 기준)</a>
+		  </li>
+		</ul>
+	</div>
+</div>
+
+	
+<div class="widget-categories widget">
+	<h4 class="widget__title">카테고리</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/api-catalog">API Catalog</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/big-data">Big Data</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/chatbot">Chatbot</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/cloud">Cloud</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/container">Container</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/docker">Docker</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/event">Event</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/iaas">IaaS</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/mysql">MySQL</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle">Oracle</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle-cloud">Oracle Cloud</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle-cloud-event">Oracle Cloud Event</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle-iaas">Oracle IaaS</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle-management-cloud">Oracle Management Cloud</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle-paas">Oracle PaaS</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle-cloud">Oracle-Cloud</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/paas">PaaS</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/ravello">Ravello</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/seminar">Seminar</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/big-data">big data</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/blogs.oracle.com">blogs.oracle.com</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/cloud">cloud</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/event">event</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/java">java</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle">oracle</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle-cloud">oracle cloud</a></li>
+		</ul>
+	</div>
+</div>
+
+	﻿
+<div class="widget-taglist widget">
+	<h4 class="widget__title">태그</h4>
+	<div class="widget__content">
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/adec" title="ADEC">ADEC (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ai" title="AI">AI (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/api" title="API">API (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/api-catalog" title="API Catalog">API Catalog (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/analytics" title="Analytics">Analytics (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ansible" title="Ansible">Ansible (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/autonomous" title="Autonomous">Autonomous (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/bdc" title="BDC">BDC (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/bdpcs" title="BDPCS">BDPCS (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/bmcs" title="BMCS">BMCS (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/big-data" title="Big Data">Big Data (4)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cc" title="C@C">C@C (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cd" title="CD">CD (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ci" title="CI">CI (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloud" title="CLOUD">CLOUD (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/chef" title="Chef">Chef (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloud" title="Cloud">Cloud (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/compute-cs" title="Compute CS">Compute CS (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/dbcs" title="DBCS">DBCS (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/dw" title="DW">DW (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/data-center" title="Data Center">Data Center (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/data-visualization" title="Data Visualization">Data Visualization (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/desktop" title="Desktop">Desktop (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/devops" title="DevOps">DevOps (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/developer-cloud" title="Developer Cloud">Developer Cloud (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/docker" title="Docker">Docker (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/event-hub" title="Event Hub">Event Hub (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/iac" title="IAC">IAC (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/iaas" title="IaaS">IaaS (4)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/identity-domain" title="Identity Domain">Identity Domain (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/kafka" title="Kafka">Kafka (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/management" title="Management">Management (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/mysql" title="MySQL">MySQL (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/mysql-cs" title="MySQL CS">MySQL CS (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/nested-virtualization" title="Nested Virtualization">Nested Virtualization (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/nosql" title="NoSQL">NoSQL (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oci" title="OCI">OCI (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/omc" title="OMC">OMC (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/omce" title="OMCe">OMCe (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle" title="ORACLE">ORACLE (4)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/object-storage" title="Object Storage">Object Storage (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracl-bdcsce" title="Oracl BDCSCE">Oracl BDCSCE (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle" title="Oracle">Oracle (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-bdcsce" title="Oracle BDCSCE">Oracle BDCSCE (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-big-data-cloud" title="Oracle Big Data Cloud">Oracle Big Data Cloud (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-cloud" title="Oracle Cloud">Oracle Cloud (10)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-digital" title="Oracle Digital">Oracle Digital (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-event-hub" title="Oracle Event Hub">Oracle Event Hub (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-mobile" title="Oracle Mobile">Oracle Mobile (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/psm" title="PSM">PSM (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ravello" title="Ravello">Ravello (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/storage" title="Storage">Storage (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/storage-cs" title="Storage CS">Storage CS (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/terraform" title="Terraform">Terraform (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/tutorial" title="Tutorial">Tutorial (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/vm" title="VM">VM (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/vagrant" title="Vagrant">Vagrant (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/virtualization" title="Virtualization">Virtualization (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/webinar" title="Webinar">Webinar (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/acc" title="acc">acc (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/amabari" title="amabari">amabari (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/automation" title="automation">automation (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/backup" title="backup">backup (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/bdcs-ce" title="bdcs ce">bdcs ce (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/bdcsce" title="bdcsce">bdcsce (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/big-data" title="big data">big data (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cassandra" title="cassandra">cassandra (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/chatbot" title="chatbot">chatbot (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloud" title="cloud">cloud (18)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cncf" title="cncf">cncf (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/compute" title="compute">compute (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/container" title="container">container (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/data-hub" title="data hub">data hub (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/data-management" title="data management">data management (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/database" title="database">database (4)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/database-backup" title="database backup">database backup (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/dbcs" title="dbcs">dbcs (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/deverlper-meetup" title="deverlper meetup">deverlper meetup (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/devops" title="devops">devops (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/docker" title="docker">docker (6)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/hadoop" title="hadoop">hadoop (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/hostname" title="hostname">hostname (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/iaas" title="iaas">iaas (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/integration" title="integration">integration (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/java" title="java">java (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/jupyter" title="jupyter">jupyter (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/kubernetes" title="kubernetes">kubernetes (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/machine-learning" title="machine learning">machine learning (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/monitoring" title="monitoring">monitoring (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/mysql" title="mysql">mysql (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/occs" title="occs">occs (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oci" title="oci">oci (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oci-c" title="oci-c">oci-c (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oci-classic" title="oci-classic">oci-classic (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle" title="oracle">oracle (17)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-chatbot" title="oracle chatbot">oracle chatbot (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-cloud" title="oracle cloud">oracle cloud (7)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-code" title="oracle code">oracle code (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/orchestration" title="orchestration">orchestration (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/paas" title="paas">paas (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/patch" title="patch">patch (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/pubic-ip" title="pubic ip">pubic ip (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ravello" title="ravello">ravello (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/security" title="security">security (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/serverless" title="serverless">serverless (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/spark" title="spark">spark (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ssh" title="ssh">ssh (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/storage" title="storage">storage (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/talkit" title="talkit">talkit (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/terraform" title="terraform">terraform (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/trial" title="trial">trial (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/trial-account" title="trial account">trial account (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/tutorial" title="tutorial">tutorial (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/vm" title="vm">vm (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/webinar" title="webinar">webinar (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/window" title="window">window (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ea%b9%80%ed%83%9c%ec%99%84" title="김태완">김태완 (8)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%8d%94%ec%bb%a4" title="더커">더커 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%8d%b0%ec%9d%b4%ed%84%b0%ec%84%bc%ed%84%b0" title="데이터센터">데이터센터 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%b2%88%ec%97%ad" title="번역">번역 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%b9%85%eb%8d%b0%ec%9d%b4%ed%84%b0" title="빅데이터">빅데이터 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%8a%a4%ed%86%a0%eb%a6%ac%ec%a7%80-%ec%bb%a8%ed%85%8c%ec%9d%b4%eb%84%88" title="스토리지 컨테이너">스토리지 컨테이너 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-chatbot" title="오라클 chatbot">오라클 chatbot (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-%ec%b1%97%eb%b4%87" title="오라클 챗봇">오라클 챗봇 (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-%ec%bf%a0%eb%b2%84%eb%84%a4%ed%8b%b0%ec%8a%a4" title="오라클 쿠버네티스">오라클 쿠버네티스 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-%ed%81%b4%eb%9d%bc%ec%9a%b0%eb%93%9c" title="오라클 클라우드">오라클 클라우드 (6)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5" title="인공지능">인공지능 (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5%eb%b4%87" title="인공지능봇">인공지능봇 (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%b1%84%ed%84%b0%eb%b4%87" title="채터봇">채터봇 (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%b1%97%eb%b4%87" title="챗봇">챗봇 (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%b9%b4%ec%82%b0%eb%93%9c%eb%9d%bc" title="카산드라">카산드라 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ed%85%8c%eb%9d%bc%ed%8f%bc" title="테라폼">테라폼 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ed%86%b5%ed%95%a9" title="통합">통합 (1)</a>
+	</div>
+</div>
+
+	<div class="widget-categories widget">
+	<h4 class="widget__title">SNS(Social Network Service)</h4>
+	<div class="widget__content">
+		<a href="https://github.com/oracloud-kr-team" target="_blank" title="github"><img src="/img/icon/github.png" width="50px" height="50px"/></a>
+		<a href="https://www.slideshare.net/ssusercda07e" target="_blank" title="slideshare"><img src="/img/icon/slideshare.png" width="50px" height="50px"/></a>
+		<a href="https://www.youtube.com/channel/UCboJr3TLlqeDqpBURRdb_lg" target="_blank" title="youtube"><img src="/img/icon/youtube.png" width="50px" height="50px"/></a>
+		<a href="mailto:oracloud.kr@gmail.com" title="email"><img src="/img/icon/email.png" width="50px" height="50px"/></a>
+	</div>
+</div>
+
+	
+<div class="widget-categories widget">
+	<h4 class="widget__title">오라클 클라우드 관련 사이트</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="http://cloud.oracle.com/">
+				Oracle Public Cloud 홈페이지</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="http://developer.oracle.com/">
+				Oracle Developers</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="http://docs.oracle.com/en/cloud/">
+				오라클 클라우드 공식 문서</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="https://apexapps.oracle.com/pls/apex/f?p=44785">
+				Oracle Learning Library(실습강좌)</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="https://www.youtube.com/watch?v=28PWeD_w9zA&list=PL_lN0QYuCPSFimWrf4FpnaGAXzcBJLN7i">
+				ORA 클라우드 지식먹방(Youtube 채널-한국어)</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="http://post.naver.com/odpkorea">
+				Oracle Digital Prime(한글)</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+	
+	<div class="widget-categories widget">
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=51xzzorci1s&amp;m=6&amp;c=ff0000&amp;cr1=ffffff&amp;br=6&amp;oo=3&amp;sx=0" async="async"></script>
+</div>
+
+</aside>
+
+	</div>
+		<footer class="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+			<div class="container container-inner">
+				<p class="footer__copyright">&copy; 2018 오라클 클라우드 기술 블로그. </p>
+			</div>
+		</footer>
+	</div>
+
+<script>
+	var navigation = responsiveNav(".menu", {
+		navClass: "menu--collapse",
+	});
+</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-96765743-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>
+

@@ -6,10 +6,20 @@
     <description>Recent content in Posts on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 01 Sep 2018 21:59:47 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 08 Sep 2018 01:09:25 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>&#39;Oracle Cloud AI 서비스&#39; @ Oracle Impact</title>
+      <link>http://www.oracloud.kr/post/oracle_impact/</link>
+      <pubDate>Sat, 08 Sep 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oracle_impact/</guid>
+      <description>2018월 9월 7일에 르메르디앙 호텔에서 Oracle IMPACT 세미나가 진행되었습니다. 이 행사에서 오라클이 바라보는 AI의 관점과 현재 Oracle Cloud의 AI 지원 서비스 및 향후 비전을 주제로 발표를 했습니다. 발표 내용을 간략하게 정리하겠습니다.
+Oracle Impact: Oracle Cloud AI Enterprise AI  그림 1: 오라클 AI 지향점    오라클은 오라클 클라우드에서 &amp;ldquo;엔터프라이즈 AI&amp;rdquo;관점에서 서비스를 만들고 있으며, 이 서비스를 고도화하고 있습니다. 오라클이 지향하는 AI는 기업이 갖고 있는 데이터 혹은 분석 대상이 되는 정형 &amp;amp;비정형 데이터를 효과적으로 분석하는 환경 체계를 제공하는 것입니다.</description>
+    </item>
     
     <item>
       <title>오라클 챗봇 (Oracle Intelligent Bots) 기능 둘러보기</title>
@@ -40,6 +50,100 @@
       <guid>http://www.oracloud.kr/post/devcs000/</guid>
       <description>Oracle Developer Cloud Service는 자동화된 CI/CD를 위한 빌드 파이프라인 관리를 제공하는 클라우드 서비스입니다.  이 문서에서는 Oracle Developer Cloud의 2018년 4월과 5월 릴리즈에서 추가된 새로운 기능들에 대해서 설명하려고 합니다.
 빌드 파이프라인 정의 및 가시화 이 버전의 Developer Cloud Service에서는 구성된 빌드들을 조합하여 일련의 파이프라인을 구성하는 기능이 추가되었습니다. 각 빌드 작업들은 작업의 연관성과 흐름을 가지며 연속적으로 수행되도록 구성될 수 있습니다. 일련의 빌드 작업의 수행에서 선행 빌드 작업의 성공 여부에 따라 후행 작업의 시작 유무를 조건에 다라 결정 지을 수도 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Big Data Cloud와 Object Storage 연동</title>
+      <link>http://www.oracloud.kr/post/bdc_object_storage_integration/</link>
+      <pubDate>Mon, 18 Jun 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/bdc_object_storage_integration/</guid>
+      <description>Oracle Cloud는 대용량 데이터 병렬 처리와 분석을 담당하는 빅데이터 서비스로 Big Data Cloud(이하 BDC)를 제공합니다. 오라클 클라우드에서 Data Lake는 DBMS와 하둡 HDFS가 아닌 Oracle Storage Cloud Service(이하 Storage Service)에서 제공하는 Object Storage입니다.
+이 문서에서는 대용량 병렬 처리를 담당하는 BDC가 Object Storage에 데이터를 읽고/쓰기는 연동 설정과 연동 방식에 대하여 살펴보겠습니다. 오라클 클라우드는 Storage Service로 OCI Storage Classic과 OCI Storage 서비스 두 가지를 제공합니다. 이 두 가지 서비스는 Object Storage 관점에서 다음과 같이 정리할 수 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle BDC의 Ambari 보안 설정 변경</title>
+      <link>http://www.oracloud.kr/post/bdc_ambari/</link>
+      <pubDate>Thu, 31 May 2018 23:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/bdc_ambari/</guid>
+      <description>오라클 클라우드는 Big Data 서비스로 Big Data Cloud(이하 BDC)를 제공합니다. BDC는 Hotonworks 하둡 패키지를 오라클 클라우드의 PaaS로 제공하는 서비스입니다. 2018년 5월 현재 Oracle BDC는 OCI와 OCI Classic에 모두 배포 가능합니다. Oracle BDC에 대한 개요, 설치 방법 및 OCI와 OCI Classic에 대산 자세한 사항은 아래 문서를 참조하시기 바랍니다.
+ BDC 관련문서  Oracle BDC 소개 문서  Oracle BDC 클러스터 생성 절차(작성일: 2017-07-31)  Oracle OCI와 OCI Classic이란?    Oracle BDC의 Apache Ambari Apache Ambari는 하둡 클러스터 전문 관리 툴입니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Cloud의 PaaS 서비스 패치: Event Hub Service</title>
+      <link>http://www.oracloud.kr/post/oehcs_patch/</link>
+      <pubDate>Tue, 22 May 2018 23:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oehcs_patch/</guid>
+      <description>오라클 Event Hub Service의 패치 절차를 소개합니다. Event Hub Service는 오라클 클라우드에서 제공하는 Kafka 관리형 서비스입니다. Event Hub Service 패치의 특징은 다음과 같습니다.
+ 오라클 클라우드 &amp;ldquo;Event Hub - Dedicated&amp;rdquo;의 서비스 콘솔에서 수행 패치 요청 인터페이스: WebUI, PSM(PaaS Service Manager), REST API Precheck 프로세스 제공: 패치 사전 점검 패치 Rollback 기능 제공 패치는 무중단 서비스로 진행: Rolling Patch  Event Hub Service는 Precheck와 Rollback 패치 기능을 제공하여 서비스 패치의 안전성을 확보하는 동시에 클러스터 노드를 하나씩 패치하는 Rolling Patch 방식으로 패치를 적용합니다.</description>
+    </item>
+    
+    <item>
+      <title>OCI 배포 가능한 Oracle Platform Services(2018.05.15 기준)</title>
+      <link>http://www.oracloud.kr/post/oracle_paas_on_oci/</link>
+      <pubDate>Wed, 16 May 2018 15:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oracle_paas_on_oci/</guid>
+      <description>오라클 클라우드는 IaaS로 OCI Classic과 OCI를 제공합니다. OCI Classic은 오라클 클라우드의 1세대 IaaS 기술이고 OCI(Oracle Cloud Infrastructure)는 오라클 클라우드의 2세대 기술입니다. 초기 Oracle Platform Services는 OCI Classic을 기준으로 발표되었고 현재 OCI으로 확장되고 있습니다. 2018년 5월 기준으로 OCI를 지원하는 Oracle Platform Services 목록은 다음과 같습니다.
+   OCI 지원 PaaS 서비스 명 Oracle PaaS 관련 가이드 문서     Database Cloud Service About Database Deployments in Oracle Cloud Infrastructure   Java Cloud Service About Java Cloud Service Instances in Oracle Cloud Infrastructure   MySQL Cloud Service About MySQL Cloud Service Deployments   Event Hub Cloud Service About Oracle Event Hub Cloud Service - Dedicated instances inOracle Cloud Infrastructure   Data Hub Cloud Service About Oracle Data Hub Cloud Service Clusters in Oracle Cloud Infrastructure   Big Data Cloud About Big Data Cloud Clusters in Oracle Cloud Infrastructure   Oracle SOA Cloud Service About SOA Cloud Service Instances in Oracle Cloud Infrastructure Classic and Oracle Cloud Infrastructure    출처  Information About Supported Platform Services  Oracle Cloud 관련 문서   Oracle Cloud 공통  Oracle Cloud IaaS: OCI vs OCI Classic Oracle Cloud 트라이얼 신청 절차 (2018.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Cloud IaaS: OCI vs OCI Classic</title>
+      <link>http://www.oracloud.kr/post/oci_and_oci_classic/</link>
+      <pubDate>Thu, 03 May 2018 15:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oci_and_oci_classic/</guid>
+      <description>오라클 클라우드는 IaaS로 OCI(Oracle Cloud Infrastructure)와 OCI Classic(Oracle Cloud Infrastructure Classic) 서비스를 제공합니다. 오라클 클라우드를 처음 접할 때, 왜 두 개의 IaaS가 존재하는지 그리고 다른점이 뭔지 혼란스러운 것이 사실입니다. 이와 관련하여 OCI Classic과 OCI란 무엇이고 어떻게 다른지 간략하게 정리해 보겠습니다.
+이 문서에서 다루는 내용은 작성자의 개인적인 의견이며, 오라클의 공식적인 입장과 다를 수 있습니다.
+ 오라클 클라우드 IaaS 서비스 오라클은 2013년 3월에 Nimbula를 인수했습니다. Nimbula는 Private과 Hybrid 클라우드 인프라 관리 기술로 유명한 회사였습니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Cloud 트라이얼 신청 절차 (2018.05.01 기준)</title>
+      <link>http://www.oracloud.kr/post/oracle_cloud_trial/</link>
+      <pubDate>Tue, 01 May 2018 11:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oracle_cloud_trial/</guid>
+      <description>오라클 클라우드 트라이얼이란? 오라클 클라우드 트라이얼은 사용자에게 30일간 300불 크래딧을 무료로 제공하는 프로그램입니다. 사용자는 이 기간 동안 할당된 크래딧을 제약 없이 사용할 수 있습니다. 이 프로그램에서 자원 사용량은 시간 단위로 계산되고, 300불 크래딧에서 차감됩니다. 300불 크래딧이 모두 소진되면 오라클 클라우드 트라이얼 프로그램은 종료됩니다.
+오라클 클라우드 트라이얼 신청 시 신용카드를 입력해야 합니다. 이 부분은 사용자 확인 절차일 뿐이며, 과금을 목적으로 입력하는 항목이 아닙니다. 사용자 확인 목적으로 1불을 결제하고 1분 후에 해당 결제를 취소합니다.</description>
+    </item>
+    
+    <item>
+      <title>OCI Classic: Compute 서비스, VM의 고정 Public IP 지정</title>
+      <link>http://www.oracloud.kr/post/oci_classic_computing_with_permanent_public_ip/</link>
+      <pubDate>Mon, 30 Apr 2018 11:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oci_classic_computing_with_permanent_public_ip/</guid>
+      <description>OCI Classic: Compute 서비스, VM 생성 문서를 참고하여 VM을 생성하면 Public IP가 할당됩니다. 이 Public IP를 이용하여 외부에서 VM에 접근이 가능합니다. 그러나 이렇게 VM을 만들면, VM을 재시작할 때마다 &amp;lt;그림 1&amp;gt;과 같이 Public IP가 변경됩니다. Public IP가 자주 변경되면, 여러 서버를 구성 할 때 관리가 복잡해집니다.
+ 그림 1: OCI-Classic VM의 Public IP 변경: {129.152.141.152 =&amp;gt; 129.152.141.117}    앞에서 만든 VM을 재시작하면 Public IP가 변경되는 이유는 VM을 생성할 때, Network 설정 단계에서 &amp;lt;그림 2&amp;gt;와 같이 &amp;ldquo;Public IP Address&amp;ldquo;가 &amp;ldquo;Auto Generation&amp;ldquo;으로 설정했기 때문입니다.</description>
+    </item>
+    
+    <item>
+      <title>OCI Classic: Compute 서비스, VM 생성</title>
+      <link>http://www.oracloud.kr/post/oci_classic_computing/</link>
+      <pubDate>Fri, 27 Apr 2018 15:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oci_classic_computing/</guid>
+      <description>오라클은 클라우드 IaaS로 Oracle Cloud Infrastructure(OCI)와 Oracle Cloud Infrastructure Classic(OCI Classic) 두 가지를 제공하고 있습니다. 오라클은 Public Cloud IaaS로 OPC(Oracle Public Cloud)를 2014년 OOW(Oracle Open World)에서 공개하였고, OOW 2017에서 OCI Classic으로 서비스 브랜드 명을 변경하였습니다.
+OCI Classic은 Nimbula Director(Xen 기반 하이퍼바이저)을 기반으로 만들어졌으며, IaaS 서비스로 가상머신 컴퓨팅과 네트워크(Shared &amp;amp; IP Networks)를 제공합니다.
+본 문서에서는 Oracle Cloud에서 OCI Classic에서 VM을 생성하는 과정을 소개합니다.
+VM 생성 시나리오 다음과 같은 시나리오를 바탕으로 VM을 구성해 보겠습니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Autonomous Data Warehouse와 Big Data의 오브젝트 스토리지 연계</title>
+      <link>http://www.oracloud.kr/post/integrating_adw_bdc_os/</link>
+      <pubDate>Sat, 31 Mar 2018 08:05:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/integrating_adw_bdc_os/</guid>
+      <description>본 문서는 오라클 공식 블로그의 포스트의 번역입니다.
+  원문: https://blogs.oracle.com/bigdata/integrating-autonomous-data-warehouse-big-data-object-storage 제목: Integrating Autonomous Data Warehouse and Big Data Using Object Storage 작성자: Peter Jeffcock (Big Data Product Marketing) 작성일: 2018.03.27   문서를 시작하기 전에 주요 단어를 정리합니다.
+ Oracle Autonomous Data Warehouse  오라클 자율 주행 Data warehouse용 데이터베이스 서비스. 일반적으로 ADWC로 부릅니다. ADWC는 주행의 개념을 도입한 오라클 클라우드 기술의 첫 번째 데이터베이스 클라우드 서비스입니다. Oracle ADWC는 차세대 오라클 자율 데이터베이스 기술로 만들어 졌으며, 인공지능을 활용하여 탁월한 안정성과 성능을 제공합니다.</description>
     </item>
     
     <item>

@@ -41,7 +41,7 @@
     <item>
       <title>Cloud</title>
       <link>http://www.oracloud.kr/categories/cloud/</link>
-      <pubDate>Wed, 05 Apr 2017 11:23:40 +0900</pubDate>
+      <pubDate>Thu, 31 May 2018 23:20:25 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/categories/cloud/</guid>
       <description></description>
@@ -201,11 +201,38 @@
     </item>
     
     <item>
+      <title>cloud</title>
+      <link>http://www.oracloud.kr/categories/cloud/</link>
+      <pubDate>Thu, 31 May 2018 23:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/categories/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>event</title>
       <link>http://www.oracloud.kr/categories/event/</link>
       <pubDate>Sun, 27 Aug 2017 08:54:32 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/categories/event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>http://www.oracloud.kr/categories/java/</link>
+      <pubDate>Sat, 31 Mar 2018 08:05:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/categories/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oracle</title>
+      <link>http://www.oracloud.kr/categories/oracle/</link>
+      <pubDate>Wed, 05 Apr 2017 11:23:40 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/categories/oracle/</guid>
       <description></description>
     </item>
     

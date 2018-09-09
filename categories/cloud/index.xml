@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cloud on 오라클 클라우드 기술 블로그</title>
+    <title>cloud on 오라클 클라우드 기술 블로그</title>
     <link>http://www.oracloud.kr/categories/cloud/</link>
-    <description>Recent content in Cloud on 오라클 클라우드 기술 블로그</description>
+    <description>Recent content in cloud on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 05 Apr 2017 11:23:40 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 31 May 2018 23:20:25 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Oracle BDC의 Ambari 보안 설정 변경</title>
+      <link>http://www.oracloud.kr/post/bdc_ambari/</link>
+      <pubDate>Thu, 31 May 2018 23:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/bdc_ambari/</guid>
+      <description>오라클 클라우드는 Big Data 서비스로 Big Data Cloud(이하 BDC)를 제공합니다. BDC는 Hotonworks 하둡 패키지를 오라클 클라우드의 PaaS로 제공하는 서비스입니다. 2018년 5월 현재 Oracle BDC는 OCI와 OCI Classic에 모두 배포 가능합니다. Oracle BDC에 대한 개요, 설치 방법 및 OCI와 OCI Classic에 대산 자세한 사항은 아래 문서를 참조하시기 바랍니다.
+ BDC 관련문서  Oracle BDC 소개 문서  Oracle BDC 클러스터 생성 절차(작성일: 2017-07-31)  Oracle OCI와 OCI Classic이란?    Oracle BDC의 Apache Ambari Apache Ambari는 하둡 클러스터 전문 관리 툴입니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Cloud의 PaaS 서비스 패치: Event Hub Service</title>
+      <link>http://www.oracloud.kr/post/oehcs_patch/</link>
+      <pubDate>Tue, 22 May 2018 23:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oehcs_patch/</guid>
+      <description>오라클 Event Hub Service의 패치 절차를 소개합니다. Event Hub Service는 오라클 클라우드에서 제공하는 Kafka 관리형 서비스입니다. Event Hub Service 패치의 특징은 다음과 같습니다.
+ 오라클 클라우드 &amp;ldquo;Event Hub - Dedicated&amp;rdquo;의 서비스 콘솔에서 수행 패치 요청 인터페이스: WebUI, PSM(PaaS Service Manager), REST API Precheck 프로세스 제공: 패치 사전 점검 패치 Rollback 기능 제공 패치는 무중단 서비스로 진행: Rolling Patch  Event Hub Service는 Precheck와 Rollback 패치 기능을 제공하여 서비스 패치의 안전성을 확보하는 동시에 클러스터 노드를 하나씩 패치하는 Rolling Patch 방식으로 패치를 적용합니다.</description>
+    </item>
     
     <item>
       <title>Oracle Container Cloud Service 소개와 Docker 개요</title>
