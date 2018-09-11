@@ -50,7 +50,7 @@
     <item>
       <title>Container</title>
       <link>http://www.oracloud.kr/categories/container/</link>
-      <pubDate>Mon, 24 Apr 2017 19:34:26 +0900</pubDate>
+      <pubDate>Sun, 02 Sep 2018 23:20:25 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/categories/container/</guid>
       <description></description>
@@ -59,7 +59,7 @@
     <item>
       <title>Docker</title>
       <link>http://www.oracloud.kr/categories/docker/</link>
-      <pubDate>Mon, 24 Apr 2017 19:34:26 +0900</pubDate>
+      <pubDate>Sun, 02 Sep 2018 23:20:25 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/categories/docker/</guid>
       <description></description>
@@ -80,6 +80,15 @@
       <pubDate>Sat, 15 Apr 2017 16:05:59 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/categories/iaas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>http://www.oracloud.kr/categories/kubernetes/</link>
+      <pubDate>Sun, 02 Sep 2018 23:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/categories/kubernetes/</guid>
       <description></description>
     </item>
     
@@ -140,7 +149,7 @@
     <item>
       <title>Oracle PaaS</title>
       <link>http://www.oracloud.kr/categories/oracle-paas/</link>
-      <pubDate>Mon, 14 Aug 2017 23:20:25 +0900</pubDate>
+      <pubDate>Sun, 02 Sep 2018 23:20:25 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/categories/oracle-paas/</guid>
       <description></description>
