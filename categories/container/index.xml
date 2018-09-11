@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Oracle Container Engine for Kubernetes #01 : Docker &amp; Kubernetes</title>
-      <link>http://www.oracloud.kr/post/docker_and_kubernetes/</link>
+      <title>Oracle Container Engine (OKE) #01 : Docker &amp; Kubernetes</title>
+      <link>http://www.oracloud.kr/post/docker_and_oke/</link>
       <pubDate>Sun, 02 Sep 2018 23:20:25 +0900</pubDate>
       
-      <guid>http://www.oracloud.kr/post/docker_and_kubernetes/</guid>
+      <guid>http://www.oracloud.kr/post/docker_and_oke/</guid>
       <description>마이크로 서비스의 시작, Docker 와 Kubernetes Docker(이하: 도커))나 Kubernetes(이하: 쿠버네티스)를 많이 들어봤을 것입니다. 또한 마이크로 서비스도 처음 듣는 단어가 아닐 것입니다. 오늘은 이것들이 무엇이고 왜 생겨났는가, 그리고 오라클은 어떻게 지원 하는가에 대해 다루어 보도록 합니다.
 애플리케이션 개발과 관리의 변화 애플리케이션의 개발 방법은 계속해서 변화했습니다. 개발은 그냥 하는 것이라고 생각하지만, 실제로 개발을 하기 위해서 생각해야 할 것들, 그리고 다시 고려해야 할 것들이 많습니다. 이런 것들을 어떻게 효율적으로 생각하고 수정하고 작성하는지에 대해 공식화 한 것을 개발 방법론입니다.</description>
     </item>
