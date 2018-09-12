@@ -6,10 +6,23 @@
     <description>Recent content in Posts on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 08 Sep 2018 01:09:25 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 11 Sep 2018 17:00:00 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Application Container로 10분 안에 웹 서비스 구축하기</title>
+      <link>http://www.oracloud.kr/post/accs001/</link>
+      <pubDate>Tue, 11 Sep 2018 17:00:00 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/accs001/</guid>
+      <description>Oracle Application Container Cloud를 활용해서 10분 안에 jsp를 바로 서비스하는 과정을 설명합니다.
+Hello App 준비하기 간단히 Hello를 출력하는 index.jsp를 아래와 같이 작성하겠습니다. &amp;lt;% out.println(&amp;ldquo;Hello Oracle Cloud&amp;rdquo;); %&amp;gt;  위 파일이 들어 있는 test폴더를 hello.war 파일로 압축합니다. jar cvf hello.war test 
+Oracle Cloud에 접속하기 이제 Oracle Cloud에 접속합니다.
+Oracle Cloud 계정이 없는 경우에는 Oracle Trial 신청절차 문서를 참고하시기 바랍니다.
+Cloud Console에 접속을 한 후 Application Container Cloud Service을 사용하기 위해서는 왼쪽 상단의 햄버거 모양을 누른 후 나오는 왼쪽 메뉴에서 Application Container를 선택하시면 됩니다.</description>
+    </item>
     
     <item>
       <title>&#39;Oracle Cloud AI 서비스&#39; @ Oracle Impact</title>

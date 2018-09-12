@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.oracloud.kr/post/accs001/</loc>
+    <lastmod>2018-09-11T17:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.oracloud.kr/post/oracle_impact/</loc>
     <lastmod>2018-09-08T01:09:25+09:00</lastmod>
   </url>
@@ -466,6 +471,12 @@
   </url>
   
   <url>
+    <loc>http://www.oracloud.kr/tags/application-container-cloud/</loc>
+    <lastmod>2018-09-11T17:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.oracloud.kr/tags/autonomous/</loc>
     <lastmod>2018-03-31T08:05:14+09:00</lastmod>
     <priority>0</priority>
@@ -552,6 +563,12 @@
   <url>
     <loc>http://www.oracloud.kr/categories/cloud/</loc>
     <lastmod>2018-05-31T23:20:25+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.oracloud.kr/tags/cloud-native/</loc>
+    <lastmod>2018-09-11T17:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -670,6 +687,12 @@
   </url>
   
   <url>
+    <loc>http://www.oracloud.kr/tags/java-ee/</loc>
+    <lastmod>2018-09-11T17:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.oracloud.kr/tags/kafka/</loc>
     <lastmod>2017-08-14T23:20:25+09:00</lastmod>
     <priority>0</priority>
@@ -749,7 +772,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/oracle/</loc>
-    <lastmod>2018-08-03T13:58:54+09:00</lastmod>
+    <lastmod>2018-09-11T17:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -791,7 +814,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/oracle-cloud/</loc>
-    <lastmod>2018-08-03T13:58:54+09:00</lastmod>
+    <lastmod>2018-09-11T17:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -845,7 +868,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/categories/oracle-cloud/</loc>
-    <lastmod>2018-08-03T13:58:54+09:00</lastmod>
+    <lastmod>2018-09-11T17:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -868,8 +891,14 @@
   </url>
   
   <url>
+    <loc>http://www.oracloud.kr/tags/polyglot/</loc>
+    <lastmod>2018-09-11T17:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.oracloud.kr/post/</loc>
-    <lastmod>2018-09-08T01:09:25+09:00</lastmod>
+    <lastmod>2018-09-11T17:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -966,6 +995,12 @@
   <url>
     <loc>http://www.oracloud.kr/tags/acc/</loc>
     <lastmod>2017-04-19T19:01:16+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.oracloud.kr/tags/accs/</loc>
+    <lastmod>2018-09-11T17:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1403,13 +1438,13 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C/</loc>
-    <lastmod>2018-08-03T13:58:54+09:00</lastmod>
+    <lastmod>2018-09-11T17:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.oracloud.kr/</loc>
-    <lastmod>2018-09-08T01:09:25+09:00</lastmod>
+    <lastmod>2018-09-11T17:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
