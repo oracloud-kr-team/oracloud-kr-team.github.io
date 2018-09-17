@@ -716,9 +716,18 @@
     <item>
       <title>cloud</title>
       <link>http://www.oracloud.kr/tags/cloud/</link>
-      <pubDate>Wed, 16 May 2018 15:59:47 +0900</pubDate>
+      <pubDate>Fri, 14 Sep 2018 01:09:25 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloudberry</title>
+      <link>http://www.oracloud.kr/tags/cloudberry/</link>
+      <pubDate>Fri, 14 Sep 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/cloudberry/</guid>
       <description></description>
     </item>
     
@@ -912,6 +921,15 @@
     </item>
     
     <item>
+      <title>objectstorage</title>
+      <link>http://www.oracloud.kr/tags/objectstorage/</link>
+      <pubDate>Fri, 14 Sep 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/objectstorage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>occs</title>
       <link>http://www.oracloud.kr/tags/occs/</link>
       <pubDate>Wed, 19 Apr 2017 19:01:16 +0900</pubDate>
@@ -950,7 +968,7 @@
     <item>
       <title>oracle</title>
       <link>http://www.oracloud.kr/tags/oracle/</link>
-      <pubDate>Wed, 16 May 2018 15:59:47 +0900</pubDate>
+      <pubDate>Fri, 14 Sep 2018 01:09:25 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/oracle/</guid>
       <description></description>
@@ -1025,6 +1043,15 @@
       <pubDate>Sat, 25 Mar 2017 11:23:39 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/ravello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>s3</title>
+      <link>http://www.oracloud.kr/tags/s3/</link>
+      <pubDate>Fri, 14 Sep 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/s3/</guid>
       <description></description>
     </item>
     
