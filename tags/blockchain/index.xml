@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blockchain on 오라클 클라우드 기술 블로그</title>
+    <link>http://www.oracloud.kr/tags/blockchain/</link>
+    <description>Recent content in Blockchain on 오라클 클라우드 기술 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 13 Sep 2018 17:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://www.oracloud.kr/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Oracle Autonomous Blockchain Cloud Service 소개</title>
+      <link>http://www.oracloud.kr/post/intro_blockchain/</link>
+      <pubDate>Thu, 13 Sep 2018 17:00:00 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/intro_blockchain/</guid>
+      <description>HyperLedger Fabric 기반의 Oracle Autonomous Blockchain Cloud Service의 간략한 특징, 산업별 사례등에 대한 설명입니다.
+Oracle Autonomous Blockchain Cloud Service 소개 2018년 7월 16일 오라클에선 HyperLedger Fabric 기반의 블록체인 서비스가 출시 되었는데 이름은 Autonomous Blockchain Cloud Service라 부릅니다. Oracle의 블록체인에 대한 목표중 하나는 고객이 비즈니스 구현을 쉽고 빠르게 만드는 것으로 실제 HyperLedger Fabric을 사용하는 개발자나 운영자분들은 오픈소스 측면에서의 생소한 블록체인 플랫폼을 운영하거나 개발하는것이 어려워 중도에 다른 플랫폼을 찾아보거나 하는 여러 케이스를 확인하였습니다.</description>
+    </item>
+    
+  </channel>
+</rss>
