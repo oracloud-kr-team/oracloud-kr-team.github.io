@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://www.oracloud.kr/post/oci_vga_console/</loc>
+    <lastmod>2018-09-18T01:14:25+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.oracloud.kr/post/oci_objectstorage_cloudberry_s3/</loc>
     <lastmod>2018-09-14T01:09:25+09:00</lastmod>
   </url>
@@ -991,7 +996,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/categories/tech-tip/</loc>
-    <lastmod>2018-09-14T01:09:25+09:00</lastmod>
+    <lastmod>2018-09-18T01:14:25+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1123,7 +1128,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/cloud/</loc>
-    <lastmod>2018-09-14T01:09:25+09:00</lastmod>
+    <lastmod>2018-09-18T01:14:25+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1309,7 +1314,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/oracle/</loc>
-    <lastmod>2018-09-14T01:09:25+09:00</lastmod>
+    <lastmod>2018-09-18T01:14:25+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1327,7 +1332,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/oracle-cloud/</loc>
-    <lastmod>2017-11-03T08:54:32+09:00</lastmod>
+    <lastmod>2018-09-18T01:14:25+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1440,8 +1445,20 @@
   </url>
   
   <url>
+    <loc>http://www.oracloud.kr/tags/vga-console/</loc>
+    <lastmod>2018-09-18T01:14:25+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.oracloud.kr/tags/vm/</loc>
     <lastmod>2017-03-05T22:20:25+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.oracloud.kr/tags/vnc/</loc>
+    <lastmod>2018-09-18T01:14:25+09:00</lastmod>
     <priority>0</priority>
   </url>
   
