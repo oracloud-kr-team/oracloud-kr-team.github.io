@@ -6,10 +6,20 @@
     <description>Recent content in CI on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 03 Aug 2018 13:58:54 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 19 Sep 2018 13:58:54 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/tags/ci/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Developer Cloud를 사용한 Docker Image 빌드 및 OCIR(Oracle Cloud Infrastructure Registry)에 Docker Image Push하기</title>
+      <link>http://www.oracloud.kr/post/devcs001/</link>
+      <pubDate>Wed, 19 Sep 2018 13:58:54 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/devcs001/</guid>
+      <description>Oracle Developer Cloud Service는 자동화된 CI/CD를 위한 빌드 파이프라인 관리를 제공하는 클라우드 서비스입니다.  이 문서에서는 지난번 신기능에서 소개해 드린 여려가지 Builder 중에서 Docker Builder에 대해 좀 더 상세히 알아보려고 합니다. Developer Cloud의 Docker Builder를 사용하면 로컬 환경에 Docker 환경을 구성할 필요 없이 Developer Cloud가 제공하는 환경 하에서 Docker Image를 빌드하고 Oracle Cloud Infrastructure Registry (OCIR)을 포함한 Docker Registry에 빌드한 이미지를 Push할 수 있습니다.
+Oracle Container Infrastructure Registry에 Repository 생성하기 Docker Registry로 Oracle Cloud Infrastructure Registry(이하 OCIR)를 사용하기 위해서는 Oracle Cloud Infrastructure(이하 OCI) 콘솔로 로그인 하여 Registry를 생성하여야 합니다.</description>
+    </item>
     
     <item>
       <title>Oracle Developer Cloud - 신기능 자세히 알아보기</title>

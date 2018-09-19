@@ -158,7 +158,7 @@
     <item>
       <title>CD</title>
       <link>http://www.oracloud.kr/tags/cd/</link>
-      <pubDate>Fri, 03 Aug 2018 13:58:54 +0900</pubDate>
+      <pubDate>Wed, 19 Sep 2018 13:58:54 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/cd/</guid>
       <description></description>
@@ -167,7 +167,7 @@
     <item>
       <title>CI</title>
       <link>http://www.oracloud.kr/tags/ci/</link>
-      <pubDate>Fri, 03 Aug 2018 13:58:54 +0900</pubDate>
+      <pubDate>Wed, 19 Sep 2018 13:58:54 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/ci/</guid>
       <description></description>
@@ -284,7 +284,7 @@
     <item>
       <title>Developer Cloud</title>
       <link>http://www.oracloud.kr/tags/developer-cloud/</link>
-      <pubDate>Fri, 03 Aug 2018 13:58:54 +0900</pubDate>
+      <pubDate>Wed, 19 Sep 2018 13:58:54 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/developer-cloud/</guid>
       <description></description>
@@ -293,7 +293,7 @@
     <item>
       <title>Docker</title>
       <link>http://www.oracloud.kr/tags/docker/</link>
-      <pubDate>Sun, 02 Sep 2018 23:20:25 +0900</pubDate>
+      <pubDate>Wed, 19 Sep 2018 13:58:54 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/docker/</guid>
       <description></description>
@@ -444,6 +444,15 @@
     </item>
     
     <item>
+      <title>OCIR</title>
+      <link>http://www.oracloud.kr/tags/ocir/</link>
+      <pubDate>Wed, 19 Sep 2018 13:58:54 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/ocir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>OMC</title>
       <link>http://www.oracloud.kr/tags/omc/</link>
       <pubDate>Fri, 21 Apr 2017 15:00:47 +0900</pubDate>
@@ -464,7 +473,7 @@
     <item>
       <title>ORACLE</title>
       <link>http://www.oracloud.kr/tags/oracle/</link>
-      <pubDate>Thu, 13 Sep 2018 17:00:00 +0900</pubDate>
+      <pubDate>Wed, 19 Sep 2018 13:58:54 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/oracle/</guid>
       <description></description>
@@ -518,7 +527,7 @@
     <item>
       <title>Oracle Cloud</title>
       <link>http://www.oracloud.kr/tags/oracle-cloud/</link>
-      <pubDate>Thu, 13 Sep 2018 17:00:00 +0900</pubDate>
+      <pubDate>Wed, 19 Sep 2018 13:58:54 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/oracle-cloud/</guid>
       <description></description>
@@ -584,6 +593,15 @@
       <pubDate>Sat, 15 Apr 2017 16:05:59 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/ravello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Registry</title>
+      <link>http://www.oracloud.kr/tags/registry/</link>
+      <pubDate>Wed, 19 Sep 2018 13:58:54 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/registry/</guid>
       <description></description>
     </item>
     
@@ -851,7 +869,7 @@
     <item>
       <title>devops</title>
       <link>http://www.oracloud.kr/tags/devops/</link>
-      <pubDate>Fri, 03 Aug 2018 13:58:54 +0900</pubDate>
+      <pubDate>Wed, 19 Sep 2018 13:58:54 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/devops/</guid>
       <description></description>
@@ -1236,6 +1254,15 @@
     </item>
     
     <item>
+      <title>도커</title>
+      <link>http://www.oracloud.kr/tags/%EB%8F%84%EC%BB%A4/</link>
+      <pubDate>Wed, 19 Sep 2018 13:58:54 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/%EB%8F%84%EC%BB%A4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>번역</title>
       <link>http://www.oracloud.kr/tags/%EB%B2%88%EC%97%AD/</link>
       <pubDate>Sat, 31 Mar 2018 08:05:14 +0900</pubDate>
@@ -1292,7 +1319,7 @@
     <item>
       <title>오라클 클라우드</title>
       <link>http://www.oracloud.kr/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C/</link>
-      <pubDate>Thu, 13 Sep 2018 17:00:00 +0900</pubDate>
+      <pubDate>Wed, 19 Sep 2018 13:58:54 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C/</guid>
       <description></description>

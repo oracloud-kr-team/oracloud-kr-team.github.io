@@ -45,7 +45,7 @@
 		<li class="menu__item "><a class="menu__link" href="/oraclooud/" title="oracloud.kr을 소개합니다. " >oracloud.kr 소개</a></li>
 		<li class="menu__item "><a class="menu__link" href="/monthly-oracle-code/" title="월간 오라클 기술 세미나를 기록합니다." >오라클 기술 세미나</a></li>
 		<li class="menu__item "><a class="menu__link" href="/opc-terminology/" title="오라클 클라우드에서 각 서비스에서 사용하는 용어의 정의를 정리합니다." >OPC 용어사전</a></li>
-		<li class="menu__item "><a class="menu__link" href="https://gitter.im/oracloud-korea-user-group/Lobby" title="블로그 사용자간의 원할한 소통을 위해 준비한 Gitter 채팅 서비스로 이동합니다."target='_blank' >오라클 클라우드 채팅룸</a></li>
+		<li class="menu__item "><a class="menu__link" href="https://gitter.im/oracloud-korea-user-group/Lobby" title="채팅룸으로 이동합니다."target='_blank' >오라클 클라우드 채팅룸</a></li>
 	</ul>
 </nav>
 
@@ -599,6 +599,10 @@ s.setAttribute('data-timestamp', +new Date());
 	<div class="widget__content">
 		<ul class="widget__list">
 			<li class="widget__item">
+				<a class="widget__link" href="/post/devcs001/" title="Developer Cloud를 사용한 Docker Image 빌드 및 OCIR(Oracle Cloud Infrastructure Registry)에 Docker Image Push하기">
+							Developer Cloud를 사용한 Docker Image 빌 ......</a>
+		  </li>
+			<li class="widget__item">
 				<a class="widget__link" href="/post/oci_objectstorage_cloudberry_s3/" title="Cloudberry로 OCI Object Storage 접속하기">
 							Cloudberry로 OCI Object Storage 접속하기</a>
 		  </li>
@@ -633,10 +637,6 @@ s.setAttribute('data-timestamp', +new Date());
 			<li class="widget__item">
 				<a class="widget__link" href="/post/bdc_object_storage_integration/" title="Oracle Big Data Cloud와 Object Storage 연동">
 							Oracle Big Data Cloud와 Object Storage 연동</a>
-		  </li>
-			<li class="widget__item">
-				<a class="widget__link" href="/post/bdc_ambari/" title="Oracle BDC의 Ambari 보안 설정 변경">
-							Oracle BDC의 Ambari 보안 설정 변경</a>
 		  </li>
 		</ul>
 	</div>
@@ -699,8 +699,8 @@ s.setAttribute('data-timestamp', +new Date());
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/blockchain" title="Blockchain">Blockchain (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/blockchain-platform" title="Blockchain platform">Blockchain platform (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cc" title="C@C">C@C (1)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cd" title="CD">CD (1)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ci" title="CI">CI (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cd" title="CD">CD (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ci" title="CI">CI (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloud" title="CLOUD">CLOUD (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/chef" title="Chef">Chef (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloud" title="Cloud">Cloud (3)</a>
@@ -713,8 +713,8 @@ s.setAttribute('data-timestamp', +new Date());
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/data-visualization" title="Data Visualization">Data Visualization (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/desktop" title="Desktop">Desktop (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/devops" title="DevOps">DevOps (2)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/developer-cloud" title="Developer Cloud">Developer Cloud (1)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/docker" title="Docker">Docker (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/developer-cloud" title="Developer Cloud">Developer Cloud (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/docker" title="Docker">Docker (3)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/event-hub" title="Event Hub">Event Hub (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/hyperledger" title="HyperLedger">HyperLedger (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/iac" title="IAC">IAC (1)</a>
@@ -731,15 +731,16 @@ s.setAttribute('data-timestamp', +new Date());
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/nosql" title="NoSQL">NoSQL (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oabcs" title="OABCS">OABCS (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oci" title="OCI">OCI (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ocir" title="OCIR">OCIR (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/omc" title="OMC">OMC (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/omce" title="OMCe">OMCe (1)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle" title="ORACLE">ORACLE (6)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle" title="ORACLE">ORACLE (7)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/object-storage" title="Object Storage">Object Storage (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracl-bdcsce" title="Oracl BDCSCE">Oracl BDCSCE (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle" title="Oracle">Oracle (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-bdcsce" title="Oracle BDCSCE">Oracle BDCSCE (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-big-data-cloud" title="Oracle Big Data Cloud">Oracle Big Data Cloud (1)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-cloud" title="Oracle Cloud">Oracle Cloud (12)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-cloud" title="Oracle Cloud">Oracle Cloud (13)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-digital" title="Oracle Digital">Oracle Digital (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-event-hub" title="Oracle Event Hub">Oracle Event Hub (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-mobile" title="Oracle Mobile">Oracle Mobile (1)</a>
@@ -747,6 +748,7 @@ s.setAttribute('data-timestamp', +new Date());
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/psm" title="PSM">PSM (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/polyglot" title="Polyglot">Polyglot (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ravello" title="Ravello">Ravello (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/registry" title="Registry">Registry (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/storage" title="Storage">Storage (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/storage-cs" title="Storage CS">Storage CS (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/terraform" title="Terraform">Terraform (2)</a>
@@ -776,7 +778,7 @@ s.setAttribute('data-timestamp', +new Date());
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/database-backup" title="database backup">database backup (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/dbcs" title="dbcs">dbcs (3)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/deverlper-meetup" title="deverlper meetup">deverlper meetup (2)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/devops" title="devops">devops (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/devops" title="devops">devops (4)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/docker" title="docker">docker (6)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/hadoop" title="hadoop">hadoop (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/hostname" title="hostname">hostname (1)</a>
@@ -819,13 +821,14 @@ s.setAttribute('data-timestamp', +new Date());
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ea%b9%80%ed%83%9c%ec%99%84" title="김태완">김태완 (8)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%8d%94%ec%bb%a4" title="더커">더커 (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%8d%b0%ec%9d%b4%ed%84%b0%ec%84%bc%ed%84%b0" title="데이터센터">데이터센터 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%8f%84%ec%bb%a4" title="도커">도커 (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%b2%88%ec%97%ad" title="번역">번역 (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%b9%85%eb%8d%b0%ec%9d%b4%ed%84%b0" title="빅데이터">빅데이터 (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%8a%a4%ed%86%a0%eb%a6%ac%ec%a7%80-%ec%bb%a8%ed%85%8c%ec%9d%b4%eb%84%88" title="스토리지 컨테이너">스토리지 컨테이너 (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-chatbot" title="오라클 chatbot">오라클 chatbot (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-%ec%b1%97%eb%b4%87" title="오라클 챗봇">오라클 챗봇 (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-%ec%bf%a0%eb%b2%84%eb%84%a4%ed%8b%b0%ec%8a%a4" title="오라클 쿠버네티스">오라클 쿠버네티스 (1)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-%ed%81%b4%eb%9d%bc%ec%9a%b0%eb%93%9c" title="오라클 클라우드">오라클 클라우드 (8)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-%ed%81%b4%eb%9d%bc%ec%9a%b0%eb%93%9c" title="오라클 클라우드">오라클 클라우드 (9)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5" title="인공지능">인공지능 (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5%eb%b4%87" title="인공지능봇">인공지능봇 (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%b1%84%ed%84%b0%eb%b4%87" title="채터봇">채터봇 (2)</a>
