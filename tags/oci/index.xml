@@ -6,10 +6,32 @@
     <description>Recent content in oci on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 25 Dec 2017 21:28:14 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 20 Sep 2018 02:20:25 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/tags/oci/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OCI 따라하기 1-1. VCN 생성하기</title>
+      <link>http://www.oracloud.kr/post/oci_workshop_1/</link>
+      <pubDate>Thu, 20 Sep 2018 02:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oci_workshop_1/</guid>
+      <description>OCI IaaS 따라하기 시리즈  OCI Network
+ VCN 생성하기 DRG 설정하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Instance 생성하기  Load Balancer  Load Balancer 생성하기 Load Balancer를 사용하여 보안강화하기  Resource 삭제하기
+  Oracle Cloud에 로그인하기 Oracle Cloud를 사용하기 위해서는, 다른 사용자들과 분리된 해당 계정이 사용할 네트워크를 먼저 구성하여야 합니다. Oracle Cloud에서는 이를 VCN - Virtual Cloud Network 라고 합니다.</description>
+    </item>
+    
+    <item>
+      <title>OCI 따라하기 시리즈</title>
+      <link>http://www.oracloud.kr/post/oci_workshop/</link>
+      <pubDate>Wed, 19 Sep 2018 12:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oci_workshop/</guid>
+      <description>Oracle Cloud에는 VM만을 지원하는 OCI-Classic과, VM과 Bare Metal을 함께 지원하는 OCI-Oracle Cloud Infrastructure 두 가지가 있습니다. &amp;ldquo;OCI 따라하기&amp;rdquo; 시리즈에서는 Oracle Cloud를 처음 접하시는 분들이 쉽게 이해하실 수 있도록, OCI에 기본적인 Network환경을 구성하는 것부터 Instance를 생성하고 AD간의 Load Balancer 설정하는 방법 등을 포함하고 있습니다.
+Oracle Cloud에서 Trial Account를 생성하시면, $300 상당의 Credit을 무료로 사용하실 수 있습니다.
+Oracle Cloud의 Trial Account를 생성하는 방법은 Oracle Cloud Trial 신청: $300 Credit을 참조하시기 바랍니다.</description>
+    </item>
     
     <item>
       <title>[번역]2017 KubeCon 오라클 발표: Kubernetes와 Serverless</title>
