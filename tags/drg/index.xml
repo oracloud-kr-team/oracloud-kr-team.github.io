@@ -6,10 +6,21 @@
     <description>Recent content in DRG on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 20 Sep 2018 02:20:25 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 21 Sep 2018 02:20:25 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/tags/drg/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OCI 따라하기 1-2. DRG 생성하기</title>
+      <link>http://www.oracloud.kr/post/oci_workshop_2/</link>
+      <pubDate>Fri, 21 Sep 2018 02:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oci_workshop_2/</guid>
+      <description>OCI IaaS 따라하기 시리즈  OCI Network
+ VCN 생성하기 DRG 생성하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Subnet에 생성하기  Load Balancer  Load Balancer 생성하기 Load Balancer를 사용하여 보안강화하기  Resource 삭제하기
+  DRG 생성하기 VCN 생성하기에서 생성하였던, IGW(Internet Gateway)가 Public Internet과 연결하기 위한 통로라면, DRG(Dynamic Routing Gateway)는 고객의 온 프레미스 환경에서 VCN에 접속하기 위한 통로입니다. DRG는 고객의 IPSec VPN 또는 Fast Connect 연결에서 VCN으로 트래픽을 라우팅하는 가상 라우터입니다.</description>
+    </item>
     
     <item>
       <title>OCI 따라하기 1-1. VCN 생성하기</title>
@@ -18,7 +29,7 @@
       
       <guid>http://www.oracloud.kr/post/oci_workshop_1/</guid>
       <description>OCI IaaS 따라하기 시리즈  OCI Network
- VCN 생성하기 DRG 설정하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Instance 생성하기  Load Balancer  Load Balancer 생성하기 Load Balancer를 사용하여 보안강화하기  Resource 삭제하기
+ VCN 생성하기 DRG 설정하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Subnet에 생성하기  Load Balancer  Load Balancer 생성하기 Load Balancer를 사용하여 보안강화하기  Resource 삭제하기
   Oracle Cloud에 로그인하기 Oracle Cloud를 사용하기 위해서는, 다른 사용자들과 분리된 해당 계정이 사용할 네트워크를 먼저 구성하여야 합니다. Oracle Cloud에서는 이를 VCN - Virtual Cloud Network 라고 합니다.</description>
     </item>
     
