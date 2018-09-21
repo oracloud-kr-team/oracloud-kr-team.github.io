@@ -6,10 +6,23 @@
     <description>Recent content in Cloud Native on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 11 Sep 2018 17:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 21 Sep 2018 16:00:00 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/tags/cloud-native/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Application Container로 10분 안에 Node.js 배포하기</title>
+      <link>http://www.oracloud.kr/post/accs002/</link>
+      <pubDate>Fri, 21 Sep 2018 16:00:00 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/accs002/</guid>
+      <description>Oracle Application Container Cloud를 활용해서 10분 안에 Node.js를 바로 서비스하는 과정을 설명합니다.
+Oracle Application Container Cloud는 Java, Node.js, PHP, Python, Ruby, Dotnet, Go등의 다양한 언어를 지원합니다.
+이전 Post Application Container로 10분 안에 웹서비스 구축하기에서는 JavaEE 인 WAR 파일 배포에 대해 소개드렸습니다.
+이번에는 Node.js를 배포하는 방법에 대해서 알아보겠습니다.
+Hello Node.js App 준비하기 간단히 Http 요청을 받을 수 있는 node.js용 파일을 아래와 같이 작성하고 myapp.js라고 저장하겠습니다. 페이지를 호출하면 Hello World라고 출력을 하게 됩니다.</description>
+    </item>
     
     <item>
       <title>Application Container로 10분 안에 웹서비스 구축</title>
