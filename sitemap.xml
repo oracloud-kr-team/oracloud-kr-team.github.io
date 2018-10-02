@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://www.oracloud.kr/post/devcs002/</loc>
+    <lastmod>2018-10-01T13:58:54+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.oracloud.kr/post/oci_workshop_6/</loc>
     <lastmod>2018-09-25T02:20:25+09:00</lastmod>
   </url>
@@ -597,13 +602,13 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/cd/</loc>
-    <lastmod>2018-09-19T13:58:54+09:00</lastmod>
+    <lastmod>2018-10-01T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.oracloud.kr/tags/ci/</loc>
-    <lastmod>2018-09-19T13:58:54+09:00</lastmod>
+    <lastmod>2018-10-01T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -711,7 +716,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/developer-cloud/</loc>
-    <lastmod>2018-09-19T13:58:54+09:00</lastmod>
+    <lastmod>2018-10-01T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -885,7 +890,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/oracle/</loc>
-    <lastmod>2018-09-21T16:00:00+09:00</lastmod>
+    <lastmod>2018-10-01T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -927,7 +932,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/oracle-cloud/</loc>
-    <lastmod>2018-09-25T02:20:25+09:00</lastmod>
+    <lastmod>2018-10-01T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -981,7 +986,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/categories/oracle-cloud/</loc>
-    <lastmod>2018-09-21T16:00:00+09:00</lastmod>
+    <lastmod>2018-10-01T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1275,7 +1280,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/devops/</loc>
-    <lastmod>2018-09-19T13:58:54+09:00</lastmod>
+    <lastmod>2018-10-01T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1468,6 +1473,12 @@
   <url>
     <loc>http://www.oracloud.kr/tags/patch/</loc>
     <lastmod>2018-05-22T23:20:25+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.oracloud.kr/tags/pipeline/</loc>
+    <lastmod>2018-10-01T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1696,6 +1707,12 @@
   <url>
     <loc>http://www.oracloud.kr/tags/%ED%86%B5%ED%95%A9/</loc>
     <lastmod>2018-03-31T08:05:14+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.oracloud.kr/tags/%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8/</loc>
+    <lastmod>2018-10-01T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
