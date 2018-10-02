@@ -46,7 +46,7 @@
 		<li class="menu__item "><a class="menu__link" href="/oraclooud/" title="oracloud.kr을 소개합니다. " >oracloud.kr 소개</a></li>
 		<li class="menu__item "><a class="menu__link" href="/monthly-oracle-code/" title="월간 오라클 기술 세미나를 기록합니다." >오라클 기술 세미나</a></li>
 		<li class="menu__item "><a class="menu__link" href="/opc-terminology/" title="오라클 클라우드에서 각 서비스에서 사용하는 용어의 정의를 정리합니다." >OPC 용어사전</a></li>
-		<li class="menu__item "><a class="menu__link" href="https://gitter.im/oracloud-korea-user-group/Lobby" title="블로그 사용자간의 원할한 소통을 위해 준비한 Gitter 채팅 서비스로 이동합니다."target='_blank' >오라클 클라우드 채팅룸</a></li>
+		<li class="menu__item "><a class="menu__link" href="https://gitter.im/oracloud-korea-user-group/Lobby" title="채팅룸으로 이동합니다."target='_blank' >오라클 클라우드 채팅룸</a></li>
 	</ul>
 </nav>
 
@@ -147,6 +147,10 @@ Hello App 준비하기 간단히 Hello를 출력하는 index.jsp를 아래와 �
 	<div class="widget__content">
 		<ul class="widget__list">
 			<li class="widget__item">
+				<a class="widget__link" href="/post/interconnectivity/" title="Oracle Cloud와 타 클라우드 연결하기">
+							Oracle Cloud와 타 클라우드 연결하기</a>
+		  </li>
+			<li class="widget__item">
 				<a class="widget__link" href="/post/oci_workshop_6/" title="OCI 따라하기 2-2. Private Subnet에 Instance 생성하기">
 							OCI 따라하기 2-2. Private Subnet에 Insta ......</a>
 		  </li>
@@ -181,10 +185,6 @@ Hello App 준비하기 간단히 Hello를 출력하는 index.jsp를 아래와 �
 			<li class="widget__item">
 				<a class="widget__link" href="/post/oci_workshop/" title="OCI 따라하기 시리즈">
 							OCI 따라하기 시리즈</a>
-		  </li>
-			<li class="widget__item">
-				<a class="widget__link" href="/post/oci_vga_console/" title="VGA Console로 OCI Compute 인스턴스 연결하기">
-							VGA Console로 OCI Compute 인스턴스 연결하기</a>
 		  </li>
 		</ul>
 	</div>
@@ -320,7 +320,7 @@ Hello App 준비하기 간단히 Hello를 출력하는 index.jsp를 아래와 �
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/big-data" title="big data">big data (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cassandra" title="cassandra">cassandra (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/chatbot" title="chatbot">chatbot (2)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloud" title="cloud">cloud (20)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloud" title="cloud">cloud (21)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloudberry" title="cloudberry">cloudberry (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cncf" title="cncf">cncf (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/compute" title="compute">compute (1)</a>
@@ -333,24 +333,29 @@ Hello App 준비하기 간단히 Hello를 출력하는 index.jsp를 아래와 �
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/deverlper-meetup" title="deverlper meetup">deverlper meetup (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/devops" title="devops">devops (4)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/docker" title="docker">docker (6)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/fastconnect" title="fastconnect">fastconnect (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/hadoop" title="hadoop">hadoop (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/hostname" title="hostname">hostname (1)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/iaas" title="iaas">iaas (4)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/iaas" title="iaas">iaas (5)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/integration" title="integration">integration (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/interconnect" title="interconnect">interconnect (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ipsec" title="ipsec">ipsec (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/java" title="java">java (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/jupyter" title="jupyter">jupyter (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/kubernetes" title="kubernetes">kubernetes (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/machine-learning" title="machine learning">machine learning (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/megaport" title="megaport">megaport (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/monitoring" title="monitoring">monitoring (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/mysql" title="mysql">mysql (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/network" title="network">network (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/objectstorage" title="objectstorage">objectstorage (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/occs" title="occs">occs (1)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oci" title="oci">oci (4)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oci" title="oci">oci (5)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oci-c" title="oci-c">oci-c (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oci-classic" title="oci-classic">oci-classic (1)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle" title="oracle">oracle (19)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle" title="oracle">oracle (20)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-chatbot" title="oracle chatbot">oracle chatbot (2)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-cloud" title="oracle cloud">oracle cloud (8)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-cloud" title="oracle cloud">oracle cloud (9)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-code" title="oracle code">oracle code (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/orchestration" title="orchestration">orchestration (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/paas" title="paas">paas (2)</a>
@@ -371,6 +376,7 @@ Hello App 준비하기 간단히 Hello를 출력하는 index.jsp를 아래와 �
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/vga-console" title="vga console">vga console (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/vm" title="vm">vm (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/vnc" title="vnc">vnc (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/vpn" title="vpn">vpn (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/webinar" title="webinar">webinar (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/window" title="window">window (1)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ea%b9%80%ed%83%9c%ec%99%84" title="김태완">김태완 (8)</a>
@@ -383,7 +389,7 @@ Hello App 준비하기 간단히 Hello를 출력하는 index.jsp를 아래와 �
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-chatbot" title="오라클 chatbot">오라클 chatbot (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-%ec%b1%97%eb%b4%87" title="오라클 챗봇">오라클 챗봇 (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-%ec%bf%a0%eb%b2%84%eb%84%a4%ed%8b%b0%ec%8a%a4" title="오라클 쿠버네티스">오라클 쿠버네티스 (1)</a>
-		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-%ed%81%b4%eb%9d%bc%ec%9a%b0%eb%93%9c" title="오라클 클라우드">오라클 클라우드 (11)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-%ed%81%b4%eb%9d%bc%ec%9a%b0%eb%93%9c" title="오라클 클라우드">오라클 클라우드 (12)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5" title="인공지능">인공지능 (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5%eb%b4%87" title="인공지능봇">인공지능봇 (2)</a>
 		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%b1%84%ed%84%b0%eb%b4%87" title="채터봇">채터봇 (2)</a>

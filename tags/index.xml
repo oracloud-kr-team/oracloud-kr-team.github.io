@@ -815,7 +815,7 @@
     <item>
       <title>cloud</title>
       <link>http://www.oracloud.kr/tags/cloud/</link>
-      <pubDate>Tue, 18 Sep 2018 01:14:25 +0900</pubDate>
+      <pubDate>Tue, 02 Oct 2018 01:09:25 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/cloud/</guid>
       <description></description>
@@ -930,6 +930,15 @@
     </item>
     
     <item>
+      <title>fastconnect</title>
+      <link>http://www.oracloud.kr/tags/fastconnect/</link>
+      <pubDate>Tue, 02 Oct 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/fastconnect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>hadoop</title>
       <link>http://www.oracloud.kr/tags/hadoop/</link>
       <pubDate>Fri, 27 Oct 2017 11:59:47 +0900</pubDate>
@@ -962,6 +971,24 @@
       <pubDate>Wed, 23 Aug 2017 21:00:00 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>interconnect</title>
+      <link>http://www.oracloud.kr/tags/interconnect/</link>
+      <pubDate>Tue, 02 Oct 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/interconnect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ipsec</title>
+      <link>http://www.oracloud.kr/tags/ipsec/</link>
+      <pubDate>Tue, 02 Oct 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/ipsec/</guid>
       <description></description>
     </item>
     
@@ -1002,6 +1029,15 @@
     </item>
     
     <item>
+      <title>megaport</title>
+      <link>http://www.oracloud.kr/tags/megaport/</link>
+      <pubDate>Tue, 02 Oct 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/megaport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>monitoring</title>
       <link>http://www.oracloud.kr/tags/monitoring/</link>
       <pubDate>Fri, 21 Apr 2017 15:00:47 +0900</pubDate>
@@ -1016,6 +1052,15 @@
       <pubDate>Fri, 29 Sep 2017 17:17:35 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network</title>
+      <link>http://www.oracloud.kr/tags/network/</link>
+      <pubDate>Tue, 02 Oct 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/network/</guid>
       <description></description>
     </item>
     
@@ -1067,7 +1112,7 @@
     <item>
       <title>oracle</title>
       <link>http://www.oracloud.kr/tags/oracle/</link>
-      <pubDate>Tue, 18 Sep 2018 01:14:25 +0900</pubDate>
+      <pubDate>Tue, 02 Oct 2018 01:09:25 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/oracle/</guid>
       <description></description>
@@ -1085,7 +1130,7 @@
     <item>
       <title>oracle cloud</title>
       <link>http://www.oracloud.kr/tags/oracle-cloud/</link>
-      <pubDate>Tue, 18 Sep 2018 01:14:25 +0900</pubDate>
+      <pubDate>Tue, 02 Oct 2018 01:09:25 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/oracle-cloud/</guid>
       <description></description>
@@ -1272,6 +1317,15 @@
     </item>
     
     <item>
+      <title>vpn</title>
+      <link>http://www.oracloud.kr/tags/vpn/</link>
+      <pubDate>Tue, 02 Oct 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/vpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>webinar</title>
       <link>http://www.oracloud.kr/tags/webinar/</link>
       <pubDate>Thu, 09 Mar 2017 12:35:37 +0900</pubDate>
@@ -1382,7 +1436,7 @@
     <item>
       <title>오라클 클라우드</title>
       <link>http://www.oracloud.kr/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C/</link>
-      <pubDate>Fri, 21 Sep 2018 16:00:00 +0900</pubDate>
+      <pubDate>Tue, 02 Oct 2018 01:09:25 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C/</guid>
       <description></description>
