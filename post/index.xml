@@ -6,10 +6,82 @@
     <description>Recent content in Posts on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 02 Oct 2018 01:09:25 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 15 Oct 2018 12:00:00 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OKE #04 : 애플리케이션 배포</title>
+      <link>http://www.oracloud.kr/post/oke-4/</link>
+      <pubDate>Mon, 15 Oct 2018 12:00:00 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oke-4/</guid>
+      <description>Oracle Container Engine for Kubrnetes 시리즈 목차  Docker &amp;amp; Kubernetes OKE 구성 OKE Cluster 애플리케이션 배포 예정입니다.  OKE에 간단한 웹 애플리케이션 배포 배포의 근본은 모든 K8 객체를 k8 클러스터에 적용하는 방법입니다. 이 작업을 수행하는 데는 kubectl을 사용하는데 여러 가지 방법이 있습니다.
+ run, expose create apply  위의 모든 방법은 다른 목적과 단순성을 가지고 있습니다. 예를 들어 컨테이너가 원하는대로 작동하는지 신속하게 확인하려면 run 및 expose를 사용할 수 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>OKE #03 : OKE Cluster</title>
+      <link>http://www.oracloud.kr/post/oke-3/</link>
+      <pubDate>Mon, 15 Oct 2018 11:00:00 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oke-3/</guid>
+      <description>Oracle Container Engine for Kubrnetes 시리즈 목차  Docker &amp;amp; Kubernetes OKE 구성 OKE Cluster 애플리케이션 배포 예정입니다.  Cluster 환경 탐색 쿠버네티스 클러스터를 살펴보기 위하여 다음과 같은 항목들을 수행하도록 합니다.
+ Oracle Cloud Infrastructure CLI 설치 및 구성 API 서명 키 쌍의 공개 키 값을 사용자 이름의 사용자 설정 클러스터 용 kubeconfig 파일 다운로드 kubectl 및 Kubernetes 대시 보드에 대한 클러스터 액세스 확인  CLI 설치 프로그램 사용 설치 프로그램은 스크립트를 사용하여 필요한 CLI 및 프로그램을 설치합니다.</description>
+    </item>
+    
+    <item>
+      <title>OKE #02 : OKE 구성</title>
+      <link>http://www.oracloud.kr/post/oke-2/</link>
+      <pubDate>Mon, 15 Oct 2018 10:00:00 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oke-2/</guid>
+      <description>Oracle Container Engine for Kubrnetes 시리즈 목차  Docker &amp;amp; Kubernetes OKE 구성 OKE Cluster 애플리케이션 배포 예정입니다.  OKE 환경구성 오라클의 쿠버네티스 클러스터 환경인 Container Engine for Kubernetes. 줄임말로 OKE에 대해서 알아보도록 합니다.
+ OCI (Oracle Cloud Infrastructure) 시작하기 리소스 제어권한 부여하기 VCN (Virtual Cluster Network) 생성하기 클러스터 세부사항 정의하기 노드풀 세부사항 정의하기  배경 Kubernetes용 Oracle Cloud Infrastructure Container Engine은 완벽하게 관리되고 확장 가능하며 가용성이 높은 서비스로, 컨테이너화 된 애플리케이션을 클라우드에 전개하는 데 사용할 수 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>OKE #01 : Docker &amp; Kubernetes</title>
+      <link>http://www.oracloud.kr/post/oke-1/</link>
+      <pubDate>Mon, 15 Oct 2018 09:00:00 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oke-1/</guid>
+      <description>Oracle Container Engine for Kubrnetes 시리즈 목차  Docker &amp;amp; Kubernetes OKE 구성 OKE Cluster 애플리케이션 배포 예정입니다.  마이크로 서비스의 시작, Docker 와 Kubernetes Docker(이하: 도커))나 Kubernetes(이하: 쿠버네티스)를 많이 들어봤을 것입니다. 또한 마이크로 서비스도 처음 듣는 단어가 아닐 것입니다. 오늘은 이것들이 무엇이고 왜 생겨났는가, 그리고 오라클은 어떻게 지원 하는가에 대해 다루어 보도록 합니다.
+애플리케이션 개발과 관리의 변화 애플리케이션의 개발 방법은 계속해서 변화했습니다. 개발은 그냥 하는 것이라고 생각하지만, 실제로 개발을 하기 위해서 생각해야 할 것들, 그리고 다시 고려해야 할 것들이 많습니다.</description>
+    </item>
+    
+    <item>
+      <title>OCI 따라하기 4. Resource 삭제하기</title>
+      <link>http://www.oracloud.kr/post/oci_workshop_8/</link>
+      <pubDate>Thu, 11 Oct 2018 02:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oci_workshop_8/</guid>
+      <description>OCI IaaS 따라하기 시리즈  OCI Network
+ VCN 생성하기 DRG 설정하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Subnet에 생성하기  Load Balancer  Load Balancer 생성하기  Resource 삭제하기  Resource 삭제하기   Load Balancer 종료하기 Menu -&amp;gt; Networking -&amp;gt; Load Balancer
+해당 Load Balancer를 Terminate합니다. &amp;lt;그림1&amp;gt; Load Balancer 종료하기
+Instnace 종료하기 Menu -&amp;gt; Compute -&amp;gt; Instsance
+해당 Instance를 Terminate 합니다.</description>
+    </item>
+    
+    <item>
+      <title>OCI 따라하기 3. Load Balancer 생성하기</title>
+      <link>http://www.oracloud.kr/post/oci_workshop_7/</link>
+      <pubDate>Wed, 10 Oct 2018 02:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oci_workshop_7/</guid>
+      <description>OCI IaaS 따라하기 시리즈  OCI Network
+ VCN 생성하기 DRG 설정하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Subnet에 생성하기  Load Balancer  Load Balancer 생성하기  Resource 삭제하기  Resource 삭제하기   Load Balancer 생성을 위한 Pre-Work 워크로드를 분산하여 처리할 인스턴스를 생성하여야 합니다. AD1과 AD2에 apache web server를 각각 1개씩 생성합니다. AD2에 apache web server를 생성하는 것은 다음의 링크를 참조합니다.</description>
+    </item>
+    
+    <item>
+      <title>Multiple VNIC로 서로 다른 VCN 연결하기: Part 1</title>
+      <link>http://www.oracloud.kr/post/connecting_vcn/</link>
+      <pubDate>Mon, 08 Oct 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/connecting_vcn/</guid>
+      <description>Oracle Cloud Infrastructure에서는 둘 이상의 VCN(Virtual Cloud Network)을 연결할 경우 LPG(Local Peering Gateway)가 사용됩니다. LPG를 사용하면 프로바이더 VCN이 고객 VCN과 연결되어 공유 리소스에 대한 Private Access를 허용할 수 있는 서비스 프로바이더 모델을 사용할 수 있습니다. 그러나 VCN 당 10개의 LPG만 연결할 수 있습니다. Oracle Cloud Infrastructure를 사용하는 IT 관리 회사의 예를 살펴보겠습니다. 이들은 하나의 VCN을 중앙 IT 팀이 제어하는 허브 VCN으로 프로비저닝 합니다. 각 클라이언트에 대해 Spoke VCN을 프로비저닝 합니다.</description>
+    </item>
     
     <item>
       <title>Oracle Cloud와 타 클라우드 연결하기</title>
@@ -36,9 +108,8 @@
       
       <guid>http://www.oracloud.kr/post/oci_workshop_6/</guid>
       <description>OCI IaaS 따라하기 시리즈  OCI Network
- VCN 생성하기 DRG 설정하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Subnet에 생성하기  Load Balancer  Load Balancer 생성하기 Load Balancer를 사용하여 보안강화하기  Resource 삭제하기
-  Private Subnet에 Instance 생성하기  Compute 메뉴로 이동합니다. Menu -&amp;gt; Compute -&amp;gt; Instance -&amp;gt; Create Instance 클릭 &amp;lt;그림1&amp;gt; Compute 메뉴로 이동
-적절한 Compartment를 선택하고 Create Instance를 클릭합니다.</description>
+ VCN 생성하기 DRG 설정하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Subnet에 생성하기  Load Balancer  Load Balancer 생성하기  Resource 삭제하기  Resource 삭제하기   Private Subnet에 Instance 생성하기  Compute 메뉴로 이동합니다. Menu -&amp;gt; Compute -&amp;gt; Instance -&amp;gt; Create Instance 클릭 &amp;lt;그림1&amp;gt; Compute 메뉴로 이동
+적절한 Compartment를 선택하고 Create Instance를 클릭합니다. &amp;lt;그림2&amp;gt; Create Instsance 클릭</description>
     </item>
     
     <item>
@@ -48,8 +119,8 @@
       
       <guid>http://www.oracloud.kr/post/oci_workshop_5/</guid>
       <description>OCI IaaS 따라하기 시리즈  OCI Network
- VCN 생성하기 DRG 설정하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Subnet에 생성하기  Load Balancer  Load Balancer 생성하기 Load Balancer를 사용하여 보안강화하기  Resource 삭제하기
-  Public Subnet에 생성하기 기존에 생성한 VCN에 있는 3개의 AD(Avilability Domain)중, AD1에 Apache Webserver를 생성해보겠습니다.
+ VCN 생성하기 DRG 설정하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Subnet에 생성하기  Load Balancer  Load Balancer 생성하기  Resource 삭제하기
+ Resource 삭제하기   Public Subnet에 생성하기 기존에 생성한 VCN에 있는 3개의 AD(Avilability Domain)중, AD1에 Apache Webserver를 생성해보겠습니다.
  Compute 메뉴로 이동합니다. Menu - Compute -&amp;gt; Instances &amp;lt;그림1&amp;gt; Compute 메뉴로 이동</description>
     </item>
     
@@ -60,8 +131,7 @@
       
       <guid>http://www.oracloud.kr/post/oci_workshop_4/</guid>
       <description>OCI IaaS 따라하기 시리즈  OCI Network
- VCN 생성하기 DRG 설정하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Subnet에 생성하기  Load Balancer  Load Balancer 생성하기 Load Balancer를 사용하여 보안강화하기  Resource 삭제하기
-  Private subnet route table 설정하기 Security list와 route rule을 사용하여 Private subnet을 생성할 수 있습니다. Route rule과 security list를 가지고 있어도, Private subnet은 Public Internet에 직접적으로 접속할 수 없습니다.</description>
+ VCN 생성하기 DRG 설정하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Subnet에 생성하기  Load Balancer  Load Balancer 생성하기  Resource 삭제하기  Resource 삭제하기   Private subnet route table 설정하기 Security list와 route rule을 사용하여 Private subnet을 생성할 수 있습니다. Route rule과 security list를 가지고 있어도, Private subnet은 Public Internet에 직접적으로 접속할 수 없습니다.</description>
     </item>
     
     <item>
@@ -71,8 +141,7 @@
       
       <guid>http://www.oracloud.kr/post/oci_workshop_3/</guid>
       <description>OCI IaaS 따라하기 시리즈  OCI Network
- VCN 생성하기 DRG 설정하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Subnet에 생성하기  Load Balancer  Load Balancer 생성하기 Load Balancer를 사용하여 보안강화하기  Resource 삭제하기
-  Security List 설정하기 Security list는 특정 포트 및 프로토콜을 사용하여 subnet및 인스턴스로의 트래픽을 제어하는 가상 방화벽입니다. 기존의 security list에 다른 규칙을 추가하는 방법을 알아봅니다.
+ VCN 생성하기 DRG 설정하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Subnet에 생성하기  Load Balancer  Load Balancer 생성하기  Resource 삭제하기  Resource 삭제하기   Security List 설정하기 Security list는 특정 포트 및 프로토콜을 사용하여 subnet및 인스턴스로의 트래픽을 제어하는 가상 방화벽입니다. 기존의 security list에 다른 규칙을 추가하는 방법을 알아봅니다.
  VCN의 상세정보에서 좌측 메뉴의 Security List를 확인합니다.</description>
     </item>
     
@@ -96,8 +165,7 @@ Hello Node.js App 준비하기 간단히 Http 요청을 받을 수 있는 node.j
       
       <guid>http://www.oracloud.kr/post/oci_workshop_2/</guid>
       <description>OCI IaaS 따라하기 시리즈  OCI Network
- VCN 생성하기 DRG 생성하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Subnet에 생성하기  Load Balancer  Load Balancer 생성하기 Load Balancer를 사용하여 보안강화하기  Resource 삭제하기
-  DRG 생성하기 VCN 생성하기에서 생성하였던, IGW(Internet Gateway)가 Public Internet과 연결하기 위한 통로라면, DRG(Dynamic Routing Gateway)는 고객의 온 프레미스 환경에서 VCN에 접속하기 위한 통로입니다. DRG는 고객의 IPSec VPN 또는 Fast Connect 연결에서 VCN으로 트래픽을 라우팅하는 가상 라우터입니다.</description>
+ VCN 생성하기 DRG 생성하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Subnet에 생성하기  Load Balancer  Load Balancer 생성하기  Resource 삭제하기  Resource 삭제하기   DRG 생성하기 VCN 생성하기에서 생성하였던, IGW(Internet Gateway)가 Public Internet과 연결하기 위한 통로라면, DRG(Dynamic Routing Gateway)는 고객의 온 프레미스 환경에서 VCN에 접속하기 위한 통로입니다. DRG는 고객의 IPSec VPN 또는 Fast Connect 연결에서 VCN으로 트래픽을 라우팅하는 가상 라우터입니다.</description>
     </item>
     
     <item>
@@ -107,8 +175,7 @@ Hello Node.js App 준비하기 간단히 Http 요청을 받을 수 있는 node.j
       
       <guid>http://www.oracloud.kr/post/oci_workshop_1/</guid>
       <description>OCI IaaS 따라하기 시리즈  OCI Network
- VCN 생성하기 DRG 설정하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Subnet에 생성하기  Load Balancer  Load Balancer 생성하기 Load Balancer를 사용하여 보안강화하기  Resource 삭제하기
-  Oracle Cloud에 로그인하기 Oracle Cloud를 사용하기 위해서는, 다른 사용자들과 분리된 해당 계정이 사용할 네트워크를 먼저 구성하여야 합니다. Oracle Cloud에서는 이를 VCN - Virtual Cloud Network 라고 합니다.</description>
+ VCN 생성하기 DRG 설정하기 Security List 설정하기 Private Subnet 설정하기  OCI Instance  Instance 생성하기 Private Subnet에 생성하기  Load Balancer  Load Balancer 생성하기  Resource 삭제하기  Resource 삭제하기   Oracle Cloud에 로그인하기 Oracle Cloud를 사용하기 위해서는, 다른 사용자들과 분리된 해당 계정이 사용할 네트워크를 먼저 구성하여야 합니다. Oracle Cloud에서는 이를 VCN - Virtual Cloud Network 라고 합니다. VCN을 생성하고 Public Internet망을 통해서 통신할 수 있도록 설정하는 방법을 알아보도록 하겠습니다.</description>
     </item>
     
     <item>
@@ -185,16 +252,6 @@ Cloud Console에 접속을 한 후 Application Container Cloud Service을 사용
       <guid>http://www.oracloud.kr/post/oracle_impact/</guid>
       <description>2018월 9월 7일에 르메르디앙 호텔에서 Oracle IMPACT 세미나가 진행되었습니다. 이 행사에서 오라클이 바라보는 AI의 관점과 현재 Oracle Cloud의 AI 지원 서비스 및 향후 비전을 주제로 발표를 했습니다. 발표 내용을 간략하게 정리하겠습니다.
 Oracle Impact: Oracle Cloud AI Enterprise AI  그림 1: 오라클 AI 지향점    오라클은 오라클 클라우드에서 &amp;ldquo;엔터프라이즈 AI&amp;rdquo;관점에서 서비스를 만들고 있으며, 이 서비스를 고도화하고 있습니다. 오라클이 지향하는 AI는 기업이 갖고 있는 데이터 혹은 분석 대상이 되는 정형 &amp;amp;비정형 데이터를 효과적으로 분석하는 환경 체계를 제공하는 것입니다.</description>
-    </item>
-    
-    <item>
-      <title>Oracle Container Engine (OKE) #01 : Docker &amp; Kubernetes</title>
-      <link>http://www.oracloud.kr/post/docker_and_oke/</link>
-      <pubDate>Sun, 02 Sep 2018 23:20:25 +0900</pubDate>
-      
-      <guid>http://www.oracloud.kr/post/docker_and_oke/</guid>
-      <description>마이크로 서비스의 시작, Docker 와 Kubernetes Docker(이하: 도커))나 Kubernetes(이하: 쿠버네티스)를 많이 들어봤을 것입니다. 또한 마이크로 서비스도 처음 듣는 단어가 아닐 것입니다. 오늘은 이것들이 무엇이고 왜 생겨났는가, 그리고 오라클은 어떻게 지원 하는가에 대해 다루어 보도록 합니다.
-애플리케이션 개발과 관리의 변화 애플리케이션의 개발 방법은 계속해서 변화했습니다. 개발은 그냥 하는 것이라고 생각하지만, 실제로 개발을 하기 위해서 생각해야 할 것들, 그리고 다시 고려해야 할 것들이 많습니다. 이런 것들을 어떻게 효율적으로 생각하고 수정하고 작성하는지에 대해 공식화 한 것을 개발 방법론입니다.</description>
     </item>
     
     <item>
