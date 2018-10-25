@@ -6,10 +6,19 @@
     <description>Recent content in 오라클 클라우드 on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 08 Oct 2018 01:09:25 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 25 Oct 2018 13:58:54 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Oracle Autonomous Blockchain Cloud를 이용한 블록체인 네트워크 생성 및 편리한 관리 기능 살펴보기</title>
+      <link>http://www.oracloud.kr/post/blockchain001/</link>
+      <pubDate>Thu, 25 Oct 2018 13:58:54 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/blockchain001/</guid>
+      <description>Oracle Autonomous Blockchain Cloud Service는 블록체인 네크워크 구성 및 관리의 편리성을 극대화한 클라우드 서비스 입니다. 복잡한 설치 및 구성 과정이 필요하지 않으며, 쉽고 편리하게 여러 참여자 조직들로 구성된 블록체인 네트워크를 쉽게 생성해 낼 수 있습니다. 솔루션에서 제공되는 편리한 관리 콘솔을 통해 네트워크의 가시성을 확보함과 동시에 네트워크를 구성하는 각 컴포넌트의 상태 및 블록의 상태까지 모니터링 할 수 있게 해 줌으로써 분산 네트워크라는 특정으로 인해 발생하는 관리의 어려움을 해소시켜 줄 수 있습니다.</description>
+    </item>
     
     <item>
       <title>Multiple VNIC로 서로 다른 VCN 연결하기: Part 1</title>
