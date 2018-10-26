@@ -6,10 +6,50 @@
     <description>Recent content in Oracle IaaS on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 24 Sep 2017 21:28:14 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 08 Oct 2018 01:09:25 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/categories/oracle-iaas/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Multiple VNIC로 서로 다른 VCN 연결하기: Part 1</title>
+      <link>http://www.oracloud.kr/post/connecting_vcn/</link>
+      <pubDate>Mon, 08 Oct 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/connecting_vcn/</guid>
+      <description>Oracle Cloud Infrastructure에서는 둘 이상의 VCN(Virtual Cloud Network)을 연결할 경우 LPG(Local Peering Gateway)가 사용됩니다. LPG를 사용하면 프로바이더 VCN이 고객 VCN과 연결되어 공유 리소스에 대한 Private Access를 허용할 수 있는 서비스 프로바이더 모델을 사용할 수 있습니다. 그러나 VCN 당 10개의 LPG만 연결할 수 있습니다. Oracle Cloud Infrastructure를 사용하는 IT 관리 회사의 예를 살펴보겠습니다. 이들은 하나의 VCN을 중앙 IT 팀이 제어하는 허브 VCN으로 프로비저닝 합니다. 각 클라이언트에 대해 Spoke VCN을 프로비저닝 합니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Cloud와 타 클라우드 연결하기</title>
+      <link>http://www.oracloud.kr/post/interconnectivity/</link>
+      <pubDate>Tue, 02 Oct 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/interconnectivity/</guid>
+      <description>멀티 클라우드 아키텍처는 둘 이상의 클라우드 서비스 프로바이더를 이용 합니다. 기업은 복원력 제공, 재해 복구 계획 수립, 성능 향상, 비용 절감 등 여러 가지 이유로 클라우드 프로바이더가 두 개 이상 있습니다. 클라우드 리소스를 한 클라우드 프로바이더에서 다른 클라우드 프로바이더로 마이그레이션하려는 경우 클라우드 간 액세스 및 네트워킹이 필요합니다. Oracle Cloud Infrastructure는 Oracle VCN(Virtual Cloud Network)을 인터넷, 온프레미스 데이터센터 또는 기타 클라우드 프로바이더와 연결하기 위한 IGW(Internet Gateway) 및 DRG(Dynamic Routing Gateway) 서비스 게이트웨이 옵션을 제공합니다.</description>
+    </item>
+    
+    <item>
+      <title>VGA Console로 OCI Compute 인스턴스 연결하기</title>
+      <link>http://www.oracloud.kr/post/oci_vga_console/</link>
+      <pubDate>Tue, 18 Sep 2018 01:14:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oci_vga_console/</guid>
+      <description>OCI Compute 에서는 인스턴스에 대한 VGA Console 접속을 지원 합니다.
+VGA Console 을 이용하면 Public IP를 사용하지 않고 인스턴스에 접속할 수 있습니다.
+ 일반적인 전산실 환경을 예로 들면, 운영팀은 전산실에 있는 리눅스 서버에 IP로 접속을 할 수 있습니다. 하지만 해당 리눅스에 부팅 문제 등으로 IP를 통한 접속이 힘든 경우가 있는데, 이때는 물리서버에 직접 키보드, 모니터를 연결하여 troubleshooting을 하게 됩니다. 이러한 경우 처럼 물리적인 서버에 키보드, 마우스를 직접 연결하여 인스턴스를 볼 수 있게 하는 것이 OCI의 VGA Console 기능 입니다.</description>
+    </item>
+    
+    <item>
+      <title>Cloudberry로 OCI Object Storage 접속하기</title>
+      <link>http://www.oracloud.kr/post/oci_objectstorage_cloudberry_s3/</link>
+      <pubDate>Fri, 14 Sep 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oci_objectstorage_cloudberry_s3/</guid>
+      <description>OCI (Oracle Cloud Infrastructure)의 IaaS 서비스 중 Object Storage는 S3 호환 API가 제공되므로, CloudBerry Explorer for Amazon S3 사용자는 손쉽게 OCI Object Storage를 연결하실 수 있습니다. CloudBerry Explorer for Amazon S3에 대한 설치 등의 과정은 본 글에서는 다루지 않습니다.
+ OCI Region 본 테스트는 OCI Region 중 us-ashburn-1에서 진행하였습니다. Oracle Cloud Trial 계정을 사용하시는 분들은 북미 지역을 선택하시면 Ashburn region 사용 가능합니다.
+OCI Object Storage 버킷 생성 Bucket이란 Object를 저장하는 논리 컨테이너를 의미합니다.</description>
+    </item>
     
     <item>
       <title>Oracle PaaS의 Storage CS 컨테이너 설정 형식 변경</title>
