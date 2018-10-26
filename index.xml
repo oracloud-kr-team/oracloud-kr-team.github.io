@@ -6,10 +6,20 @@
     <description>Recent content on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 25 Oct 2018 13:58:54 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 26 Oct 2018 01:09:25 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OCI에서의 Custom Startup Scripts 및 Cloud-init 사용하기</title>
+      <link>http://www.oracloud.kr/post/win_cloudinit/</link>
+      <pubDate>Fri, 26 Oct 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/win_cloudinit/</guid>
+      <description>OCI에서 Cloudbase-init을 이용해서 윈도우 서버 인스턴스를 쉽게 구성하고 사용자 지정하는 방법을 소개합니다. Windows Server의 새로운 통합 Cloud-Init 환경을 사용하면 더 많은 응용 프로그램, 호스트 구성 및 사용자 지정 설치로 인스턴스를 쉽게 부트 스트랩 할 수 있습니다. 이 기능은 Linux 또는 Windows Server를 실행하는 Oracle Cloud Infrastructure 컴퓨팅 인스턴스에서 Cloud-Init 사용자 정의 사용자 데이터 시작 스크립트(Custom user data startup script)를 통해 처리됩니다.
+사용자 데이터란? 사용자 데이터는 Oracle Cloud Infrastructure에서 컴퓨팅 인스턴스가 초기화 될 때 스크립트 또는 사용자 정의 메타 데이터를 주입하는 메커니즘입니다.</description>
+    </item>
     
     <item>
       <title>Oracle Autonomous Blockchain Cloud를 이용한 블록체인 네트워크 생성 및 편리한 관리 기능 살펴보기</title>

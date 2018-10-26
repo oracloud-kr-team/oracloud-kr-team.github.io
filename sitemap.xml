@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.oracloud.kr/post/win_cloudinit/</loc>
+    <lastmod>2018-10-26T01:09:25+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.oracloud.kr/post/blockchain001/</loc>
     <lastmod>2018-10-25T13:58:54+09:00</lastmod>
   </url>
@@ -1015,7 +1020,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/categories/oracle-iaas/</loc>
-    <lastmod>2018-10-08T01:09:25+09:00</lastmod>
+    <lastmod>2018-10-26T01:09:25+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1069,7 +1074,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/post/</loc>
-    <lastmod>2018-10-25T13:58:54+09:00</lastmod>
+    <lastmod>2018-10-26T01:09:25+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1176,6 +1181,12 @@
   </url>
   
   <url>
+    <loc>http://www.oracloud.kr/tags/windows/</loc>
+    <lastmod>2018-10-26T01:09:25+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.oracloud.kr/writing/</loc>
     <lastmod>2017-12-16T22:54:32+09:00</lastmod>
     <priority>0</priority>
@@ -1255,7 +1266,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/cloud/</loc>
-    <lastmod>2018-10-08T01:09:25+09:00</lastmod>
+    <lastmod>2018-10-26T01:09:25+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1471,7 +1482,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/oracle/</loc>
-    <lastmod>2018-10-08T01:09:25+09:00</lastmod>
+    <lastmod>2018-10-26T01:09:25+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1489,7 +1500,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/oracle-cloud/</loc>
-    <lastmod>2018-10-08T01:09:25+09:00</lastmod>
+    <lastmod>2018-10-26T01:09:25+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1723,13 +1734,13 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C/</loc>
-    <lastmod>2018-10-25T13:58:54+09:00</lastmod>
+    <lastmod>2018-10-26T01:09:25+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.oracloud.kr/</loc>
-    <lastmod>2018-10-25T13:58:54+09:00</lastmod>
+    <lastmod>2018-10-26T01:09:25+09:00</lastmod>
     <priority>0</priority>
   </url>
   
