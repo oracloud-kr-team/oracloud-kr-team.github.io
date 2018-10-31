@@ -6,10 +6,21 @@
     <description>Recent content in 오라클 클라우드 on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 29 Oct 2018 13:58:54 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 31 Oct 2018 12:00:00 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HyperLedger Fabric과 Ethereum 비교</title>
+      <link>http://www.oracloud.kr/post/competitor/</link>
+      <pubDate>Wed, 31 Oct 2018 12:00:00 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/competitor/</guid>
+      <description>블록체인하면 대표적으로 떠오르는 양대 산맥인 HyperLedger Fabric과 Ethereum에 대한 비교 설명입니다.
+HyperLedger와 Ethereum 비교 하이퍼레저 패브릭과 이더리움은 Private과 Public 블록체인을 대표하는 두 가지 블록체인 플랫폼이다. 이더리움에 의해서 Smart contract라는 중요 개념이 많이 소개되고 보편화되었고 관련 개념이 하이퍼레저 패브릭까지 이어져 특정 인더스트리에 특화되지 않게 기업들의 자산을 Private 하게 관리가 가능하게 되었다.
+이더리움(Ethereum)이란? 이더리움은 비탈릭 부테린에 의해서 만들어졌으며 블록체인 네트워크를 만들어 여러 분산 애플리케이션(Decentralized Application; dApp)을 이용할 수 있는 플랫폼을 만들기로 했는데 이것이 이더리움 플랫폼이다.</description>
+    </item>
     
     <item>
       <title>오라클 블록체인 클라우드에 Hyperledger Fabric 샘플 체인코드 Fabcar 배포하기</title>
