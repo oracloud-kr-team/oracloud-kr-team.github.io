@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.oracloud.kr/post/blockchain003/</loc>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.oracloud.kr/post/competitor/</loc>
     <lastmod>2018-10-31T12:00:00+09:00</lastmod>
   </url>
@@ -634,7 +639,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/blockchain/</loc>
-    <lastmod>2018-10-31T12:00:00+09:00</lastmod>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -802,7 +807,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/hlf/</loc>
-    <lastmod>2018-10-29T13:58:54+09:00</lastmod>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -814,7 +819,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/hyperledger-fabric/</loc>
-    <lastmod>2018-10-29T13:58:54+09:00</lastmod>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -922,7 +927,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/oabcs/</loc>
-    <lastmod>2018-10-31T12:00:00+09:00</lastmod>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -952,7 +957,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/oracle/</loc>
-    <lastmod>2018-10-31T12:00:00+09:00</lastmod>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -994,13 +999,13 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/oracle-blockchain-cloud/</loc>
-    <lastmod>2018-10-29T13:58:54+09:00</lastmod>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.oracloud.kr/tags/oracle-cloud/</loc>
-    <lastmod>2018-10-31T12:00:00+09:00</lastmod>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1054,7 +1059,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/categories/oracle-cloud/</loc>
-    <lastmod>2018-10-31T12:00:00+09:00</lastmod>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1084,7 +1089,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/post/</loc>
-    <lastmod>2018-10-31T12:00:00+09:00</lastmod>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1366,7 +1371,25 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/fabcar/</loc>
-    <lastmod>2018-10-29T13:58:54+09:00</lastmod>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.oracloud.kr/tags/fabric-sdk/</loc>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.oracloud.kr/tags/fabric-ca-client/</loc>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.oracloud.kr/tags/fabric-client/</loc>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1714,7 +1737,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/</loc>
-    <lastmod>2018-10-29T13:58:54+09:00</lastmod>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1750,13 +1773,13 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C/</loc>
-    <lastmod>2018-10-31T12:00:00+09:00</lastmod>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.oracloud.kr/</loc>
-    <lastmod>2018-10-31T12:00:00+09:00</lastmod>
+    <lastmod>2018-10-31T13:58:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   
