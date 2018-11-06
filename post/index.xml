@@ -6,10 +6,21 @@
     <description>Recent content in Posts on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 31 Oct 2018 13:58:54 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 06 Nov 2018 01:09:25 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tagging을 이용한 Cost Tracking</title>
+      <link>http://www.oracloud.kr/post/tracking_cost/</link>
+      <pubDate>Tue, 06 Nov 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/tracking_cost/</guid>
+      <description>Oracle Cloud Infrastructure를 사용함에 있어 부서별 혹은 Cost Center에 따른 비용 산정은 중요합니다.
+Oracle Cloud Infrastructure를 사용하면 My Services Dashboard를 사용하여 서비스 또는 Compartment 수준에서 비용을 tracking 할 수 있지만, multiple compartment 또는 compartment를 공유하는 프로젝트의 비용 또한 tracking 할 수 있는 유연성도 필요합니다.
+이를 고려하여 cost tracking tag를 사용하여 사용자, 프로젝트, 부서 또는 청구 목적으로 선택한 기타 메타 데이터 별로 태그를 지정할 수 있습니다. Cost Tracking Tag는 My Services Dashboard의 온라인 보고서에 표시되는 정의된 태그의 한 유형 입니다.</description>
+    </item>
     
     <item>
       <title>Node.js Fabric Client SDK를 사용하여 오라클 블록체인 클라우드에 배포된 Fabcar 체인코드 호출하기</title>
