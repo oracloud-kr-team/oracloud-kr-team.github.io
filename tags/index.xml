@@ -210,6 +210,24 @@
     </item>
     
     <item>
+      <title>Cloud Performance</title>
+      <link>http://www.oracloud.kr/tags/cloud-performance/</link>
+      <pubDate>Tue, 06 Nov 2018 02:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/cloud-performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Workload</title>
+      <link>http://www.oracloud.kr/tags/cloud-workload/</link>
+      <pubDate>Tue, 06 Nov 2018 02:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/cloud-workload/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Compute CS</title>
       <link>http://www.oracloud.kr/tags/compute-cs/</link>
       <pubDate>Tue, 02 May 2017 11:59:47 +0900</pubDate>
@@ -269,6 +287,15 @@
       <pubDate>Mon, 15 May 2017 15:00:47 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/data-visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Datacenter</title>
+      <link>http://www.oracloud.kr/tags/datacenter/</link>
+      <pubDate>Tue, 06 Nov 2018 02:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/datacenter/</guid>
       <description></description>
     </item>
     
@@ -482,7 +509,7 @@
     <item>
       <title>OCI</title>
       <link>http://www.oracloud.kr/tags/oci/</link>
-      <pubDate>Thu, 11 Oct 2018 02:20:25 +0900</pubDate>
+      <pubDate>Tue, 06 Nov 2018 02:20:25 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/oci/</guid>
       <description></description>
@@ -581,7 +608,7 @@
     <item>
       <title>Oracle Cloud</title>
       <link>http://www.oracloud.kr/tags/oracle-cloud/</link>
-      <pubDate>Wed, 31 Oct 2018 13:58:54 +0900</pubDate>
+      <pubDate>Tue, 06 Nov 2018 02:20:25 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/oracle-cloud/</guid>
       <description></description>
@@ -656,6 +683,15 @@
       <pubDate>Wed, 19 Sep 2018 13:58:54 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/registry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>http://www.oracloud.kr/tags/security/</link>
+      <pubDate>Tue, 06 Nov 2018 02:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/security/</guid>
       <description></description>
     </item>
     
@@ -1166,7 +1202,7 @@
     <item>
       <title>oci</title>
       <link>http://www.oracloud.kr/tags/oci/</link>
-      <pubDate>Thu, 11 Oct 2018 02:20:25 +0900</pubDate>
+      <pubDate>Tue, 06 Nov 2018 02:20:25 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/oci/</guid>
       <description></description>
