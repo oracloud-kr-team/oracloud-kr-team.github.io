@@ -6,10 +6,20 @@
     <description>Recent content in 인공지능 on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 01 Sep 2018 21:59:47 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 05 Nov 2018 21:59:47 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>오라클 챗봇을 이용해서 대화형 챗봇 만들기</title>
+      <link>http://www.oracloud.kr/post/chatbot_dialog_flow/</link>
+      <pubDate>Mon, 05 Nov 2018 21:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/chatbot_dialog_flow/</guid>
+      <description>- 대화 흐름 정의? 대화 흐름 정의 (dialog flow)는 대화 자체의 모델입니다. 대화의 흐름을 정의함으로써, 봇과 사용자 간의 상호 작용을 관리 할 수 ​​있습니다. 간단한 Markup language인 YAML 문법을 사용하는 OBotML은 간단하고 확장성이 좋기때문에, 대화의 흐름을 편하고 완벽하게 구현할 수 있습니다.
+- Dialog Flow Structure 대화의 흐름을 위와 같은 state machine을 정의한다고 생각하시면 됩니다. Bot 엔진을 사용해서 어떤의도인지 파악 한 후에 어떻게 대답을 어떻게 구성할지, 더 물어볼 것은 없는지 자유롭게 디자인 하실 수 있습니다.</description>
+    </item>
     
     <item>
       <title>오라클 챗봇 (Oracle Intelligent Bots) 기능 둘러보기</title>
