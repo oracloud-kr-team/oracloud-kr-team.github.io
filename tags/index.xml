@@ -6,10 +6,19 @@
     <description>Recent content in Tags on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 31 Mar 2018 08:05:14 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Dec 2018 02:20:25 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AD</title>
+      <link>http://www.oracloud.kr/tags/ad/</link>
+      <pubDate>Fri, 07 Dec 2018 02:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/ad/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ADEC</title>
@@ -89,6 +98,15 @@
       <pubDate>Sat, 31 Mar 2018 08:05:14 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/autonomous/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Availability Domain</title>
+      <link>http://www.oracloud.kr/tags/availability-domain/</link>
+      <pubDate>Fri, 07 Dec 2018 02:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/availability-domain/</guid>
       <description></description>
     </item>
     
@@ -345,6 +363,15 @@
     </item>
     
     <item>
+      <title>Fault Domain</title>
+      <link>http://www.oracloud.kr/tags/fault-domain/</link>
+      <pubDate>Fri, 07 Dec 2018 02:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/tags/fault-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>HLF</title>
       <link>http://www.oracloud.kr/tags/hlf/</link>
       <pubDate>Wed, 31 Oct 2018 13:58:54 +0900</pubDate>
@@ -509,7 +536,7 @@
     <item>
       <title>OCI</title>
       <link>http://www.oracloud.kr/tags/oci/</link>
-      <pubDate>Tue, 06 Nov 2018 02:20:25 +0900</pubDate>
+      <pubDate>Fri, 07 Dec 2018 02:20:25 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/oci/</guid>
       <description></description>
@@ -608,7 +635,7 @@
     <item>
       <title>Oracle Cloud</title>
       <link>http://www.oracloud.kr/tags/oracle-cloud/</link>
-      <pubDate>Tue, 06 Nov 2018 02:20:25 +0900</pubDate>
+      <pubDate>Fri, 07 Dec 2018 02:20:25 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/oracle-cloud/</guid>
       <description></description>
@@ -1229,7 +1256,7 @@
     <item>
       <title>oci</title>
       <link>http://www.oracloud.kr/tags/oci/</link>
-      <pubDate>Tue, 06 Nov 2018 02:20:25 +0900</pubDate>
+      <pubDate>Fri, 07 Dec 2018 02:20:25 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/oci/</guid>
       <description></description>
