@@ -14,8 +14,8 @@
 <meta property="og:title" content="오라클 챗봇을 이용해서 대화형 챗봇 만들기" />
 <meta property="og:description" content="오라클 챗봇을 이용해서 대화형 챗봇을 구현하는 가이드 입니다. 대화를 통해 사용자에게 필요한 정보를 물어보고 사용자가 원하는 정보를 보다 정확하게 제공할 수 있습니다." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.oracloud.kr/post/chatbot_dialog_flow/" /><meta property="article:published_time" content="2018-11-05T21:59:47&#43;09:00"/>
-<meta property="article:modified_time" content="2018-11-05T21:59:47&#43;09:00"/>
+<meta property="og:url" content="http://www.oracloud.kr/post/chatbot_dialog_flow/" /><meta property="article:published_time" content="2018-11-11T21:59:47&#43;09:00"/>
+<meta property="article:modified_time" content="2018-11-11T21:59:47&#43;09:00"/>
 
 <link rel="dns-prefetch" href="//fonts.googleapis.com" />
 
@@ -60,7 +60,7 @@
 			<h1 class="post__title">오라클 챗봇을 이용해서 대화형 챗봇 만들기</h1>
 			<p class="post__meta meta">
 				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-				<time class="post__meta-date" datetime="2018-11-05 21:59:47 &#43;0900 &#43;0900">November 05, 2018</time>
+				<time class="post__meta-date" datetime="2018-11-11 21:59:47 &#43;0900 &#43;0900">November 11, 2018</time>
 				<span class="post__meta-categories meta-categories">
 					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
 					<a class="meta-categories__link" href="/categories/chatbot" rel="category">Chatbot</a></span>
@@ -85,10 +85,11 @@
 
 <p>OBotML 구현에 있어서는 3가지 중요한 부분이 있습니다. Context, Transitions, states 입니다.</p>
 
-<pre><code>-   context : 필요한 변수를 context안에 설정하고 그 변수를 각각의 user session동안 기억할 수 있습니다. session이 살아있는한, 유저는 언제든지 돌아와서 그전의 대화나 선택들을 불러올 수 있습니다. variable type은 primitive types (int, string, boolean, double, float) 혹은 entity type 으로 설정 할 수 있습니다.
--   state : 각각의 state(단계)는 봇이 해야할 일을 정의 하고 있습니다. 각각의 단계에서 대답을 할수도, 만들어 놓은 서비스를 부를수도 혹은 두개 다 부를 수도 있습니다. 
--   transition : state 간의 transition을 설정할 수 있습니다. state에서 정의 해 놓은 조건에 따라 특정한 state로 혹은 default로 다음 스테이트로 넘어가게끔 설정 할 수 있습니다. 
-</code></pre>
+<ul>
+<li>context : 필요한 변수를 context안에 설정하고 그 변수를 각각의 user session동안 기억할 수 있습니다. session이 살아있는한, 유저는 언제든지 돌아와서 그전의 대화나 선택들을 불러올 수 있습니다. variable type은 primitive types (int, string, boolean, double, float) 혹은 entity type 으로 설정 할 수 있습니다.</li>
+<li>state : 각각의 state(단계)는 봇이 해야할 일을 정의 하고 있습니다. 각각의 단계에서 대답을 할수도, 만들어 놓은 서비스를 부를수도 혹은 두개 다 부를 수도 있습니다.</li>
+<li>transition : state 간의 transition을 설정할 수 있습니다. state에서 정의 해 놓은 조건에 따라 특정한 state로 혹은 default로 다음 스테이트로 넘어가게끔 설정 할 수 있습니다.</li>
+</ul>
 
 <p><img src="https://oracloud-kr-teamrepo.github.io/2018/chatbot_image_repo/15413938977478/15414037722045.png" alt="" /></p>
 
@@ -97,62 +98,62 @@
 <p>미리 만들어져 있는 component template을 이용함으로써 간단히 컴포넌트들을 사용하실 수 있습니다. 아래 보이는 화면은 오라클 봇 프로덕트에서 Flow작성할때 사용 할 수 있는 컴포넌트 추가 UI화면입니다. 각 컴포넌트들에는 #으로 주석 처리 되어있는 설명을 참고하시면 쉽게 구현 하실 수 있습니다.
 <img src="https://oracloud-kr-teamrepo.github.io/2018/chatbot_image_repo/15413938977478/Screen%20Shot%202018-11-12%20at%203.34.42%20PM.png" alt="Screen Shot 2018-11-12 at 3.34.42 P" /></p>
 
-<ol>
+<ul>
 <li>Control : if-else 문 혹은 switch 문을 쓸 수 있는 템플렛 입니다. 정의한 variable이 어떤 값인지 비교하거나 switch 문을 통해 원하는 단계로 보낼 수 있습니다.</li>
-</ol>
+</ul>
 
 <p><img src="https://oracloud-kr-teamrepo.github.io/2018/chatbot_image_repo/15413938977478/Screen%20Shot%202018-11-12%20at%203.36.32%20PM.png" alt="Screen Shot 2018-11-12 at 3.36.32 P" /></p>
 
-<ol>
+<ul>
 <li>Language : multilingual bot을 만들때 유용하게 사용 하실 수 있는 컴포넌트 입니다. 사용자가 넣은 언어를 자동으로 감지해서 어떤 언어지 파악한 후에 번역을 하거나, 단답형 질문 유사성 검색 모듈인 Q&amp;A의 자세한 설정을 하는등 언어에 관련한 여러가지 설정 및 구현을 편리하게 할 수 있습니다.</li>
-</ol>
+</ul>
 
 <p><img src="https://oracloud-kr-teamrepo.github.io/2018/chatbot_image_repo/15413938977478/Screen%20Shot%202018-11-12%20at%203.51.24%20PM.png" alt="Screen Shot 2018-11-12 at 3.51.24 P" /></p>
 
-<ol>
+<ul>
 <li>Security : Oauth 방식으로 서드파티와 연결을 손쉽게 구현 할 수 있습니다.</li>
-</ol>
+</ul>
 
 <p><img src="https://oracloud-kr-teamrepo.github.io/2018/chatbot_image_repo/15413938977478/Screen%20Shot%202018-11-12%20at%203.53.45%20PM.png" alt="Screen Shot 2018-11-12 at 3.53.45 P" /></p>
 
-<ol>
+<ul>
 <li>User Interface : 상담원 시스템으로 연결하거나, text 이외의 다른 UI를 이용해 답변 하는 봇을 만들 고 싶으실때 사용 할 수 있습니다. 이 컴포넌트를 사용해서 구현한 봇을 Facebook와 같은 Public messenger로 연결 하거나, 오라클에서 제공하는 web sdk를 통해 웹사이트와 연결하면 아래와 같은 화면을 볼 수 있습니다.</li>
-</ol>
+</ul>
 
 <p><img src="https://oracloud-kr-teamrepo.github.io/2018/chatbot_image_repo/15413938977478/Screen%20Shot%202018-11-12%20at%204.03.30%20PM.png" alt="Screen Shot 2018-11-12 at 4.03.30 P" />
 <img src="https://oracloud-kr-teamrepo.github.io/2018/chatbot_image_repo/15413938977478/Screen%20Shot%202018-11-12%20at%204.03.48%20PM.png" alt="Screen Shot 2018-11-12 at 4.03.48 P" /></p>
 
 <p><img src="https://oracloud-kr-teamrepo.github.io/2018/chatbot_image_repo/15413938977478/Screen%20Shot%202018-11-12%20at%204.04.11%20PM.png" alt="Screen Shot 2018-11-12 at 4.04.11 P" /></p>
 
-<ol>
+<ul>
 <li>Variable : 변수를 관리할 때 사용 하실 수 있습니다.
 <img src="https://oracloud-kr-teamrepo.github.io/2018/chatbot_image_repo/15413938977478/Screen%20Shot%202018-11-12%20at%204.08.20%20PM.png" alt="Screen Shot 2018-11-12 at 4.08.20 P" /></li>
-</ol>
+</ul>
 
 <h2 id="dialog-flow-testing">Dialog flow testing</h2>
 
-<ol>
+<ul>
 <li>문법 에러 찾기</li>
-</ol>
+</ul>
 
 <p>원하시는 대화의 흐름을 구현하신 후에, &ldquo;validate&rdquo;를 눌러주세요. 아래와 같은 이상이없다는 메세지를 보시면, 테스트를 해보시면 됩니다. 하지마, 아래와 같은 메세지가 아닌, 문제가 있다는 메세지를 보셨을 경우엔, 오른쪽 상단의 bug모양의 버튼을 눌러서 문제점에 대한 Description을 확인후 고치시면 됩니다.</p>
 
 <p><img src="https://oracloud-kr-teamrepo.github.io/2018/chatbot_image_repo/15413938977478/Screen%20Shot%202018-11-12%20at%204.10.31%20PM.png" alt="Screen Shot 2018-11-12 at 4.10.31 P" /></p>
 
-<ol>
+<ul>
 <li>논리 에러 찾기</li>
-</ol>
+</ul>
 
 <p>오른쪽 상단의 세모 버튼을 눌러서 유저 입장에서 타이핑 하며, 대화흐름이 원하는대로 흘러가는지 확인 하실 수 있습니다.</p>
 
 <p><img src="https://oracloud-kr-teamrepo.github.io/2018/chatbot_image_repo/15413938977478/Screen%20Shot%202018-11-12%20at%204.19.14%20PM.png" alt="Screen Shot 2018-11-12 at 4.19.14 P" /></p>
 
-<h3 id="sdk">SDK</h3>
+<h3 id="sdk">- SDK</h3>
 
 <p>User interface component에 나왔던, web SDK 및 여러가지 유용한 sdk를 다운 받을 수 있는 링크입니다. 간단히 기존 웹사이트에 추가해, 오라클 챗봇과 연결 할 수 있습니다.
 <a href="https://www.oracle.com/technetwork/topics/cloud/downloads/mobile-cloud-service-3636470.html">Oracle SDK 다운로드 페이지 바로가기</a></p>
 
-<h3 id="공식가이드">공식가이드</h3>
+<h3 id="공식가이드">- 공식가이드</h3>
 
 <p>각 컴포넌트에 대한 예제와 보다 자세한 설명을 포함 하고 있는 가이드 입니다.
 <a href="https://docs.oracle.com/en/cloud/paas/mobile-suite/use-chatbot/dialog-flow-definition.html#GUID-CE86A43E-286A-462C-8B80-0BA2666D80F7">Oracle 챗봇 Dialog Flow 공식 개발 가이드</a></p>
@@ -206,10 +207,10 @@
 	
 <nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 	<div class="post-nav__item post-nav__item--prev col-1-2">
-		<a class="post-nav__link" href="http://www.oracloud.kr/post/blockchain003/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">Node.js Fabric Client SDK를 사용하여 오라클 블록체인 클라우드에 배포된 Fabcar 체인코드 호출하기</p></a>
+		<a class="post-nav__link" href="http://www.oracloud.kr/post/oci_ready/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">OCI에 어떤 업무를 운영할 수 있을까요?</p></a>
 	</div>
 	<div class="post-nav__item post-nav__item--next col-1-2">
-		<a class="post-nav__link" href="http://www.oracloud.kr/post/tracking_cost/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">Tagging을 이용한 Cost Tracking</p></a>
+		<a class="post-nav__link" href="http://www.oracloud.kr/post/instance_pool/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">템플릿을 이용한 손쉬운 Compute Instance 관리</p></a>
 	</div>
 </nav>
 
@@ -262,8 +263,8 @@ s.setAttribute('data-timestamp', +new Date());
 </ul></li>
 <li><a href="#dialog-flow-testing">Dialog flow testing</a>
 <ul>
-<li><a href="#sdk">SDK</a></li>
-<li><a href="#공식가이드">공식가이드</a></li>
+<li><a href="#sdk">- SDK</a></li>
+<li><a href="#공식가이드">- 공식가이드</a></li>
 <li><a href="#오라클-챗봇-테스트-계정">- 오라클 챗봇 테스트 계정?</a></li>
 <li><a href="#오라클-챗봇에-대해-배워보기">- 오라클 챗봇에 대해 배워보기?</a></li>
 </ul></li>
@@ -287,16 +288,16 @@ s.setAttribute('data-timestamp', +new Date());
 							템플릿을 이용한 손쉬운 Compute Instance 관리</a>
 		  </li>
 			<li class="widget__item">
+				<a class="widget__link" href="/post/chatbot_dialog_flow/" title="오라클 챗봇을 이용해서 대화형 챗봇 만들기">
+							오라클 챗봇을 이용해서 대화형 챗봇 만들기</a>
+		  </li>
+			<li class="widget__item">
 				<a class="widget__link" href="/post/oci_ready/" title="OCI에 어떤 업무를 운영할 수 있을까요?">
 							OCI에 어떤 업무를 운영할 수 있을까요?</a>
 		  </li>
 			<li class="widget__item">
 				<a class="widget__link" href="/post/tracking_cost/" title="Tagging을 이용한 Cost Tracking">
 							Tagging을 이용한 Cost Tracking</a>
-		  </li>
-			<li class="widget__item">
-				<a class="widget__link" href="/post/chatbot_dialog_flow/" title="오라클 챗봇을 이용해서 대화형 챗봇 만들기">
-							오라클 챗봇을 이용해서 대화형 챗봇 만들기</a>
 		  </li>
 			<li class="widget__item">
 				<a class="widget__link" href="/post/blockchain003/" title="Node.js Fabric Client SDK를 사용하여 오라클 블록체인 클라우드에 배포된 Fabcar 체인코드 호출하기">

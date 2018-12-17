@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>http://www.oracloud.kr/post/chatbot_dialog_flow/</loc>
+    <lastmod>2018-11-11T21:59:47+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.oracloud.kr/post/oci_ready/</loc>
     <lastmod>2018-11-06T02:20:25+09:00</lastmod>
   </url>
@@ -20,11 +25,6 @@
   <url>
     <loc>http://www.oracloud.kr/post/tracking_cost/</loc>
     <lastmod>2018-11-06T01:09:25+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.oracloud.kr/post/chatbot_dialog_flow/</loc>
-    <lastmod>2018-11-05T21:59:47+09:00</lastmod>
   </url>
   
   <url>
@@ -718,7 +718,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/categories/chatbot/</loc>
-    <lastmod>2018-11-05T21:59:47+09:00</lastmod>
+    <lastmod>2018-11-11T21:59:47+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1342,7 +1342,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/chatbot/</loc>
-    <lastmod>2018-11-05T21:59:47+09:00</lastmod>
+    <lastmod>2018-11-11T21:59:47+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1624,7 +1624,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/oracle-chatbot/</loc>
-    <lastmod>2018-11-05T21:59:47+09:00</lastmod>
+    <lastmod>2018-11-11T21:59:47+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1834,13 +1834,13 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/%EB%8C%80%ED%99%94%ED%98%95/</loc>
-    <lastmod>2018-11-05T21:59:47+09:00</lastmod>
+    <lastmod>2018-11-11T21:59:47+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.oracloud.kr/tags/%EB%8C%80%ED%99%94%ED%98%95%EB%B4%87/</loc>
-    <lastmod>2018-11-05T21:59:47+09:00</lastmod>
+    <lastmod>2018-11-11T21:59:47+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1888,13 +1888,13 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-chatbot/</loc>
-    <lastmod>2018-11-05T21:59:47+09:00</lastmod>
+    <lastmod>2018-11-11T21:59:47+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.oracloud.kr/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%EC%B1%97%EB%B4%87/</loc>
-    <lastmod>2018-11-05T21:59:47+09:00</lastmod>
+    <lastmod>2018-11-11T21:59:47+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1918,13 +1918,13 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</loc>
-    <lastmod>2018-11-05T21:59:47+09:00</lastmod>
+    <lastmod>2018-11-11T21:59:47+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.oracloud.kr/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EB%B4%87/</loc>
-    <lastmod>2018-11-05T21:59:47+09:00</lastmod>
+    <lastmod>2018-11-11T21:59:47+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1936,13 +1936,13 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/%EC%B1%84%ED%84%B0%EB%B4%87/</loc>
-    <lastmod>2018-11-05T21:59:47+09:00</lastmod>
+    <lastmod>2018-11-11T21:59:47+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.oracloud.kr/tags/%EC%B1%97%EB%B4%87/</loc>
-    <lastmod>2018-11-05T21:59:47+09:00</lastmod>
+    <lastmod>2018-11-11T21:59:47+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1972,7 +1972,7 @@
   
   <url>
     <loc>http://www.oracloud.kr/tags/%ED%95%9C%EA%B5%AD%EC%96%B4%EC%B1%97%EB%B4%87/</loc>
-    <lastmod>2018-11-05T21:59:47+09:00</lastmod>
+    <lastmod>2018-11-11T21:59:47+09:00</lastmod>
     <priority>0</priority>
   </url>
   
