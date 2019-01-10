@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oracle IaaS on 오라클 클라우드 기술 블로그</title>
+    <link>http://www.oracloud.kr/categories/oracle-iaas/</link>
+    <description>Recent content in Oracle IaaS on 오라클 클라우드 기술 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Mon, 12 Nov 2018 01:09:25 +0900</lastBuildDate>
+    
+	<atom:link href="http://www.oracloud.kr/categories/oracle-iaas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>템플릿을 이용한 손쉬운 Compute Instance 관리</title>
+      <link>http://www.oracloud.kr/post/instance_pool/</link>
+      <pubDate>Mon, 12 Nov 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/instance_pool/</guid>
+      <description>Oracle Cloud Infrastructure는 인스턴스 구성 및 인스턴스 풀을 도입하여 컴퓨팅 인스턴스 관리를 강화하였습니다. 클라우드는 Standard OS images, Standard shape configurations 등 유용한 standard를 많이 제공하지만 volume 및 VNIC과 같은 리소스를 프로비저닝하고 첨부하는데 여전히 추가 오버헤드가 있습니다. 그리고 지금까지는 대규모 프로비저닝 및 인스턴스 설정 관리가 어려웠습니다. Instance Configurations feature는 단일 API call로 인스터스 및 필요한 모든 자원의 프로비저닝을 단순화 합니다. 이러한 단순화는 Instance pool로 확장되며, Instance Configurations는 동일한 다수의 컴퓨팅 인스턴스의 논리적 그룹을 생성하고 규모에 맞게 자동으로 시작됩니다.</description>
+    </item>
+    
+    <item>
+      <title>Tagging을 이용한 Cost Tracking</title>
+      <link>http://www.oracloud.kr/post/tracking_cost/</link>
+      <pubDate>Tue, 06 Nov 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/tracking_cost/</guid>
+      <description>Oracle Cloud Infrastructure를 사용함에 있어 부서별 혹은 Cost Center에 따른 비용 산정은 중요합니다.
+Oracle Cloud Infrastructure를 사용하면 My Services Dashboard를 사용하여 서비스 또는 Compartment 수준에서 비용을 tracking 할 수 있지만, multiple compartment 또는 compartment를 공유하는 프로젝트의 비용 또한 tracking 할 수 있는 유연성도 필요합니다.
+이를 고려하여 cost tracking tag를 사용하여 사용자, 프로젝트, 부서 또는 청구 목적으로 선택한 기타 메타 데이터 별로 태그를 지정할 수 있습니다. Cost Tracking Tag는 My Services Dashboard의 온라인 보고서에 표시되는 정의된 태그의 한 유형 입니다.</description>
+    </item>
+    
+    <item>
+      <title>OCI에서의 Custom Startup Scripts 및 Cloud-init 사용하기</title>
+      <link>http://www.oracloud.kr/post/win_cloudinit/</link>
+      <pubDate>Fri, 26 Oct 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/win_cloudinit/</guid>
+      <description>OCI에서 Cloudbase-init을 이용해서 윈도우 서버 인스턴스를 쉽게 구성하고 사용자 지정하는 방법을 소개합니다. Windows Server의 새로운 통합 Cloud-Init 환경을 사용하면 더 많은 응용 프로그램, 호스트 구성 및 사용자 지정 설치로 인스턴스를 쉽게 부트 스트랩 할 수 있습니다. 이 기능은 Linux 또는 Windows Server를 실행하는 Oracle Cloud Infrastructure 컴퓨팅 인스턴스에서 Cloud-Init 사용자 정의 사용자 데이터 시작 스크립트(Custom user data startup script)를 통해 처리됩니다.
+사용자 데이터란? 사용자 데이터는 Oracle Cloud Infrastructure에서 컴퓨팅 인스턴스가 초기화 될 때 스크립트 또는 사용자 정의 메타 데이터를 주입하는 메커니즘입니다.</description>
+    </item>
+    
+    <item>
+      <title>Multiple VNIC로 서로 다른 VCN 연결하기: Part 1</title>
+      <link>http://www.oracloud.kr/post/connecting_vcn/</link>
+      <pubDate>Mon, 08 Oct 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/connecting_vcn/</guid>
+      <description>Oracle Cloud Infrastructure에서는 둘 이상의 VCN(Virtual Cloud Network)을 연결할 경우 LPG(Local Peering Gateway)가 사용됩니다. LPG를 사용하면 프로바이더 VCN이 고객 VCN과 연결되어 공유 리소스에 대한 Private Access를 허용할 수 있는 서비스 프로바이더 모델을 사용할 수 있습니다. 그러나 VCN 당 10개의 LPG만 연결할 수 있습니다. Oracle Cloud Infrastructure를 사용하는 IT 관리 회사의 예를 살펴보겠습니다. 이들은 하나의 VCN을 중앙 IT 팀이 제어하는 허브 VCN으로 프로비저닝 합니다. 각 클라이언트에 대해 Spoke VCN을 프로비저닝 합니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Cloud와 타 클라우드 연결하기</title>
+      <link>http://www.oracloud.kr/post/interconnectivity/</link>
+      <pubDate>Tue, 02 Oct 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/interconnectivity/</guid>
+      <description>멀티 클라우드 아키텍처는 둘 이상의 클라우드 서비스 프로바이더를 이용 합니다. 기업은 복원력 제공, 재해 복구 계획 수립, 성능 향상, 비용 절감 등 여러 가지 이유로 클라우드 프로바이더가 두 개 이상 있습니다. 클라우드 리소스를 한 클라우드 프로바이더에서 다른 클라우드 프로바이더로 마이그레이션하려는 경우 클라우드 간 액세스 및 네트워킹이 필요합니다. Oracle Cloud Infrastructure는 Oracle VCN(Virtual Cloud Network)을 인터넷, 온프레미스 데이터센터 또는 기타 클라우드 프로바이더와 연결하기 위한 IGW(Internet Gateway) 및 DRG(Dynamic Routing Gateway) 서비스 게이트웨이 옵션을 제공합니다.</description>
+    </item>
+    
+    <item>
+      <title>VGA Console로 OCI Compute 인스턴스 연결하기</title>
+      <link>http://www.oracloud.kr/post/oci_vga_console/</link>
+      <pubDate>Tue, 18 Sep 2018 01:14:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oci_vga_console/</guid>
+      <description>OCI Compute 에서는 인스턴스에 대한 VGA Console 접속을 지원 합니다.
+VGA Console 을 이용하면 Public IP를 사용하지 않고 인스턴스에 접속할 수 있습니다.
+ 일반적인 전산실 환경을 예로 들면, 운영팀은 전산실에 있는 리눅스 서버에 IP로 접속을 할 수 있습니다. 하지만 해당 리눅스에 부팅 문제 등으로 IP를 통한 접속이 힘든 경우가 있는데, 이때는 물리서버에 직접 키보드, 모니터를 연결하여 troubleshooting을 하게 됩니다. 이러한 경우 처럼 물리적인 서버에 키보드, 마우스를 직접 연결하여 인스턴스를 볼 수 있게 하는 것이 OCI의 VGA Console 기능 입니다.</description>
+    </item>
+    
+    <item>
+      <title>Cloudberry로 OCI Object Storage 접속하기</title>
+      <link>http://www.oracloud.kr/post/oci_objectstorage_cloudberry_s3/</link>
+      <pubDate>Fri, 14 Sep 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oci_objectstorage_cloudberry_s3/</guid>
+      <description>OCI (Oracle Cloud Infrastructure)의 IaaS 서비스 중 Object Storage는 S3 호환 API가 제공되므로, CloudBerry Explorer for Amazon S3 사용자는 손쉽게 OCI Object Storage를 연결하실 수 있습니다. CloudBerry Explorer for Amazon S3에 대한 설치 등의 과정은 본 글에서는 다루지 않습니다.
+ OCI Region 본 테스트는 OCI Region 중 us-ashburn-1에서 진행하였습니다. Oracle Cloud Trial 계정을 사용하시는 분들은 북미 지역을 선택하시면 Ashburn region 사용 가능합니다.
+OCI Object Storage 버킷 생성 Bucket이란 Object를 저장하는 논리 컨테이너를 의미합니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle PaaS의 Storage CS 컨테이너 설정 형식 변경</title>
+      <link>http://www.oracloud.kr/post/stroage_cs_url/</link>
+      <pubDate>Sun, 24 Sep 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/stroage_cs_url/</guid>
+      <description>오라클 클라우드에서 Oracle BDCS1, Oracle MySQL CS2 그리고 Oracle BDCSCE3와 같은 PaaS 서비스는 인스턴스 생성 과정에 Oracle Storage CS의 컨테이너를 등록 하는 항목을 포함합니다. 오라클 클라우드 PaaS는 백업 및 데이터 저장 용도로 Oracle Storage CS를 사용합니다. 지난 8월에 오라클 클라우드의 트라이얼 계정이 Credit 체제로 변경되는 과정에서 Storage CS 컨테이너 등록 형식이 변경되었습니다. 본 문서에는 Storage CS의 컨테이너 등록 정보를 확인하는 방법과 방법을 소개합니다.
+Oracle Storage CS 이용 Oracle PaaS 아래 &amp;lt;그림 1&amp;gt;, &amp;lt;그림 2&amp;gt;, &amp;lt;그림 3&amp;gt;은 각각 Oracle MySQL CS, Oracle Database CS 그리고 Oracle BDCSCE의 Oracle Storage CS의 설정 화면입니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Cloud Infrastructure(BMCS)에서 CHEF 활용하기</title>
+      <link>http://www.oracloud.kr/post/bmcs_chef/</link>
+      <pubDate>Fri, 15 Sep 2017 21:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/bmcs_chef/</guid>
+      <description>다음은 Oracle Cloud Infrastructure(BMCS) 환경에서 CHEF를 구성하고 활용하는 방법에 대한 문서입니다.
+CHEF에 대한 자세한 내용은 CHEF문서(docs.chef.io)를 참고하시면 됩니다.
+1. CHEF란? CHEF는 Ansible, Puppet과 더불어 가장 많이 사용되고 있는 Configuration Management툴이며, 2009년에 처음 OpsCode에서 만든 오픈소스 프레임워크 입니다. CHEF는 Server나 Application을 쉽게 배포하고, Cloud Infrastructure를 자동화 할 수 있도록 도와줍니다.
+CHEF는 Ruby기반의 DSL(Domain Specific Language)을 사용하기 때문에 배우기 쉬우면서도, Ruby언어의 장점을 그래도 계승하고 있습니다. 또한, CHEF는 세상에 나온지 8년이 되었고, 레퍼런스가 다양하고 광범위하기 때문에 참조할만한 리소스가 매우 많고, 구축할 때 모든 것을 처음부터 일일이 손수 만들 필요가 없습니다.</description>
+    </item>
+    
+    <item>
+      <title>우분투 17.04 가상머신 만들기</title>
+      <link>http://www.oracloud.kr/post/compute_instance/</link>
+      <pubDate>Tue, 02 May 2017 11:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/compute_instance/</guid>
+      <description>2017년 04월 오라클 클라우드 Compute Service에는 17.1.2 버전1이 적용되었습니다. 17.1.2 버전에는 네트워크 구성에 대한 새로운 기능이 추가되었습니다. 기존의 Shared Network와 별개로 IPNetwork를 이용하여 서브넷을 구성할 수 있습니다. 새로운 기능 추가와 함께, 가상머신을 만드는 UI와 가상머신을 생성하는 오케스트레이션에 변경된 부분이 있습니다.
+매년 4월은 Ubuntu 새 버전이 출시되는 시점입니다. 올해에도 지난 4월에 Ubuntu 17.04 버전이 출시되었습니다. 새로 출시된 Ubuntu 17.04 설치 이미지는 현재 오라클 클라우드 마켓 플레이스에 등록된 상태이며, 이 이미지를 이용하여 가상머신을 만들 수 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Storage Cloud Service</title>
+      <link>http://www.oracloud.kr/post/storage_cs/</link>
+      <pubDate>Fri, 28 Apr 2017 23:02:33 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/storage_cs/</guid>
+      <description>클라우드 서비스에서 기본은 Compute 서비스와 오브젝트 스토리지 서비스입니다. 그만큼 스토리지 서비스는 가장 많이 사용하고 중요한 서비스입니다. 아마존의 S3에 해당하는 오라클 클라우드의 오브젝트 스토리지 서비스는 Oracle Storage Cloud Service입니다.
+Oracle Storage Cloud Service는 인터넷 접근이 가능한 어디서나 데이터를 저장하고 사용할 수 있는 신뢰성과 안전성을 겸비한 스토리지 서비스입니다. 높은 수준의 가용성을 제공하기 위해서 모든 데이터는 데이터 센터 내에서 복수의 복사본(Replica)으로 관리됩니다. 99.9%의 가용성과 Eleven-Nine의 Durability1를 SLA로 보장합니다. 더 높은 고가용성을 제공하기 위해서 데이터 센터간 복제 설정을 추가할 수 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle BMCS에서 Terraform을 이용한 관리 자동화 구축</title>
+      <link>http://www.oracloud.kr/post/bmcs_terraform/</link>
+      <pubDate>Fri, 21 Apr 2017 17:15:48 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/bmcs_terraform/</guid>
+      <description>다음은 Oracle IaaS BMCS 환경에서 Terraform을 사용하여 자동화(Infrastructure as Code)하는 방법에 대해서 가이드 하는 문서입니다.
+Terraform에 대한 문서는 이곳를 참고하십시오.
+1. BMCS에서 Terraform을 사용하기 위한 환경 구성 BMCS에서 Terraform 을 사용하기 위해서는 먼저 VM을 생성한 후 해당 VM에 Terraform provider를 설치해야 합니다.
+Terraform Provider 설치 BareMetal 용 Terraform Provider 는 이곳에서 해당 OS버전에 맞추어서 다운로드가 가능합니다. Linux용은 https://github.com/oracle/terraform-provider-baremetal/releases/download/v1.0.3/linux.tar.gz 에서 다운로드 받으실 수 있습니다.
+원하는 위치에 linux.tar.gz을 풀고, Home directory에 다음과 같은 ~/.</description>
+    </item>
+    
+    <item>
+      <title>오라클 클라우드의 Docker 컨테이너 지원 유형</title>
+      <link>http://www.oracloud.kr/post/docker_in_oc/</link>
+      <pubDate>Wed, 19 Apr 2017 19:01:16 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/docker_in_oc/</guid>
+      <description>오라클 클라우드에서 docker를 운영하는 방식은 3가지입니다. 첫 번째는 Oracle cloud의 가상머신에 Docker와 Orchestration tool(Kubernetes, docker-swarm, marathon)을 직접 설치하고 사용하는 것입니다. 두 번째는 Oracle Cloud가 IaaS 형태로 제공하는 Oracle Container Cloud Service (이하 OCCS)를 사용하는 것입니다. 세 번째는 Oracle Cloud가 PaaS 형태로 제공하는 Oracle Application Container Cloud(이하 Oracle ACC)를 사용하는 것입니다.
+Oracle Cloud에서 Docker를 사용하는 방식을 요약하면 다음과 같습니다.
+ DIY 타입: Oracle Compute CS에 직접 설치 IAAS 타입: Oracle Container Cloud Service (OCCS) PAAS 타입: Oracle Application Container Service (Oracle ACC)  Type 1.</description>
+    </item>
+    
+    <item>
+      <title>Upload CLI을 이용한 Object Storage 데이터 이관</title>
+      <link>http://www.oracloud.kr/post/uploadcli/</link>
+      <pubDate>Wed, 19 Apr 2017 10:45:24 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/uploadcli/</guid>
+      <description>데이터베이스의 대용량 export dump file을 DBCS에 Upload하는 기본적인 방법은 sftp를 이용하여 DBCS Instance로 Upload하는 것입니다. 하지만, sftp를 이용할 경우 하나의 세션을 이용하기 때문에 Network Bandwidth를 모두 사용하지 못해 대용량 Dump file의 경우 Upload속도가 많이 느려질수 있습니다.
+데이터베이스의 대용량 export dump file을 효율적으로 DBCS에 Upload하는 방법은 다음과 같습니다.
+Oracle Storage Cloud에 Upload하기 위한 Tool인 uploadcli에 대한 설치 방법은 다음과 같습니다.
+ 사전 요구사항 : JRE 7 or later OTN을 통해 uploadcli를 download합니다.</description>
+    </item>
+    
+    <item>
+      <title>오라클 클라우드에서 window VM 인스턴스 생성</title>
+      <link>http://www.oracloud.kr/post/win-vm/</link>
+      <pubDate>Fri, 31 Mar 2017 22:42:46 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/win-vm/</guid>
+      <description>오라클 클라우드(Oracle Public Cloud, OPC)의 Compute 서비스에서 Window VM 인스턴스를 생성하는 절차를 정리합니다. 오라클 클라우드에서 가상머신을 생성하기 위해서는 Oracle Cloud 계정이 필요합니다. 현재 OPC 계정이 없다면 &amp;ldquo;오라클 클라우드 계정 생성하기&amp;rdquo;를 먼저 확인하시기 바랍니다.
+Oracle Cloud VM 인스턴스 생성 실습 본 문서는 OS X(Mac) 환경에서 작성되었습니다. 이 문서의 실습에 있어서 윈도우와 &amp;ldquo;OS X&amp;rdquo;의 차이는 거의 없습니다. Window VM을 생성한 후, RDP로 Window VM에 접속하는 부분만 차이가 있습니다. 이 부분은 Window와 &amp;ldquo;OS X&amp;rdquo;를 구분하여 작성했습니다.</description>
+    </item>
+    
+    <item>
+      <title>오라클 IaaS를 이용한 VM 인스턴스 생성</title>
+      <link>http://www.oracloud.kr/post/iaas_vm/</link>
+      <pubDate>Sun, 05 Mar 2017 22:20:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/iaas_vm/</guid>
+      <description>오라클 클라우드의 IaaS 서비스에서 Ubuntu 14.04를 VM 인스턴스로 만드는 절차를 정리합니다. 오라클 클라우드에서 가상머신을 생성하기 위해서는 Oracle Cloud의 계정이 필요합니다. 계정을 생성하는 방법에 대해서는 &amp;ldquo;오라클 클라우드 계정 생성하기&amp;rdquo; 를 참조하시기 바랍니다.
+Oracle Cloud VM 인스턴스 생성 실습 본 문서는 OS X(Mac) 환경에서 작성되었습니다. 이 문서를 윈도우에서 실습하실 경우에는 PUTTY와 같은 Terminal을 사용하는 부분과 SSH-KEYGEN 을 사용하는 절차가 달라질 것입니다. 이 부분에 대해서는 별도 문서로 정리하겠습니다.
+오라클 클라우드 VM 생성 실습은 약 10~15분 정도 소요됩니다.</description>
+    </item>
+    
+  </channel>
+</rss>

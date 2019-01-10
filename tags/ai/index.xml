@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on 오라클 클라우드 기술 블로그</title>
+    <link>http://www.oracloud.kr/tags/ai/</link>
+    <description>Recent content in AI on 오라클 클라우드 기술 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sat, 08 Sep 2018 01:09:25 +0900</lastBuildDate>
+    
+	<atom:link href="http://www.oracloud.kr/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>&#39;Oracle Cloud AI 서비스&#39; @ Oracle Impact</title>
+      <link>http://www.oracloud.kr/post/oracle_impact/</link>
+      <pubDate>Sat, 08 Sep 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oracle_impact/</guid>
+      <description>2018월 9월 7일에 르메르디앙 호텔에서 Oracle IMPACT 세미나가 진행되었습니다. 이 행사에서 오라클이 바라보는 AI의 관점과 현재 Oracle Cloud의 AI 지원 서비스 및 향후 비전을 주제로 발표를 했습니다. 발표 내용을 간략하게 정리하겠습니다.
+Oracle Impact: Oracle Cloud AI Enterprise AI  그림 1: 오라클 AI 지향점    오라클은 오라클 클라우드에서 &amp;ldquo;엔터프라이즈 AI&amp;rdquo;관점에서 서비스를 만들고 있으며, 이 서비스를 고도화하고 있습니다. 오라클이 지향하는 AI는 기업이 갖고 있는 데이터 혹은 분석 대상이 되는 정형 &amp;amp;비정형 데이터를 효과적으로 분석하는 환경 체계를 제공하는 것입니다.</description>
+    </item>
+    
+  </channel>
+</rss>

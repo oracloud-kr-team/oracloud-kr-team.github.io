@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<META http-equiv="Expires" content="-1">
+<META http-equiv="Pragma" content="no-cache">
+<META http-equiv="Cache-Control" content="No-Cache">
+
+<title>인공지능봇</title>
+<meta name="description" content="오라클 클라우드 기술 블로그">
+<meta name="generator" content="Hugo 0.54-DEV" />
+<meta property="og:title" content="인공지능봇" />
+<meta property="og:description" content="오라클 클라우드 기술 블로그" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.oracloud.kr/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EB%B4%87/" />
+<meta property="og:updated_time" content="2018-11-11T21:59:47&#43;09:00"/>
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="alternate" type="application/rss+xml" title="오라클 클라우드 기술 블로그 Feed" href="http://www.oracloud.kr/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EB%B4%87/index.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" type="text/css" media="all" />
+<link rel="stylesheet" href="http://www.oracloud.kr/css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://www.oracloud.kr/css/minsu.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://www.oracloud.kr/css/hybrid.css" type="text/css" media="all" />
+<script type="text/javascript" src="http://www.oracloud.kr/js/scripts.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="/img/icon/oracle.png" />
+
+
+
+</head>
+<body class="body body-right-sidebar mobile" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+	<div class="container container-outer">
+		<header class="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+			<div class="container container-inner clearfix">
+				<div class="logo" role="banner" itemscope="itemscope" itemtype="http://schema.org/Brand">
+					<a class="logo__link" href="http://www.oracloud.kr/" title="오라클 클라우드 기술 블로그" rel="home">
+						<h1 class="logo__title">오라클 클라우드 기술 블로그</h1>
+						<h2 class="logo__tagline">한국 오라클 - oracloud.kr</h2>
+					</a>
+				</div>
+			</div>
+			<nav class="menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<ul class="menu__list">
+		<li class="menu__item "><a class="menu__link" href="/" title="블로그 메인 페이지 " >Home</a></li>
+		<li class="menu__item "><a class="menu__link" href="/oraclooud/" title="oracloud.kr을 소개합니다. " >oracloud.kr 소개</a></li>
+		<li class="menu__item "><a class="menu__link" href="/monthly-oracle-code/" title="월간 오라클 기술 세미나를 기록합니다." >오라클 기술 세미나</a></li>
+		<li class="menu__item "><a class="menu__link" href="/opc-terminology/" title="오라클 클라우드에서 각 서비스에서 사용하는 용어의 정의를 정리합니다." >OPC 용어사전</a></li>
+		<li class="menu__item "><a class="menu__link" href="https://gitter.im/oracloud-korea-user-group/Lobby" title="채팅룸으로 이동합니다."target='_blank' >오라클 클라우드 채팅룸</a></li>
+	</ul>
+</nav>
+
+		</header>
+		<div class="wrapper clearfix">
+
+
+	<div class="main-content loop content" role="main">
+		<header class="page-header">
+			<h1 class="page-header__title">인공지능봇</h1>
+		</header>
+		<article class="loop__item post clearfix">
+			<figure class="loop__thumbnail">
+				<a href="http://www.oracloud.kr/post/chatbot_dialog_flow/">
+					<img src="https://oracloud-kr-teamrepo.github.io/2018/chatbot_image_repo/logo/dialogFlow_icon.jpg" alt="오라클 챗봇을 이용해서 대화형 챗봇 만들기" />
+				</a>
+			</figure>
+			<div class="loop__content clearfix">
+				<header class="loop__header">
+					<h3 class="loop__title post__title ">
+						<a href="http://www.oracloud.kr/post/chatbot_dialog_flow/" rel="bookmark">오라클 챗봇을 이용해서 대화형 챗봇 만들기</a>
+					</h3>
+					<div class="loop__meta meta">
+						<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+						<time class="loop__meta-date" datetime="2018-11-11 21:59:47 &#43;0900 &#43;0900">November 11, 2018</time>
+					</div>
+				</header>
+				<div class="loop__excerpt">
+									  - 대화 흐름 정의? 대화 흐름 정의 (dialog flow)는 대화 자체의 모델입니다. 대화의 흐름을 정의함으로써, 봇과 사용자 간의 상호 작용을 관리 할 수 ​​있습니다. 간단한 Markup language인 YAML 문법을 사용하는 OBotML은 간단하고 확장성이 좋기때문에, 대화의 흐름을 편하고 완벽하게 구현할 수 있습니다.
+- Dialog Flow Structure 대화의 흐름을 위와 같은 state machine을 정의한다고 생각하시 ......
+				</div>
+				<div class="loop__excerpt">
+						<a class="label" href="/tags/chatbot/" rel="tag">chatbot</a></li>
+						<a class="label" href="/tags/%EC%B1%97%EB%B4%87/" rel="tag">챗봇</a></li>
+						<a class="label" href="/tags/%EC%B1%84%ED%84%B0%EB%B4%87/" rel="tag">채터봇</a></li>
+						<a class="label" href="/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/" rel="tag">인공지능</a></li>
+						<a class="label" href="/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EB%B4%87/" rel="tag">인공지능봇</a></li>
+						<a class="label" href="/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%EC%B1%97%EB%B4%87/" rel="tag">오라클 챗봇</a></li>
+						<a class="label" href="/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-chatbot/" rel="tag">오라클 chatbot</a></li>
+						<a class="label" href="/tags/oracle-chatbot/" rel="tag">oracle chatbot</a></li>
+						<a class="label" href="/tags/%EB%8C%80%ED%99%94%ED%98%95%EB%B4%87/" rel="tag">대화형봇</a></li>
+						<a class="label" href="/tags/%ED%95%9C%EA%B5%AD%EC%96%B4%EC%B1%97%EB%B4%87/" rel="tag">한국어챗봇</a></li>
+						<a class="label" href="/tags/%EB%8C%80%ED%99%94%ED%98%95/" rel="tag">대화형</a></li>
+				</div>
+			</div>
+		</article>
+		<article class="loop__item post clearfix">
+			<figure class="loop__thumbnail">
+				<a href="http://www.oracloud.kr/post/chatbot_intro/">
+					<img src="https://oracloud-kr-teamrepo.github.io/2018/chatbot_image_repo/logo/intro.jpg" alt="오라클 챗봇 (Oracle Intelligent Bots) 기능 둘러보기" />
+				</a>
+			</figure>
+			<div class="loop__content clearfix">
+				<header class="loop__header">
+					<h3 class="loop__title post__title ">
+						<a href="http://www.oracloud.kr/post/chatbot_intro/" rel="bookmark">오라클 챗봇 (Oracle Intelligent Bots) 기능 둘러보기</a>
+					</h3>
+					<div class="loop__meta meta">
+						<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+						<time class="loop__meta-date" datetime="2018-09-01 21:59:47 &#43;0900 &#43;0900">September 01, 2018</time>
+					</div>
+				</header>
+				<div class="loop__excerpt">
+									  이전 포스트에서는 챗봇이 무엇인지 살펴 보셨습니다. 이 포스트에서는 이 후의 포스트에서는 오라클 챗봇을 직접 만들고 여러 서비스에 연결해서 실생활에 사용 가능한 챗봇을 만들어 보겠습니다.
+- 챗봇이란? 전 포스트 참고
+- 오라클 챗봇에 대해 배워보기? 개발자 이신가요? 직접 코드를 채워가면서 챗봇에 기능 추가하는 workshop입니다. 워크샵 바로가기 현업에 계신가요? 만들어져 있는 코드를 넣어보며 직접 테스트 해보실 수 있는 workshop입 ......
+				</div>
+				<div class="loop__excerpt">
+						<a class="label" href="/tags/chatbot/" rel="tag">chatbot</a></li>
+						<a class="label" href="/tags/omce/" rel="tag">OMCe</a></li>
+						<a class="label" href="/tags/oracle-mobile/" rel="tag">Oracle Mobile</a></li>
+						<a class="label" href="/tags/%EC%B1%97%EB%B4%87/" rel="tag">챗봇</a></li>
+						<a class="label" href="/tags/%EC%B1%84%ED%84%B0%EB%B4%87/" rel="tag">채터봇</a></li>
+						<a class="label" href="/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/" rel="tag">인공지능</a></li>
+						<a class="label" href="/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EB%B4%87/" rel="tag">인공지능봇</a></li>
+						<a class="label" href="/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%EC%B1%97%EB%B4%87/" rel="tag">오라클 챗봇</a></li>
+						<a class="label" href="/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-chatbot/" rel="tag">오라클 chatbot</a></li>
+						<a class="label" href="/tags/oracle-chatbot/" rel="tag">oracle chatbot</a></li>
+				</div>
+			</div>
+		</article>
+		<article class="loop__item post clearfix">
+			<figure class="loop__thumbnail">
+				<a href="http://www.oracloud.kr/post/chatbot_terms/">
+					<img src="https://oracloud-kr-teamrepo.github.io/2018/chatbot_image_repo/logo/chatbot.png" alt="챗봇이란 무엇인가. 챗봇 용어 및 개념 완벽 정리" />
+				</a>
+			</figure>
+			<div class="loop__content clearfix">
+				<header class="loop__header">
+					<h3 class="loop__title post__title ">
+						<a href="http://www.oracloud.kr/post/chatbot_terms/" rel="bookmark">챗봇이란 무엇인가. 챗봇 용어 및 개념 완벽 정리</a>
+					</h3>
+					<div class="loop__meta meta">
+						<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+						<time class="loop__meta-date" datetime="2018-09-01 21:59:47 &#43;0900 &#43;0900">September 01, 2018</time>
+					</div>
+				</header>
+				<div class="loop__excerpt">
+										- 챗봇이란? 챗봇이란 간단히말해, 카톡이나 라인과 같은 메신저로 상대방과 대화할때 상대편에 사람이 아닌 software program이 대화를 하고 있다고 생각하시면 됩니다. 챗봇을 많은 기업들이 도입해, 고객 상담 창구를 확장한 형태로 사용 하는 예를 흔히 보실 수 있습니다. 젊은 밀레니얼 세대는 새로운 앱을 다운 받기를 싫어하며 전화보다는 카톡 혹은 페이스북 메신저를 선호합니다. 때문에, 어떤 기업에서 물건을 사고 레스토랑에 예약을 하거나 행사에 대한 여러가지 질문들 또한 Instant Messenger에서 이뤄지기를 기대하는 것은 자연스러운 현상입니다.
+				</div>
+				<div class="loop__excerpt">
+						<a class="label" href="/tags/chatbot/" rel="tag">chatbot</a></li>
+						<a class="label" href="/tags/%EC%B1%97%EB%B4%87/" rel="tag">챗봇</a></li>
+						<a class="label" href="/tags/%EC%B1%84%ED%84%B0%EB%B4%87/" rel="tag">채터봇</a></li>
+						<a class="label" href="/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/" rel="tag">인공지능</a></li>
+						<a class="label" href="/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EB%B4%87/" rel="tag">인공지능봇</a></li>
+						<a class="label" href="/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%EC%B1%97%EB%B4%87/" rel="tag">오라클 챗봇</a></li>
+						<a class="label" href="/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-chatbot/" rel="tag">오라클 chatbot</a></li>
+						<a class="label" href="/tags/oracle-chatbot/" rel="tag">oracle chatbot</a></li>
+				</div>
+			</div>
+		</article>
+
+		
+	</div>
+
+<aside class="sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+	
+<div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="//google.com/search">
+		<label>
+			<span class="screen-reader-text">Search for:</span>
+			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="http://www.oracloud.kr/" />
+	</form>
+</div>
+	
+
+	
+<div class="widget-recent widget">
+	<h4 class="widget__title">최신글</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/post/oci_fd/" title="가용성 향상을 위한 Availability Domain과 Fault Domain">
+							가용성 향상을 위한 Availability Domain과 Fau ......</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/instance_pool/" title="템플릿을 이용한 손쉬운 Compute Instance 관리">
+							템플릿을 이용한 손쉬운 Compute Instance 관리</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/chatbot_dialog_flow/" title="오라클 챗봇을 이용해서 대화형 챗봇 만들기">
+							오라클 챗봇을 이용해서 대화형 챗봇 만들기</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/oci_ready/" title="OCI에 어떤 업무를 운영할 수 있을까요?">
+							OCI에 어떤 업무를 운영할 수 있을까요?</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/tracking_cost/" title="Tagging을 이용한 Cost Tracking">
+							Tagging을 이용한 Cost Tracking</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/blockchain003/" title="Node.js Fabric Client SDK를 사용하여 오라클 블록체인 클라우드에 배포된 Fabcar 체인코드 호출하기">
+							Node.js Fabric Client SDK를 사용하여 오라클 ......</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/competitor/" title="HyperLedger Fabric과 Ethereum 비교">
+							HyperLedger Fabric과 Ethereum 비교</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/blockchain002/" title="오라클 블록체인 클라우드에 Hyperledger Fabric 샘플 체인코드 Fabcar 배포하기">
+							오라클 블록체인 클라우드에 Hyperledger Fabric 샘 ......</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/win_cloudinit/" title="OCI에서의 Custom Startup Scripts 및 Cloud-init 사용하기">
+							OCI에서의 Custom Startup Scripts 및 Clo ......</a>
+		  </li>
+			<li class="widget__item">
+				<a class="widget__link" href="/post/blockchain001/" title="Oracle Autonomous Blockchain Cloud를 이용한 블록체인 네트워크 생성 및 편리한 관리 기능 살펴보기">
+							Oracle Autonomous Blockchain Cloud를 ......</a>
+		  </li>
+		</ul>
+	</div>
+</div>
+
+	
+<div class="widget-categories widget">
+	<h4 class="widget__title">카테고리</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/api-catalog">API Catalog</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/big-data">Big Data</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/chatbot">Chatbot</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/cloud">Cloud</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/container">Container</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/docker">Docker</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/event">Event</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/iaas">IaaS</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/kubernetes">Kubernetes</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/mysql">MySQL</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle">Oracle</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle-cloud">Oracle Cloud</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle-cloud-event">Oracle Cloud Event</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle-iaas">Oracle IaaS</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle-management-cloud">Oracle Management Cloud</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle-paas">Oracle PaaS</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle-cloud">Oracle-Cloud</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/paas">PaaS</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/ravello">Ravello</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/seminar">Seminar</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/big-data">big data</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/blogs.oracle.com">blogs.oracle.com</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/cloud">cloud</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/event">event</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/java">java</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle">oracle</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.oracloud.kr/categories/oracle-cloud">oracle cloud</a></li>
+		</ul>
+	</div>
+</div>
+
+	
+<div class="widget-taglist widget">
+	<h4 class="widget__title">태그</h4>
+	<div class="widget__content">
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ad" title="AD">AD (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/adec" title="ADEC">ADEC (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ai" title="AI">AI (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/api" title="API">API (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/api-catalog" title="API Catalog">API Catalog (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/analytics" title="Analytics">Analytics (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ansible" title="Ansible">Ansible (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/appdev" title="AppDev">AppDev (4)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/application-container-cloud" title="Application Container Cloud">Application Container Cloud (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/autonomous" title="Autonomous">Autonomous (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/availability-domain" title="Availability Domain">Availability Domain (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/bdc" title="BDC">BDC (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/bdpcs" title="BDPCS">BDPCS (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/bmcs" title="BMCS">BMCS (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/big-data" title="Big Data">Big Data (4)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/blockchain" title="Blockchain">Blockchain (5)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/blockchain-platform" title="Blockchain platform">Blockchain platform (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cc" title="C@C">C@C (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cd" title="CD">CD (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ci" title="CI">CI (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloud" title="CLOUD">CLOUD (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/chef" title="Chef">Chef (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloud" title="Cloud">Cloud (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloud-native" title="Cloud Native">Cloud Native (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloud-performance" title="Cloud Performance">Cloud Performance (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloud-workload" title="Cloud Workload">Cloud Workload (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/compute-cs" title="Compute CS">Compute CS (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/container" title="Container">Container (4)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/dbcs" title="DBCS">DBCS (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/drg" title="DRG">DRG (9)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/dw" title="DW">DW (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/data-center" title="Data Center">Data Center (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/data-visualization" title="Data Visualization">Data Visualization (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/datacenter" title="Datacenter">Datacenter (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/desktop" title="Desktop">Desktop (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/devops" title="DevOps">DevOps (5)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/developer-cloud" title="Developer Cloud">Developer Cloud (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/docker" title="Docker">Docker (6)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/event-hub" title="Event Hub">Event Hub (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/fault-domain" title="Fault Domain">Fault Domain (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/hlf" title="HLF">HLF (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/hyperledger" title="HyperLedger">HyperLedger (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/hyperledger-fabric" title="Hyperledger Fabric">Hyperledger Fabric (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/iac" title="IAC">IAC (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/iaas" title="IaaS">IaaS (4)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/identity-domain" title="Identity Domain">Identity Domain (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/java-ee" title="Java EE">Java EE (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/kafka" title="Kafka">Kafka (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/kubernetes" title="Kubernetes">Kubernetes (4)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/load-balancer" title="Load Balancer">Load Balancer (9)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/management" title="Management">Management (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/microservice" title="Microservice">Microservice (4)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/mysql" title="MySQL">MySQL (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/mysql-cs" title="MySQL CS">MySQL CS (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/nested-virtualization" title="Nested Virtualization">Nested Virtualization (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/nosql" title="NoSQL">NoSQL (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/node.js" title="Node.js">Node.js (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oabcs" title="OABCS">OABCS (5)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oci" title="OCI">OCI (12)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ocir" title="OCIR">OCIR (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/omc" title="OMC">OMC (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/omce" title="OMCe">OMCe (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle" title="ORACLE">ORACLE (13)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/object-storage" title="Object Storage">Object Storage (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracl-bdcsce" title="Oracl BDCSCE">Oracl BDCSCE (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle" title="Oracle">Oracle (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-bdcsce" title="Oracle BDCSCE">Oracle BDCSCE (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-big-data-cloud" title="Oracle Big Data Cloud">Oracle Big Data Cloud (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-blockchain-cloud" title="Oracle Blockchain Cloud">Oracle Blockchain Cloud (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-cloud" title="Oracle Cloud">Oracle Cloud (30)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-digital" title="Oracle Digital">Oracle Digital (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-event-hub" title="Oracle Event Hub">Oracle Event Hub (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-mobile" title="Oracle Mobile">Oracle Mobile (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/orchestrator" title="Orchestrator">Orchestrator (4)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/psm" title="PSM">PSM (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/polyglot" title="Polyglot">Polyglot (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ravello" title="Ravello">Ravello (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/registry" title="Registry">Registry (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/security" title="Security">Security (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/security-list" title="Security List">Security List (9)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/storage" title="Storage">Storage (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/storage-cs" title="Storage CS">Storage CS (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/terraform" title="Terraform">Terraform (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/tutorial" title="Tutorial">Tutorial (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/vcn" title="VCN">VCN (9)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/vm" title="VM">VM (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/vagrant" title="Vagrant">Vagrant (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/virtualization" title="Virtualization">Virtualization (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/webinar" title="Webinar">Webinar (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/windows" title="Windows">Windows (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/acc" title="acc">acc (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/accs" title="accs">accs (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/amabari" title="amabari">amabari (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/automation" title="automation">automation (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/backup" title="backup">backup (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/bdcs-ce" title="bdcs ce">bdcs ce (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/bdcsce" title="bdcsce">bdcsce (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/big-data" title="big data">big data (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cassandra" title="cassandra">cassandra (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/chatbot" title="chatbot">chatbot (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloud" title="cloud">cloud (25)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cloudberry" title="cloudberry">cloudberry (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cncf" title="cncf">cncf (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/compute" title="compute">compute (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/configuration" title="configuration">configuration (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/container" title="container">container (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/cost" title="cost">cost (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/data-hub" title="data hub">data hub (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/data-management" title="data management">data management (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/database" title="database">database (4)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/database-backup" title="database backup">database backup (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/dbcs" title="dbcs">dbcs (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/deverlper-meetup" title="deverlper meetup">deverlper meetup (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/devops" title="devops">devops (5)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/docker" title="docker">docker (6)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/fabcar" title="fabcar">fabcar (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/fabric-sdk" title="fabric sdk">fabric sdk (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/fabric-ca-client" title="fabric-ca-client">fabric-ca-client (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/fabric-client" title="fabric-client">fabric-client (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/fastconnect" title="fastconnect">fastconnect (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/hadoop" title="hadoop">hadoop (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/hostname" title="hostname">hostname (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/iaas" title="iaas">iaas (9)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/instance" title="instance">instance (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/integration" title="integration">integration (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/interconnect" title="interconnect">interconnect (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ipsec" title="ipsec">ipsec (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/java" title="java">java (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/jupyter" title="jupyter">jupyter (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/kubernetes" title="kubernetes">kubernetes (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/machine-learning" title="machine learning">machine learning (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/management" title="management">management (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/megaport" title="megaport">megaport (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/monitoring" title="monitoring">monitoring (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/mysql" title="mysql">mysql (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/network" title="network">network (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/objectstorage" title="objectstorage">objectstorage (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/occs" title="occs">occs (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oci" title="oci">oci (9)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oci-c" title="oci-c">oci-c (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oci-classic" title="oci-classic">oci-classic (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle" title="oracle">oracle (24)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-chatbot" title="oracle chatbot">oracle chatbot (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-cloud" title="oracle cloud">oracle cloud (13)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/oracle-code" title="oracle code">oracle code (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/orchestration" title="orchestration">orchestration (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/paas" title="paas">paas (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/patch" title="patch">patch (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/pipeline" title="pipeline">pipeline (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/pool" title="pool">pool (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/pubic-ip" title="pubic ip">pubic ip (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ravello" title="ravello">ravello (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/s3" title="s3">s3 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/security" title="security">security (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/serverless" title="serverless">serverless (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/spark" title="spark">spark (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/ssh" title="ssh">ssh (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/storage" title="storage">storage (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/tag" title="tag">tag (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/tagging" title="tagging">tagging (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/talkit" title="talkit">talkit (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/templete" title="templete">templete (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/terraform" title="terraform">terraform (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/tracking" title="tracking">tracking (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/trial" title="trial">trial (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/trial-account" title="trial account">trial account (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/tutorial" title="tutorial">tutorial (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/vcn" title="vcn">vcn (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/vga-console" title="vga console">vga console (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/vm" title="vm">vm (2)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/vnc" title="vnc">vnc (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/vnic" title="vnic">vnic (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/vpn" title="vpn">vpn (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/webinar" title="webinar">webinar (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/window" title="window">window (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ea%b9%80%ed%83%9c%ec%99%84" title="김태완">김태완 (8)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%8c%80%ed%99%94%ed%98%95" title="대화형">대화형 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%8c%80%ed%99%94%ed%98%95%eb%b4%87" title="대화형봇">대화형봇 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%8d%94%ec%bb%a4" title="더커">더커 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%8d%b0%ec%9d%b4%ed%84%b0%ec%84%bc%ed%84%b0" title="데이터센터">데이터센터 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%8f%84%ec%bb%a4" title="도커">도커 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%b2%88%ec%97%ad" title="번역">번역 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8" title="블록체인">블록체인 (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%eb%b9%85%eb%8d%b0%ec%9d%b4%ed%84%b0" title="빅데이터">빅데이터 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%8a%a4%ed%86%a0%eb%a6%ac%ec%a7%80-%ec%bb%a8%ed%85%8c%ec%9d%b4%eb%84%88" title="스토리지 컨테이너">스토리지 컨테이너 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-chatbot" title="오라클 chatbot">오라클 chatbot (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-%ec%b1%97%eb%b4%87" title="오라클 챗봇">오라클 챗봇 (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-%ec%bf%a0%eb%b2%84%eb%84%a4%ed%8b%b0%ec%8a%a4" title="오라클 쿠버네티스">오라클 쿠버네티스 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%98%a4%eb%9d%bc%ed%81%b4-%ed%81%b4%eb%9d%bc%ec%9a%b0%eb%93%9c" title="오라클 클라우드">오라클 클라우드 (21)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5" title="인공지능">인공지능 (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5%eb%b4%87" title="인공지능봇">인공지능봇 (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%9e%90%eb%8f%99%ed%99%94" title="자동화">자동화 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%b1%84%ed%84%b0%eb%b4%87" title="채터봇">채터봇 (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%b1%97%eb%b4%87" title="챗봇">챗봇 (3)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ec%b9%b4%ec%82%b0%eb%93%9c%eb%9d%bc" title="카산드라">카산드라 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ed%85%8c%eb%9d%bc%ed%8f%bc" title="테라폼">테라폼 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ed%86%b5%ed%95%a9" title="통합">통합 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ed%8c%8c%ec%9d%b4%ed%94%84%eb%9d%bc%ec%9d%b8" title="파이프라인">파이프라인 (1)</a>
+		<a class="widget__link widget__link--taglist" href="http://www.oracloud.kr/tags/%ed%95%9c%ea%b5%ad%ec%96%b4%ec%b1%97%eb%b4%87" title="한국어챗봇">한국어챗봇 (1)</a>
+	</div>
+</div>
+
+	<div class="widget-categories widget">
+	<h4 class="widget__title">SNS(Social Network Service)</h4>
+	<div class="widget__content">
+		<a href="https://github.com/oracloud-kr-team" target="_blank" title="github"><img src="/img/icon/github.png" width="50px" height="50px"/></a>
+		<a href="https://www.slideshare.net/ssusercda07e" target="_blank" title="slideshare"><img src="/img/icon/slideshare.png" width="50px" height="50px"/></a>
+		<a href="https://www.youtube.com/channel/UCboJr3TLlqeDqpBURRdb_lg" target="_blank" title="youtube"><img src="/img/icon/youtube.png" width="50px" height="50px"/></a>
+		<a href="mailto:oracloud.kr@gmail.com" title="email"><img src="/img/icon/email.png" width="50px" height="50px"/></a>
+	</div>
+</div>
+
+	
+<div class="widget-categories widget">
+	<h4 class="widget__title">오라클 클라우드 관련 사이트</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="http://cloud.oracle.com/">
+				Oracle Public Cloud 홈페이지</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="http://developer.oracle.com/">
+				Oracle Developers</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="http://docs.oracle.com/en/cloud/">
+				오라클 클라우드 공식 문서</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="https://apexapps.oracle.com/pls/apex/f?p=44785">
+				Oracle Learning Library(실습강좌)</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="https://www.youtube.com/watch?v=28PWeD_w9zA&list=PL_lN0QYuCPSFimWrf4FpnaGAXzcBJLN7i">
+				ORA 클라우드 지식먹방(Youtube 채널-한국어)</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="http://post.naver.com/odpkorea">
+				Oracle Digital Prime(한글)</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+	
+	<div class="widget-categories widget">
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=51xzzorci1s&amp;m=6&amp;c=ff0000&amp;cr1=ffffff&amp;br=6&amp;oo=3&amp;sx=0" async="async"></script>
+</div>
+
+</aside>
+
+	</div>
+		<footer class="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+			<div class="container container-inner">
+				<p class="footer__copyright">&copy; 2019 오라클 클라우드 기술 블로그. </p>
+			</div>
+		</footer>
+	</div>
+
+<script>
+	var navigation = responsiveNav(".menu", {
+		navClass: "menu--collapse",
+	});
+</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-96765743-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>
+

@@ -6,10 +6,109 @@
     <description>Recent content in oracle cloud on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 24 Apr 2017 11:00:57 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 12 Nov 2018 01:09:25 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/tags/oracle-cloud/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>템플릿을 이용한 손쉬운 Compute Instance 관리</title>
+      <link>http://www.oracloud.kr/post/instance_pool/</link>
+      <pubDate>Mon, 12 Nov 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/instance_pool/</guid>
+      <description>Oracle Cloud Infrastructure는 인스턴스 구성 및 인스턴스 풀을 도입하여 컴퓨팅 인스턴스 관리를 강화하였습니다. 클라우드는 Standard OS images, Standard shape configurations 등 유용한 standard를 많이 제공하지만 volume 및 VNIC과 같은 리소스를 프로비저닝하고 첨부하는데 여전히 추가 오버헤드가 있습니다. 그리고 지금까지는 대규모 프로비저닝 및 인스턴스 설정 관리가 어려웠습니다. Instance Configurations feature는 단일 API call로 인스터스 및 필요한 모든 자원의 프로비저닝을 단순화 합니다. 이러한 단순화는 Instance pool로 확장되며, Instance Configurations는 동일한 다수의 컴퓨팅 인스턴스의 논리적 그룹을 생성하고 규모에 맞게 자동으로 시작됩니다.</description>
+    </item>
+    
+    <item>
+      <title>Tagging을 이용한 Cost Tracking</title>
+      <link>http://www.oracloud.kr/post/tracking_cost/</link>
+      <pubDate>Tue, 06 Nov 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/tracking_cost/</guid>
+      <description>Oracle Cloud Infrastructure를 사용함에 있어 부서별 혹은 Cost Center에 따른 비용 산정은 중요합니다.
+Oracle Cloud Infrastructure를 사용하면 My Services Dashboard를 사용하여 서비스 또는 Compartment 수준에서 비용을 tracking 할 수 있지만, multiple compartment 또는 compartment를 공유하는 프로젝트의 비용 또한 tracking 할 수 있는 유연성도 필요합니다.
+이를 고려하여 cost tracking tag를 사용하여 사용자, 프로젝트, 부서 또는 청구 목적으로 선택한 기타 메타 데이터 별로 태그를 지정할 수 있습니다. Cost Tracking Tag는 My Services Dashboard의 온라인 보고서에 표시되는 정의된 태그의 한 유형 입니다.</description>
+    </item>
+    
+    <item>
+      <title>OCI에서의 Custom Startup Scripts 및 Cloud-init 사용하기</title>
+      <link>http://www.oracloud.kr/post/win_cloudinit/</link>
+      <pubDate>Fri, 26 Oct 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/win_cloudinit/</guid>
+      <description>OCI에서 Cloudbase-init을 이용해서 윈도우 서버 인스턴스를 쉽게 구성하고 사용자 지정하는 방법을 소개합니다. Windows Server의 새로운 통합 Cloud-Init 환경을 사용하면 더 많은 응용 프로그램, 호스트 구성 및 사용자 지정 설치로 인스턴스를 쉽게 부트 스트랩 할 수 있습니다. 이 기능은 Linux 또는 Windows Server를 실행하는 Oracle Cloud Infrastructure 컴퓨팅 인스턴스에서 Cloud-Init 사용자 정의 사용자 데이터 시작 스크립트(Custom user data startup script)를 통해 처리됩니다.
+사용자 데이터란? 사용자 데이터는 Oracle Cloud Infrastructure에서 컴퓨팅 인스턴스가 초기화 될 때 스크립트 또는 사용자 정의 메타 데이터를 주입하는 메커니즘입니다.</description>
+    </item>
+    
+    <item>
+      <title>Multiple VNIC로 서로 다른 VCN 연결하기: Part 1</title>
+      <link>http://www.oracloud.kr/post/connecting_vcn/</link>
+      <pubDate>Mon, 08 Oct 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/connecting_vcn/</guid>
+      <description>Oracle Cloud Infrastructure에서는 둘 이상의 VCN(Virtual Cloud Network)을 연결할 경우 LPG(Local Peering Gateway)가 사용됩니다. LPG를 사용하면 프로바이더 VCN이 고객 VCN과 연결되어 공유 리소스에 대한 Private Access를 허용할 수 있는 서비스 프로바이더 모델을 사용할 수 있습니다. 그러나 VCN 당 10개의 LPG만 연결할 수 있습니다. Oracle Cloud Infrastructure를 사용하는 IT 관리 회사의 예를 살펴보겠습니다. 이들은 하나의 VCN을 중앙 IT 팀이 제어하는 허브 VCN으로 프로비저닝 합니다. 각 클라이언트에 대해 Spoke VCN을 프로비저닝 합니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Cloud와 타 클라우드 연결하기</title>
+      <link>http://www.oracloud.kr/post/interconnectivity/</link>
+      <pubDate>Tue, 02 Oct 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/interconnectivity/</guid>
+      <description>멀티 클라우드 아키텍처는 둘 이상의 클라우드 서비스 프로바이더를 이용 합니다. 기업은 복원력 제공, 재해 복구 계획 수립, 성능 향상, 비용 절감 등 여러 가지 이유로 클라우드 프로바이더가 두 개 이상 있습니다. 클라우드 리소스를 한 클라우드 프로바이더에서 다른 클라우드 프로바이더로 마이그레이션하려는 경우 클라우드 간 액세스 및 네트워킹이 필요합니다. Oracle Cloud Infrastructure는 Oracle VCN(Virtual Cloud Network)을 인터넷, 온프레미스 데이터센터 또는 기타 클라우드 프로바이더와 연결하기 위한 IGW(Internet Gateway) 및 DRG(Dynamic Routing Gateway) 서비스 게이트웨이 옵션을 제공합니다.</description>
+    </item>
+    
+    <item>
+      <title>VGA Console로 OCI Compute 인스턴스 연결하기</title>
+      <link>http://www.oracloud.kr/post/oci_vga_console/</link>
+      <pubDate>Tue, 18 Sep 2018 01:14:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oci_vga_console/</guid>
+      <description>OCI Compute 에서는 인스턴스에 대한 VGA Console 접속을 지원 합니다.
+VGA Console 을 이용하면 Public IP를 사용하지 않고 인스턴스에 접속할 수 있습니다.
+ 일반적인 전산실 환경을 예로 들면, 운영팀은 전산실에 있는 리눅스 서버에 IP로 접속을 할 수 있습니다. 하지만 해당 리눅스에 부팅 문제 등으로 IP를 통한 접속이 힘든 경우가 있는데, 이때는 물리서버에 직접 키보드, 모니터를 연결하여 troubleshooting을 하게 됩니다. 이러한 경우 처럼 물리적인 서버에 키보드, 마우스를 직접 연결하여 인스턴스를 볼 수 있게 하는 것이 OCI의 VGA Console 기능 입니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Digital이 운영하는 네이버 포스트..</title>
+      <link>http://www.oracloud.kr/post/oracle_digitals_blog/</link>
+      <pubDate>Fri, 03 Nov 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oracle_digitals_blog/</guid>
+      <description>클라우드 101 백서와 같이 클라우드를 쉽고 재밌게 이해할 수 있게 작성된 오라클의 네이버 포스트가 있습니다. 오라클의 PaaS, IaaS 관련된 글뿐만 아니라 클라우드로 인한 직업의 변화, 인터넷과 클라우드, 클라우드 서비스와 종류 등 다양한 주제와 관련된 글이 있는데요. 다음 링크는 네이버 메인에도 올랐던 컨텐츠(‘클라우드로 인한 직업 변화’) 입니다.
+  그림 1: 네이버 메일 포스트: 클라우드로 인한 직업 변화    - http://post.naver.com/viewer/postView.nhn?volumeNo=8869357&amp;amp;memberNo=38254758
+IT 전문가나 오라클 지원이 아니라도 누구든지 쉽게 이해할 수 있도록 오라클 디지털 (Oracle Digital) 조직에서 운영하고 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Cloud Trial 신청: Universal Credit</title>
+      <link>http://www.oracloud.kr/post/oracle_cloud_trial_universal/</link>
+      <pubDate>Sun, 29 Oct 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oracle_cloud_trial_universal/</guid>
+      <description>Oracle은 무료로 Oracle Cloud를 체험할 수 있는 Oracle Cloud Trial 프로그램을 운영하고 있습니다. Oracle Cloud Trial 신청 방법이 2017년 10월 1일 Oracle Universal Credit Pricing 방식이 새로 도입되면서 변경되었습니다. 이 새로운 계정 신청 방식은 2017년 10월 28일부터 한국에는 적용되었습니다. 새롭게 변경된 Oracle Cloud Trial 계정 신청 방법을 정리합니다.
+Oracle Trial 계정을 신청하면 &amp;ldquo;$300 Credit&amp;ldquo;을 제공합니다. $300 Credit이란 Oracle Cloud 사용 권한으로, Oracle Cloud를 $300 Credit으로 자유롭게 사용할 수 있습니다. Oracle Cloud 서비스를 사용하면 지급한 Credit은 분 단위로 차감됩니다.</description>
+    </item>
+    
+    <item>
+      <title>Terraform Jupyter Installer: Machine Learning 환경 프로비저닝 </title>
+      <link>http://www.oracloud.kr/post/terraform_jupyter_installer/</link>
+      <pubDate>Tue, 03 Oct 2017 21:28:14 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/terraform_jupyter_installer/</guid>
+      <description>Terraform은 클라우드 인프라의 생성, 변경 및 형상 버전을 관리하는 툴입니다. Terraform을 이용하면 클라우드 자원을 효과적으로 사용하고 관리할 수 있습니다. Terraform을 활용하여 오라클 클라우드의 쉬운 접근법 제시를 목적으로 &amp;ldquo;Terraform Installer On Oracle Cloud&amp;ldquo;1 프로젝트를 준비하고 있습니다. Terraform으로 자원 할당, VM 생성, 소프트웨어 설치, 보안룰 적용 등이 완료된 완전한 형태의 인프라를 제공하여, 신규 오라클 클라우드 사용자가 오라클 클라우드에 접근을 쉽게 하고, 활용 폭을 넓히는 것을 목표로 합니다.
+&amp;ldquo;Terraform Installer On Oracle Cloud&amp;rdquo; 프로젝트의 파일럿 형태로 &amp;ldquo;Terraform Jupyter Installer&amp;ldquo;를 만들었습니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle Cloud Trial 신청: $300 Credit</title>
+      <link>http://www.oracloud.kr/post/oracle_cloud_reg/</link>
+      <pubDate>Sat, 26 Aug 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oracle_cloud_reg/</guid>
+      <description>Oracle은 무료로 Oracl Cloud를 체험할 수 있는 Oracle Cloud Trial 프로그램을 운영하고 있습니다. 2017년 8월 1일부터 Trial을 신청하면 &amp;ldquo;$300 Credit&amp;ldquo;을 제공합니다. $300 Credit이란 Oracle Cloud 사용 권한으로, Oracle Cloud를 $300 Credit으로 자유롭게 사용할 수 있습니다. Oracle Cloud 서비스를 사용하면 지급한 Credit은 분 단위로 차감됩니다. 차감되는 비용은 서비스별로 차이가 있습니다. 각 서비스 과금 비용은 Oracle Cloud 홈페이지(http://cloud.oracle.com )에서 확인할 수 있습니다. $300 Credit의 유효 기간은 신청일로부터 30일 입니다. Oracle Cloud Trial 프로그램에서 다음과 같은 서비스를 체험해 볼 수 있습니다.</description>
+    </item>
     
     <item>
       <title>oracloud.kr: 오라클 클라우드 기술 블로그</title>
@@ -21,6 +120,29 @@
 오라클은 막대한 자금과 노력을 투입하여 클라우드 서비스에 투자하고 있으며, 매주 새로운 서비스 출시, 신규 기능 추가, 서비스 패치가 적용되고 있어 누구보다 빠르게 변화하고 있습니다.
 oracloud.kr은 오라클 클라우드에 대한 최신 기술정보를 널리 공유하기 하고자, 한국 오라클에서 운영하고 있는 블로그입니다.
 본 블로그는 이러한 변화된 기술을 빠르게 공유하기 위해, 한국 오라클 엔지니어들의 개인적인 노력과 열정으로 만들어가는 사이트입니다. 블로그 포스팅의 내용은 기술적 참조 자료로 활용하되, 오라클의 공식적인 책임 범위에는 포함되지 않습니다.</description>
+    </item>
+    
+    <item>
+      <title>오라클 클라우드 계정</title>
+      <link>http://www.oracloud.kr/post/accont/</link>
+      <pubDate>Thu, 02 Mar 2017 21:59:47 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/accont/</guid>
+      <description>Oracle Cloud의 트라이얼 계정을 이용하여 무료로 오라클 클라우드를 경험할 수 있습니다. 무료 트라이얼 계정에는 Oracle Database Cloud Service(이하 Cloud Service는 CS로 표기), Java CS, Compute CS, Developer CS, Database Backup CS, Storage CS, Application Container CS, SOA CS 등 11개 서비스와 6개 OCPU와 500GB 스토리지 자원에 대한 사용 권한이 포함됩니다. 트라이얼 계정의 유효 기간은 계정 생성일로부터 30일입니다.
+본 문에서는 Oracle Cloud 계정을 생성하는 방법에 대하여 설명하겠습니다.
+Oracle Cloud 계정 등록 절차 오라클 클라우드의 계정 등록 절차는 다음과 같습니다.</description>
+    </item>
+    
+    <item>
+      <title>oracloud.kr 오픈</title>
+      <link>http://www.oracloud.kr/post/oracloud/</link>
+      <pubDate>Wed, 01 Mar 2017 10:43:37 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oracloud/</guid>
+      <description>한국오라클 클라우드 팀에서 운영하는 oracloud.kr 블로그를 오픈합니다.
+oracloud.kr은 오라클 클라우드에 대한 정보가 필요하신 한국 개발자 커뮤니티와 고객분에게 오라클 클라우드 관련 정보를 신속하게 제공하는 것을 목표로 합니다.
+oracloud.kr에서는 다음과 같은 정보를 제공할 예정입니다.
+ 오라클 클라우드 최신 변경 사항 공지 오라클 클라우드 최신 뉴스 오라클 클라우드 튜토리얼 오라클 클라우드 사용법 오라클 클라우드 발표 자료 배포  oracloud.kr에서는 댓글을 위한 Disqus 서비스와 채팅 서비스인 gitter를 사용하고 있습니다. oracloud.kr에 문의 사항이 있으실 경우에는 Disqus와 gitter에 글을 남겨 주시기 바랍니다.</description>
     </item>
     
   </channel>

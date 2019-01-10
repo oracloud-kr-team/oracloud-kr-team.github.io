@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>s3 on 오라클 클라우드 기술 블로그</title>
+    <link>http://www.oracloud.kr/tags/s3/</link>
+    <description>Recent content in s3 on 오라클 클라우드 기술 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Fri, 14 Sep 2018 01:09:25 +0900</lastBuildDate>
+    
+	<atom:link href="http://www.oracloud.kr/tags/s3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cloudberry로 OCI Object Storage 접속하기</title>
+      <link>http://www.oracloud.kr/post/oci_objectstorage_cloudberry_s3/</link>
+      <pubDate>Fri, 14 Sep 2018 01:09:25 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oci_objectstorage_cloudberry_s3/</guid>
+      <description>OCI (Oracle Cloud Infrastructure)의 IaaS 서비스 중 Object Storage는 S3 호환 API가 제공되므로, CloudBerry Explorer for Amazon S3 사용자는 손쉽게 OCI Object Storage를 연결하실 수 있습니다. CloudBerry Explorer for Amazon S3에 대한 설치 등의 과정은 본 글에서는 다루지 않습니다.
+ OCI Region 본 테스트는 OCI Region 중 us-ashburn-1에서 진행하였습니다. Oracle Cloud Trial 계정을 사용하시는 분들은 북미 지역을 선택하시면 Ashburn region 사용 가능합니다.
+OCI Object Storage 버킷 생성 Bucket이란 Object를 저장하는 논리 컨테이너를 의미합니다.</description>
+    </item>
+    
+  </channel>
+</rss>

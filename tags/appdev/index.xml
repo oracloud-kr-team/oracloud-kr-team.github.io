@@ -6,10 +6,40 @@
     <description>Recent content in AppDev on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 15 Oct 2018 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 15 Oct 2018 12:00:00 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/tags/appdev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OKE #04 : 애플리케이션 배포</title>
+      <link>http://www.oracloud.kr/post/oke-4/</link>
+      <pubDate>Mon, 15 Oct 2018 12:00:00 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oke-4/</guid>
+      <description>Oracle Container Engine for Kubrnetes 시리즈 목차  Docker &amp;amp; Kubernetes OKE 구성 OKE Cluster 애플리케이션 배포 예정입니다.  OKE에 간단한 웹 애플리케이션 배포 배포의 근본은 모든 K8 객체를 k8 클러스터에 적용하는 방법입니다. 이 작업을 수행하는 데는 kubectl을 사용하는데 여러 가지 방법이 있습니다.
+ run, expose create apply  위의 모든 방법은 다른 목적과 단순성을 가지고 있습니다. 예를 들어 컨테이너가 원하는대로 작동하는지 신속하게 확인하려면 run 및 expose를 사용할 수 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>OKE #03 : OKE Cluster</title>
+      <link>http://www.oracloud.kr/post/oke-3/</link>
+      <pubDate>Mon, 15 Oct 2018 11:00:00 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oke-3/</guid>
+      <description>Oracle Container Engine for Kubrnetes 시리즈 목차  Docker &amp;amp; Kubernetes OKE 구성 OKE Cluster 애플리케이션 배포 예정입니다.  Cluster 환경 탐색 쿠버네티스 클러스터를 살펴보기 위하여 다음과 같은 항목들을 수행하도록 합니다.
+ Oracle Cloud Infrastructure CLI 설치 및 구성 API 서명 키 쌍의 공개 키 값을 사용자 이름의 사용자 설정 클러스터 용 kubeconfig 파일 다운로드 kubectl 및 Kubernetes 대시 보드에 대한 클러스터 액세스 확인  CLI 설치 프로그램 사용 설치 프로그램은 스크립트를 사용하여 필요한 CLI 및 프로그램을 설치합니다.</description>
+    </item>
+    
+    <item>
+      <title>OKE #02 : OKE 구성</title>
+      <link>http://www.oracloud.kr/post/oke-2/</link>
+      <pubDate>Mon, 15 Oct 2018 10:00:00 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oke-2/</guid>
+      <description>Oracle Container Engine for Kubrnetes 시리즈 목차  Docker &amp;amp; Kubernetes OKE 구성 OKE Cluster 애플리케이션 배포 예정입니다.  OKE 환경구성 오라클의 쿠버네티스 클러스터 환경인 Container Engine for Kubernetes. 줄임말로 OKE에 대해서 알아보도록 합니다.
+ OCI (Oracle Cloud Infrastructure) 시작하기 리소스 제어권한 부여하기 VCN (Virtual Cluster Network) 생성하기 클러스터 세부사항 정의하기 노드풀 세부사항 정의하기  배경 Kubernetes용 Oracle Cloud Infrastructure Container Engine은 완벽하게 관리되고 확장 가능하며 가용성이 높은 서비스로, 컨테이너화 된 애플리케이션을 클라우드에 전개하는 데 사용할 수 있습니다.</description>
+    </item>
     
     <item>
       <title>OKE #01 : Docker &amp; Kubernetes</title>
@@ -17,9 +47,8 @@
       <pubDate>Mon, 15 Oct 2018 09:00:00 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/post/oke-1/</guid>
-      <description>현재 이 페이지의 일부 내용이 원 저자의 허가 없이 내용을 인용한 것 으로 파악되어 상황 파악중입니다.
-oracloud.kr은 오라클 엔지니어들이 자발적으로 운영하던 기술 블로그였습니다. 여러분들이 자발적으로 작성하다 보니 라이센스를 정확하게 파악하지 못한 오류가 발생한 것으로 파악되고 있습니다. 이와 관련하여 조속한 조치를 취하고 투명하게 처리하겠습니다.
-조속히 처리하고 경과 및 결과를 공지하겠습니다.</description>
+      <description>Oracle Container Engine for Kubrnetes 시리즈 목차  Docker &amp;amp; Kubernetes OKE 구성 OKE Cluster 애플리케이션 배포 예정입니다.  마이크로 서비스의 시작, Docker 와 Kubernetes Docker(이하: 도커))나 Kubernetes(이하: 쿠버네티스)를 많이 들어봤을 것입니다. 또한 마이크로 서비스도 처음 듣는 단어가 아닐 것입니다. 오늘은 이것들이 무엇이고 왜 생겨났는가, 그리고 오라클은 어떻게 지원 하는가에 대해 다루어 보도록 합니다.
+애플리케이션 개발과 관리의 변화 애플리케이션의 개발 방법은 계속해서 변화했습니다. 개발은 그냥 하는 것이라고 생각하지만, 실제로 개발을 하기 위해서 생각해야 할 것들, 그리고 다시 고려해야 할 것들이 많습니다.</description>
     </item>
     
   </channel>

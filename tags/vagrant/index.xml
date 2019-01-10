@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vagrant on 오라클 클라우드 기술 블로그</title>
+    <link>http://www.oracloud.kr/tags/vagrant/</link>
+    <description>Recent content in Vagrant on 오라클 클라우드 기술 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Tue, 29 Aug 2017 08:54:32 +0900</lastBuildDate>
+    
+	<atom:link href="http://www.oracloud.kr/tags/vagrant/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2017 Oracle Code In Seoul: How to control cloud resources 데모</title>
+      <link>http://www.oracloud.kr/post/oracle_code_provisioning/</link>
+      <pubDate>Tue, 29 Aug 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oracle_code_provisioning/</guid>
+      <description>2017 Oracle Code in Seoul에서 발표한 &amp;ldquo;Vagrant, Terraform, Ansible을 활용한 클라우드 인프라 관리법&amp;ldquo;의 발표 자료와 진행한 데모를 소개하는 문서입니다. 클라우드 자원을 체계적으로 관리하고, 완전한 자원 통제권을 확보하는 방법을 소개하는 세션입니다. 이 세션은 2017년 8월 30일 14시 30분에 여의도 콘래드 3층 그랜드 볼륨에서 진행됩니다. 클라우스 서비스에 Infrastructure as Code(IaC) 개념을 적용하여, 클라우드 자원을 형상관리하고 필요한 시점에 원하는 형상의 클라우드 자원을 빌드하는 체계입니다. 이 세션의 장표는 Slideshare에 공유하였습니다.
+ 데모 &amp;amp; 사전 준비 사항 이 세션에서는 3개의 데모가 진행되었습니다.</description>
+    </item>
+    
+    <item>
+      <title>Oracle 클라우드 서비스 명 변경: Oracle Cloud Infrastructure</title>
+      <link>http://www.oracloud.kr/post/oracle_cs_updateing_naming/</link>
+      <pubDate>Tue, 29 Aug 2017 08:54:32 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/oracle_cs_updateing_naming/</guid>
+      <description>2017 Oracle Code in Seoul에서 발표한 &amp;ldquo;Vagrant, Terraform, Ansible을 활용한 클라우드 인프라 관리법&amp;ldquo;의 발표 자료와 진행한 데모를 소개하는 문서입니다. 클라우드 자원을 체계적으로 관리하고, 완전한 자원 통제권을 확보하는 방법을 소개하는 세션입니다. 이 세션은 2017년 8월 30일 14시 30분에 여의도 콘래드 3층 그랜드 볼륨에서 진행됩니다. 클라우스 서비스에 Infrastructure as Code(IaC) 개념을 적용하여, 클라우드 자원을 형상관리하고 필요한 시점에 원하는 형상의 클라우드 자원을 빌드하는 체계입니다. 이 세션의 장표는 Slideshare에 공유하였습니다.
+ 데모 &amp;amp; 사전 준비 사항 이 세션에서는 3개의 데모가 진행되었습니다.</description>
+    </item>
+    
+  </channel>
+</rss>

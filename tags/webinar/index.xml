@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>webinar on 오라클 클라우드 기술 블로그</title>
+    <link>http://www.oracloud.kr/tags/webinar/</link>
+    <description>Recent content in webinar on 오라클 클라우드 기술 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 09 Mar 2017 12:35:37 +0900</lastBuildDate>
+    
+	<atom:link href="http://www.oracloud.kr/tags/webinar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TalkIT: 가상환경 클라우드 전환 - Ravello</title>
+      <link>http://www.oracloud.kr/post/talkit_ravello/</link>
+      <pubDate>Thu, 09 Mar 2017 12:35:37 +0900</pubDate>
+      
+      <guid>http://www.oracloud.kr/post/talkit_ravello/</guid>
+      <description>2017년 2월 24일에 라벨로를 주제로 진행한 TalkIT 웨비나 동영상입니다.
+ 주제: 가상화 환경을 손쉽게 클라우드로 전환하기 진행: 고우성 PD 패널:  강우진 전무(한국오라클) 김석 대표이사(노브레이크) 이명재 부장(㈜제이씨원)  일시: 2017-02-24 오후 2시 ~ 오후 3시 30분  Ravell의 개요, 동작 방식 및 현장 적용 사례를 확인하실 수 있습니다.
+1부. 라벨로, 무엇에 쓰는 물건인고! (18:18)   2부. 라벨로, 전문가가 뜯어보기! (24:20)   3부. 라벨로, 고객이 직접 얘기하기! (15:09)   4부.</description>
+    </item>
+    
+  </channel>
+</rss>
