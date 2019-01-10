@@ -8,17 +8,17 @@
 <META http-equiv="Pragma" content="no-cache">
 <META http-equiv="Cache-Control" content="No-Cache">
 
-<title>Container</title>
+<title>OKE #01 : Docker &amp; Kubernetes</title>
 <meta name="description" content="오라클 클라우드 기술 블로그">
 <meta name="generator" content="Hugo 0.54-DEV" />
-<meta property="og:title" content="Container" />
-<meta property="og:description" content="오라클 클라우드 기술 블로그" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://www.oracloud.kr/tags/container/" />
-<meta property="og:updated_time" content="2019-01-08T09:00:00&#43;09:00"/>
+<meta property="og:title" content="OKE #01 : Docker &amp; Kubernetes" />
+<meta property="og:description" content="마이크로 서비스를 위한 기본이 되는 도커(Docker)와 쿠버네티스(Kubernetes)에 대해서 간략하게 설명합니다. Oracle Container Engine for Kubernetes를 위한 연재입니다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.oracloud.kr/post/%EC%82%AC%EC%9D%B4%ED%8A%B8%EA%B3%B5%EC%A7%80/" /><meta property="article:published_time" content="2019-01-08T09:00:00&#43;09:00"/>
+<meta property="article:modified_time" content="2019-01-08T09:00:00&#43;09:00"/>
 
 <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-<link rel="alternate" type="application/rss+xml" title="오라클 클라우드 기술 블로그 Feed" href="http://www.oracloud.kr/tags/container/index.xml">
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" type="text/css" media="all" />
 <link rel="stylesheet" href="http://www.oracloud.kr/css/style.css" type="text/css" media="all" />
 <link rel="stylesheet" href="http://www.oracloud.kr/css/minsu.css" type="text/css" media="all" />
@@ -54,78 +54,99 @@
 		<div class="wrapper clearfix">
 
 
-	<div class="main-content loop content" role="main">
-		<header class="page-header">
-			<h1 class="page-header__title">Container</h1>
+<div class="main-content content" role="main" itemprop="mainContentOfPage">
+	<article class="post">
+		<header class="post__header clearfix">
+			<h1 class="post__title">OKE #01 : Docker &amp; Kubernetes</h1>
+			<p class="post__meta meta">
+				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+				<time class="post__meta-date" datetime="2019-01-08 09:00:00 &#43;0900 &#43;0900">January 08, 2019</time>
+				<span class="post__meta-categories meta-categories">
+					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+					<a class="meta-categories__link" href="/categories/oracle-paas" rel="category">Oracle PaaS</a>, <a class="meta-categories__link" href="/categories/container" rel="category">Container</a>, <a class="meta-categories__link" href="/categories/docker" rel="category">Docker</a>, <a class="meta-categories__link" href="/categories/kubernetes" rel="category">Kubernetes</a></span>
+			</p>
 		</header>
-		<article class="loop__item post clearfix">
-			<figure class="loop__thumbnail">
-				<a href="http://www.oracloud.kr/post/%EC%82%AC%EC%9D%B4%ED%8A%B8%EA%B3%B5%EC%A7%80/">
-					<img src="https://monosnap.com/image/3Xb8jKt90IUulng3VGibnUlgN6BEwA.png" alt="OKE #01 : Docker &amp; Kubernetes" />
-				</a>
+		<div class="post__content clearfix">
+			<figure class="post__thumbnail">
+				<img src="https://monosnap.com/image/qcTmyALMNakSvz51bEudB5p4oPrDx7.png" alt="OKE #01 : Docker &amp; Kubernetes">
 			</figure>
-			<div class="loop__content clearfix">
-				<header class="loop__header">
-					<h3 class="loop__title post__title ">
-						<a href="http://www.oracloud.kr/post/%EC%82%AC%EC%9D%B4%ED%8A%B8%EA%B3%B5%EC%A7%80/" rel="bookmark">OKE #01 : Docker &amp; Kubernetes</a>
-					</h3>
-					<div class="loop__meta meta">
-						<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-						<time class="loop__meta-date" datetime="2019-01-08 09:00:00 &#43;0900 &#43;0900">January 08, 2019</time>
-					</div>
-				</header>
-				<div class="loop__excerpt">
-									  안녕하세요.
-oracloud.kr의 일부 컨텐츠가 외부 블로그의 일부 컨텐츠를 인용한 문제가 발생한 것으로 보고되고 있습니다.
-oracloud.kr은 오라클 엔지니어들의 자발적으로 운영하는 기술 블로그였습니다. 여러 저자가 활동하는 과정에서 2개의 글에서 라이센스 위반이 발생한 것으로 파악되고 있습니다.
-현재 해당 글에 대한 진위 파악 중입니다.
-해당 원 저자분들에게 연락 및 관련 문제에 대한 처리를 진행하겠습니다.
-이번 문제에 대해서 진위 파 ......
-				</div>
-				<div class="loop__excerpt">
-						<a class="label" href="/tags/docker/" rel="tag">Docker</a></li>
-						<a class="label" href="/tags/kubernetes/" rel="tag">Kubernetes</a></li>
-						<a class="label" href="/tags/microservice/" rel="tag">Microservice</a></li>
-						<a class="label" href="/tags/container/" rel="tag">Container</a></li>
-						<a class="label" href="/tags/orchestrator/" rel="tag">Orchestrator</a></li>
-						<a class="label" href="/tags/appdev/" rel="tag">AppDev</a></li>
-						<a class="label" href="/tags/devops/" rel="tag">DevOps</a></li>
-				</div>
-			</div>
-		</article>
-		<article class="loop__item post clearfix">
-			<figure class="loop__thumbnail">
-				<a href="http://www.oracloud.kr/post/oke-1/">
-					<img src="https://monosnap.com/image/3Xb8jKt90IUulng3VGibnUlgN6BEwA.png" alt="OKE #01 : Docker &amp; Kubernetes" />
-				</a>
-			</figure>
-			<div class="loop__content clearfix">
-				<header class="loop__header">
-					<h3 class="loop__title post__title ">
-						<a href="http://www.oracloud.kr/post/oke-1/" rel="bookmark">OKE #01 : Docker &amp; Kubernetes</a>
-					</h3>
-					<div class="loop__meta meta">
-						<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-						<time class="loop__meta-date" datetime="2018-10-15 09:00:00 &#43;0900 &#43;0900">October 15, 2018</time>
-					</div>
-				</header>
-				<div class="loop__excerpt">
-									  Oracle Container Engine for Kubrnetes 시리즈 목차  Docker &amp;amp; Kubernetes OKE 구성 OKE Cluster 애플리케이션 배포 예정입니다.  마이크로 서비스의 시작, Docker 와 Kubernetes Docker(이하: 도커))나 Kubernetes(이하: 쿠버네티스)를 많이 들어봤을 것입니다. 또한 마이크로 서비스도 처음 듣는 단어가 아닐 것입니다. 오늘은 이것들이 무엇이고 왜 생겨났는가,  ......
-				</div>
-				<div class="loop__excerpt">
-						<a class="label" href="/tags/docker/" rel="tag">Docker</a></li>
-						<a class="label" href="/tags/kubernetes/" rel="tag">Kubernetes</a></li>
-						<a class="label" href="/tags/microservice/" rel="tag">Microservice</a></li>
-						<a class="label" href="/tags/container/" rel="tag">Container</a></li>
-						<a class="label" href="/tags/orchestrator/" rel="tag">Orchestrator</a></li>
-						<a class="label" href="/tags/appdev/" rel="tag">AppDev</a></li>
-						<a class="label" href="/tags/devops/" rel="tag">DevOps</a></li>
-				</div>
-			</div>
-		</article>
+			<p>안녕하세요.</p>
 
+<p>oracloud.kr의 일부 컨텐츠가 외부 블로그의 일부 컨텐츠를 인용한 문제가 발생한 것으로 보고되고 있습니다.</p>
+
+<p>oracloud.kr은 오라클 엔지니어들의 자발적으로 운영하는 기술 블로그였습니다. 여러 저자가 활동하는 과정에서 2개의 글에서 라이센스 위반이 발생한 것으로 파악되고 있습니다.</p>
+
+<p>현재 해당 글에 대한 진위 파악 중입니다.</p>
+
+<p>해당 원 저자분들에게 연락 및 관련 문제에 대한 처리를 진행하겠습니다.</p>
+
+<p>이번 문제에 대해서 진위 파악에 대해서 조속히 처리하고, 진행 과정을 투명하게 처리하도록 노력하겠습니다.</p>
+
+<p>이 페이지에 경과 및 과정을 공개히겠습니다.</p>
+
+<p>이번 일로 심려를 끼쳐드려 죄송합니다.</p>
+
+<hr />
+
+		</div>
 		
+<div class="post__tags tags clearfix">
+	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.73135 3.3795002q0-.5597-.39604-.9557-.39604-.3961-.95577-.3961-.55974 0-.95578.3961-.39604.396-.39604.9557 0 .5598.39604.9558.39604.3961.95578.3961.55973 0 .95577-.3961.39604-.396.39604-.9558zm11.26865 6.0832q0 .5596998-.39076.9504998l-5.18548 5.196q-.41188.3908-.9610504.3908-.55974 0-.9505-.3908l-7.5511496-7.5616998q-.40132-.3907-.68119-1.0666-.27987-.6759-.27987-1.2357v-4.3934q0-.54920004.40132-.95050004.40132-.4013.9505-.4013h4.39339q.55974 0 1.23565.2799.67591.2798 1.07723.6812l7.55115 7.54060004q.39076.4118.39076.961z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link" href="/tags/docker/" rel="tag">Docker</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/kubernetes/" rel="tag">Kubernetes</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/microservice/" rel="tag">Microservice</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/container/" rel="tag">Container</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/orchestrator/" rel="tag">Orchestrator</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/appdev/" rel="tag">AppDev</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/devops/" rel="tag">DevOps</a></li>
+	</ul>
+</div>
+
+	</article>
+	
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="김종규 avatar" src="http://www.oracloud.kr/img/author/jonggyou.jpeg" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">작성자: 김종규</span>
 	</div>
+	<div class="authorbox__description">
+		한국오라클 aPaaS 팀에서 일하고 있습니다.
+	</div>
+	<div class="authorbox__description">
+		E-mail: shiftyou@gmail.com
+	</div>
+</div>
+
+	
+<nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<div class="post-nav__item post-nav__item--prev col-1-2">
+		<a class="post-nav__link" href="http://www.oracloud.kr/post/oke-1/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">OKE #01 : Docker &amp; Kubernetes</p></a>
+	</div>
+</nav>
+
+	
+<div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://oracloud-kr.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+</div>
 
 <aside class="sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
 	
