@@ -6,7 +6,7 @@
     <description>Recent content in Tags on 오라클 클라우드 기술 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 08 Jan 2019 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 15 Oct 2018 09:00:00 +0900</lastBuildDate>
     
 	<atom:link href="http://www.oracloud.kr/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>AppDev</title>
       <link>http://www.oracloud.kr/tags/appdev/</link>
-      <pubDate>Tue, 08 Jan 2019 09:00:00 +0900</pubDate>
+      <pubDate>Mon, 15 Oct 2018 09:00:00 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/appdev/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>Container</title>
       <link>http://www.oracloud.kr/tags/container/</link>
-      <pubDate>Tue, 08 Jan 2019 09:00:00 +0900</pubDate>
+      <pubDate>Mon, 15 Oct 2018 09:00:00 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/container/</guid>
       <description></description>
@@ -32,7 +32,7 @@
     <item>
       <title>DevOps</title>
       <link>http://www.oracloud.kr/tags/devops/</link>
-      <pubDate>Tue, 08 Jan 2019 09:00:00 +0900</pubDate>
+      <pubDate>Mon, 15 Oct 2018 09:00:00 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/devops/</guid>
       <description></description>
@@ -41,7 +41,7 @@
     <item>
       <title>Docker</title>
       <link>http://www.oracloud.kr/tags/docker/</link>
-      <pubDate>Tue, 08 Jan 2019 09:00:00 +0900</pubDate>
+      <pubDate>Mon, 15 Oct 2018 09:00:00 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/docker/</guid>
       <description></description>
@@ -59,7 +59,7 @@
     <item>
       <title>Kubernetes</title>
       <link>http://www.oracloud.kr/tags/kubernetes/</link>
-      <pubDate>Tue, 08 Jan 2019 09:00:00 +0900</pubDate>
+      <pubDate>Mon, 15 Oct 2018 09:00:00 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/kubernetes/</guid>
       <description></description>
@@ -68,7 +68,7 @@
     <item>
       <title>Microservice</title>
       <link>http://www.oracloud.kr/tags/microservice/</link>
-      <pubDate>Tue, 08 Jan 2019 09:00:00 +0900</pubDate>
+      <pubDate>Mon, 15 Oct 2018 09:00:00 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/microservice/</guid>
       <description></description>
@@ -77,7 +77,7 @@
     <item>
       <title>Orchestrator</title>
       <link>http://www.oracloud.kr/tags/orchestrator/</link>
-      <pubDate>Tue, 08 Jan 2019 09:00:00 +0900</pubDate>
+      <pubDate>Mon, 15 Oct 2018 09:00:00 +0900</pubDate>
       
       <guid>http://www.oracloud.kr/tags/orchestrator/</guid>
       <description></description>
